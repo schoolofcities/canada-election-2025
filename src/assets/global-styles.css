@@ -1,0 +1,204 @@
+@font-face {
+	font-family: TradeGothicLTLightOblique;
+	src: url("trade-gothic/Trade Gothic LT Light Oblique.ttf");
+}
+
+@font-face {
+	font-family: TradeGothicLTLight;
+	src: url("trade-gothic/Trade Gothic LT Light.ttf");
+}
+
+@font-face {
+	font-family: TradeGothicBold;
+	src: url("trade-gothic/Trade Gothic LT Bold.ttf");
+}
+
+@font-face {
+	font-family: RobotoRegular;
+	src: url("roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+	font-family: RobotoBold;
+	src: url("roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+	font-family: SourceSerif;
+	src: url("source-serif-pro/SourceSerifPro-Regular.otf");
+}
+
+@font-face {
+	font-family: SourceSerifBold;
+	src: url("source-serif-pro/SourceSerifPro-SemiBold.otf");
+}
+
+:root {
+	font-family: RobotoRegular, sans-serif;
+	--brandDarkBlue: #1E3765;
+	--brandMedBlue: #007FA3;
+	--brandLightBlue: #6FC7EA;
+	--brandPurple: #6D247A;
+	--brandPink: #AB1368;
+	--brandDarkGreen: #0D534D;
+	--brandMedGreen: #00A189;
+	--brandLightGreen: #8DBF2E;
+	--brandRed: #DC4633;
+	--brandYellow: #F1C500;
+	--brandOrange: #EBA00F;
+	--brandBlack: #000000;
+	--brandWhite: #ffffff;
+	--brandGray: #D0D1C9;
+	--brandGray70: #4d4d4d;
+	--brandGray80: #333333;
+	--brandGray90: #191919;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: var(--brandWhite);
+	min-width: 350px;
+}
+
+main {
+	margin: 0 auto;
+	width: 100%;
+	min-width: 320px;
+	max-width: 100%;
+	position: relative;
+}
+
+.top-image {
+	padding-top: 100px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.top-image img {
+	max-width: 100%;
+	height: auto;
+}
+
+.title {
+	background-color: none;
+	max-width: 700px;
+	margin: 0 auto;
+	margin-top: 125px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 0px;
+	position: relative;
+	
+}
+
+.title p {
+	margin-top: 20px;
+    line-height: 18px;
+    font-size: 16px;
+	padding-bottom: 36px;
+	border-bottom: solid 1px var(--brandGray);
+}
+
+.text {
+	background-color: none;
+	max-width: 700px;
+	margin: 0 auto;
+	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+
+.footnotes {
+	background-color: none;
+	max-width: 650px;
+	margin: 0 auto;
+	position: relative;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+	margin-bottom: 50px;
+	border: solid 1px var(--brandGray);
+}
+
+.container {
+	background-color: none;
+	max-width: 700px;
+	margin: 0 auto;
+	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+
+h1 {
+	font-family: TradeGothicBold;
+	font-weight: normal;
+	font-size: 39px;
+	color: var(--brandGray90);
+	/* border-bottom: solid 1px var(--brandGray); */
+	text-decoration: none;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+h2 {
+	text-align: left;
+	font-family: TradeGothicBold;
+	font-weight: normal;
+	font-size: 28px;
+	margin-top: 0px;
+	color: var(--brandGray90);
+}
+
+h3 {
+	text-align: left;
+	font-family: TradeGothicBold;
+	font-weight: normal;
+	font-size: 24px;
+	border-bottom: solid 1px var(--brandGray);
+	color: var(--brandBlack);
+}
+
+h4 {
+	text-align: left;
+	font-family: TradeGothicBold;
+	font-weight: normal;
+	font-size: 22px;
+	/* border-bottom: solid 1px var(--brandGray); */
+	color: var(--brandBlack);
+}
+
+p {
+	font-family: SourceSerif;
+	font-weight: normal;
+    color: var(--brandBlack);
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 18px;
+    line-height: 30px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale; 
+	text-rendering: optimizeLegibility;
+}
+
+.footnotes p {
+	font-size: 16px;
+	line-height: 25px;
+}  
+
+b {
+	font-family: SourceSerifBold;
+}
+
+a {
+	color: var(--brandBlack);
+	text-decoration: underline;
+	font-family: SourceSerif;
+}
+
+a:hover {
+	color: var(--brandMedGreen);
+}
