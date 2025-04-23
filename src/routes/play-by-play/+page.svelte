@@ -2,6 +2,7 @@
     import '../../assets/global-styles.css';
 
     import TopSofC from '$lib/TopSofC.svelte';
+    import SlopeGraph from '$lib/SlopeGraph.svelte';
 </script>
 
 <main>
@@ -24,9 +25,9 @@
     </div>
     
     <div class="container">
-        <p>This is where a component will go if we want it to be contained in width.</p>
+        <SlopeGraph />
     </div>
-    
+
     <p>This is where a component will go if we wanted to span the full page.</p>
 </main>
 
