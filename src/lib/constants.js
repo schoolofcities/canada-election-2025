@@ -18,6 +18,16 @@ export const PARTY_COLOURS = {
     'oth': '#D3D3D3',
 }
 
+export const PARTY_COLOURS_LIGHT = {
+    'lib': '#f58085',
+    'con': '#5d86d2',
+    'ndp': '#ffbe78',
+    'bloc': '#c3e6fc',
+    'grn': '#75e995',
+    'ppc': '#b38bda',
+    'oth': '#e9e9e9',
+}
+
 export const PARTY_NAMES_SHORT = {
     'lib': 'Libs.',
     'con': 'Cons.',

@@ -3,6 +3,7 @@
 
     import TopSofC from '$lib/TopSofC.svelte';
     import SlopeGraph from '$lib/SlopeGraph.svelte';
+    import WaffleGraph from '$lib/WaffleGraph.svelte';
 </script>
 
 <main>
@@ -26,6 +27,7 @@
     
     <div class="container">
         <SlopeGraph />
+        <WaffleGraph />
     </div>
 
     <p>This is where a component will go if we wanted to span the full page.</p>
