@@ -1,21 +1,14 @@
 <script>
     import { PARTY_TAGS, PARTY_COLOURS, PARTY_COLOURS_LIGHT, PARTY_NAMES_SHORT } from "./constants";
-    
-    export let partySeats = {
-        'lib': {
-            'lib': 15,
-            'con': 5,
-            'ndp': 3,
-        },
-        'con': {
-            'lib': 3,
-            'con': 5,
-            'ndp': 5,
-        },
-        'ndp': {
-            'ndp': 3,
-        }
-    };
+
+    export let partySeats = [
+        {prevParty: 'lib', curParty: 'lib', isFlipped: false},
+        {prevParty: 'lib', curParty: 'lib', isFlipped: false},
+        {prevParty: 'con', curParty: 'lib', isFlipped: true},
+        {prevParty: 'ndp', curParty: 'lib', isFlipped: true},
+        {prevParty: 'con', curParty: 'con', isFlipped: false},
+        {prevParty: 'ndp', curParty: 'ndp', isFlipped: false},
+    ];
 
     // Constants for the visualization
     const SQUARE_SIZE = 20;
@@ -26,17 +19,35 @@
     const INNER_SQUARE_RATIO = 0.85;
     const DIAGONAL_OFFSET = 0.5;
 
-    // Prepare data
-    $: seatsData = prepareSeatsData(partySeats);
+    // Prepare data in correct party order (lib -> con -> ndp)
+    $: seatsByParty = (() => {
+        const grouped = {};
+        PARTY_TAGS.reverse().forEach(tag => {
+            grouped[tag] = partySeats.filter(seat => seat.curParty === tag);
+        });
+        return grouped;
+    })();
+
+    $: seatsData = PARTY_TAGS
+        .filter(tag => seatsByParty[tag].length > 0)
+        .map(party => ({
+            party,
+            total: seatsByParty[party].length,
+            seats: seatsByParty[party].map(seat => ({
+                party: seat.curParty,
+                sourceParty: seat.prevParty,
+                isFlipped: seat.isFlipped
+            }))
+        }));
+
     $: totalSeats = seatsData.reduce((sum, party) => sum + party.total, 0);
     $: rows = Math.ceil(totalSeats / SQUARES_PER_ROW);
     $: svgWidth = SQUARES_PER_ROW * (SQUARE_SIZE + SQUARE_PADDING) + SQUARE_PADDING;
     $: svgHeight = rows * (SQUARE_SIZE + SQUARE_PADDING) + SQUARE_PADDING;
     $: flatSeats = getFlatSeatsArray(seatsData);
-    
-    // Create properly ordered seat positions (bottom-up, left-to-right)
+
+    // Create positions with bottom-up filling
     $: seatPositions = Array.from({length: totalSeats}, (_, i) => {
-        // Calculate visual position from bottom up
         const visualIndex = totalSeats - 1 - i;
         const row = rows - 1 - Math.floor(visualIndex / SQUARES_PER_ROW);
         const col = visualIndex % SQUARES_PER_ROW;
@@ -44,38 +55,17 @@
         return {
             x: col * (SQUARE_SIZE + SQUARE_PADDING) + SQUARE_PADDING,
             y: row * (SQUARE_SIZE + SQUARE_PADDING) + SQUARE_PADDING,
-            seat: flatSeats[i], // Original seat data
+            seat: flatSeats[i],
             index: i
         };
     });
 
-    function prepareSeatsData(partySeats) {
-        return PARTY_TAGS
-            .filter(tag => partySeats[tag])
-            .map(party => {
-                const total = Object.values(partySeats[party]).reduce((a, b) => a + b, 0);
-                const seats = [];
-                
-                for (const [sourceParty, count] of Object.entries(partySeats[party])) {
-                    for (let i = 0; i < count; i++) {
-                        seats.push({
-                            party,
-                            sourceParty,
-                            isFlipped: sourceParty !== party
-                        });
-                    }
-                }
-                
-                seats.sort((a, b) => b.isFlipped);
-                return { party, total, seats };
-            })
-            .reverse();
-    }
-
     function getFlatSeatsArray(seatsData) {
         const allSeats = [];
         seatsData.forEach(partyData => {
-            allSeats.push(...partyData.seats);
+            // Sort flipped seats to appear first within each party group
+            const sortedSeats = [...partyData.seats].sort((a, b) => b.isFlipped - a.isFlipped);
+            allSeats.push(...sortedSeats);
         });
         return allSeats;
     }
@@ -178,7 +168,7 @@
         display: flex;
         justify-content: center;
         width: fit-content;
-        margin: 0 auto 8px; /* Added 8px bottom margin for gap */
+        margin: 0 auto 8px;
     }
     
     .waffle-svg {
@@ -204,8 +194,8 @@
     
     .party-color-box {
         display: inline-block;
-        width: 16px; /* Fixed width for color box */
-        margin-right: 0px; /* Space after color */
+        width: 16px;
+        margin-right: 0px;
     }
     
     .party-color {
@@ -218,14 +208,13 @@
     
     .party-number {
         display: inline-block;
-        width: 24px; /* Fixed width for numbers */
+        width: 24px;
         text-align: right;
-        margin-right: 8px; /* Space after number */
-        font-variant-numeric: tabular-nums; /* Ensures consistent number width */
+        margin-right: 8px;
+        font-variant-numeric: tabular-nums;
     }
     
     .party-name {
         display: inline-block;
-        /* No fixed width, will take remaining space */
     }
 </style>
