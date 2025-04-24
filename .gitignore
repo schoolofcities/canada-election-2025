@@ -1,5 +1,7 @@
 # Project
 data/
+!static/data
+!docs/data
 
 node_modules
 
