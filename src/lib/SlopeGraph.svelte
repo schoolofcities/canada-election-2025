@@ -3,35 +3,19 @@
     import { PARTY_TAGS, PARTY_COLOURS, PARTY_NAMES_SHORT } from "./constants";
 
     // Example data - in your real component, you'll use $props()
-    const partyVotes21 = {
-        'lib': 35.0,
-        'con': 30.0,
-        'ndp': 15.0,
-        'bloc': 8.0,
-        'grn': 2.0,
-        'ppc': 5.0,
-        'oth': 5.0,
-    }
-
-    const partyVotes25 = {
-        'lib': 45.0,
-        'con': 40.0,
-        'ndp': 5.0,
-        'bloc': 5.0,
-        'grn': 1.0,
-        'ppc': 1.0,
-        'oth': 3.0,
-    }
-
-    const partyDisplay = {
-        'lib': true,
-        'con': true,
-        'ndp': true,
-        'bloc': true,
-        'grn': true,
-        'ppc': true,
-        'oth': true,
-    }
+    let {
+        partyVotes21,
+        partyVotes25,
+        partyDisplay = {
+            'lib': true,
+            'con': true,
+            'ndp': true,
+            'bloc': false,
+            'grn': false,
+            'ppc': false,
+            'oth': false,
+        }
+    } = $props();
 
     // Dimensions
     const width = 400;
@@ -49,6 +33,85 @@
     const yScale = scaleLinear()
         .domain([0, 70])
         .range([innerHeight, 0]);
+
+    // Function to adjust label positions with equal spacing
+    function getAdjustedLabelPositions() {
+        const labelHeight = 15; // Approximate height of a label
+        const minSpacing = 5;   // Minimum spacing between labels
+        
+        // Get all displayed parties with their original y positions
+        let parties = PARTY_TAGS
+            .filter(party => partyDisplay[party])
+            .map(party => ({
+                party,
+                y: yScale(partyVotes25[party]),
+                text: `${PARTY_NAMES_SHORT[party]} ${(Math.round(partyVotes25[party] * 10) / 10).toFixed(1)}%`
+            }));
+        
+        // Sort by original y position
+        parties.sort((a, b) => a.y - b.y);
+        
+        // Identify overlapping groups
+        let groups = [];
+        let currentGroup = [parties[0]];
+        
+        for (let i = 1; i < parties.length; i++) {
+            const prev = currentGroup[currentGroup.length - 1];
+            const curr = parties[i];
+            
+            // Check if current label overlaps with any in current group
+            const overlapsWithGroup = currentGroup.some(item => 
+                Math.abs(curr.y - item.y) < labelHeight + minSpacing
+            );
+            
+            if (overlapsWithGroup) {
+                currentGroup.push(curr);
+            } else {
+                groups.push(currentGroup);
+                currentGroup = [curr];
+            }
+        }
+        groups.push(currentGroup);
+        
+        // Adjust each group with equal spacing
+        for (const group of groups) {
+            if (group.length <= 1) continue;
+            
+            // Calculate total space needed for this group
+            const totalSpaceNeeded = (labelHeight + minSpacing) * group.length - minSpacing;
+            const currentSpace = group[group.length - 1].y - group[0].y;
+            
+            // If we need more space
+            if (totalSpaceNeeded > currentSpace) {
+                // Calculate how much to expand
+                const expansion = totalSpaceNeeded - currentSpace;
+                
+                // Calculate new positions with equal spacing
+                const firstY = group[0].y - (expansion / 2);
+                const lastY = group[group.length - 1].y + (expansion / 2);
+                
+                // Ensure we don't go out of bounds
+                const boundedFirstY = Math.max(0, firstY);
+                const boundedLastY = Math.min(innerHeight, lastY);
+                
+                // Calculate actual available expansion
+                const actualFirstY = Math.min(firstY, boundedFirstY);
+                const actualLastY = Math.max(lastY, boundedLastY);
+                const actualExpansion = (actualLastY - actualFirstY) - currentSpace;
+                
+                // Apply equal spacing -- TODO shrink this?
+                const spacing = (actualExpansion + currentSpace) / (group.length - 1);
+                for (let i = 0; i < group.length; i++) {
+                    group[i].y = actualFirstY + (i * spacing);
+                }
+            }
+        }
+        
+        return parties;
+    }
+
+    // Get the adjusted label positions
+    const adjustedLabels = getAdjustedLabelPositions();
 </script>
 
 <div class="slope-graph" style="width: {width}px; height: {height}px;">
@@ -110,19 +173,21 @@
                         r={4}
                         fill={PARTY_COLOURS[party]}
                     />
-
-                    <!-- 2025 label -->
-                    <text
-                        x={xScale('2025') + 10}
-                        y={yScale(partyVotes25[party])}
-                        font-size="12px"
-                        font-weight="bold"
-                        fill={PARTY_COLOURS[party]}
-                        dominant-baseline="middle"
-                    >
-                        {PARTY_NAMES_SHORT[party]} {partyVotes25[party]}%
-                    </text>
                 {/if}
+            {/each}
+
+            <!-- Draw labels with adjusted positions -->
+            {#each adjustedLabels as { party, y, text }}
+                <text
+                    x={xScale('2025') + 10}
+                    y={y}
+                    font-size="12px"
+                    font-weight="bold"
+                    fill={PARTY_COLOURS[party]}
+                    dominant-baseline="middle"
+                >
+                    {text}
+                </text>
             {/each}
         </g>
     </svg>

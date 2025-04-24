@@ -1,9 +1,24 @@
 <script>
     import '../../assets/global-styles.css';
 
+    import { onMount } from 'svelte';
+
     import TopSofC from '$lib/TopSofC.svelte';
     import SlopeGraph from '$lib/SlopeGraph.svelte';
     import WaffleGraph from '$lib/WaffleGraph.svelte';
+
+    let votesRegion = $state(null);
+    let votesCities = $state(null);
+
+    onMount(() => {
+        fetch('/data/results/votes/region_results.json')
+            .then((response) => response.json())
+            .then((json) => votesRegion = json);
+        
+        fetch('/data/results/votes/csd_results.json')
+            .then((response) => response.json())
+            .then((json) => votesCities = json);
+    })
 </script>
 
 <main>
@@ -25,10 +40,15 @@
         </p>
     </div>
     
-    <div class="container">
-        <SlopeGraph />
-        <WaffleGraph />
-    </div>
+    {#if votesRegion}
+        <div class="container">
+            <SlopeGraph 
+                partyVotes21={votesRegion['Greater Toronto Area']['2021_pct_vote']} 
+                partyVotes25={votesRegion['Greater Toronto Area']['2025_pct_vote']} 
+            />
+            <WaffleGraph />
+        </div>
+    {/if}
 
     <p>This is where a component will go if we wanted to span the full page.</p>
 </main>
