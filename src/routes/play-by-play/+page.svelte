@@ -10,6 +10,9 @@
     let votesRegion = $state(null);
     let votesCities = $state(null);
 
+    let seatsRegion = $state(null);
+    let seatsCities = $state(null);
+
     onMount(() => {
         fetch('/data/results/votes/region_results.json')
             .then((response) => response.json())
@@ -18,6 +21,14 @@
         fetch('/data/results/votes/csd_results.json')
             .then((response) => response.json())
             .then((json) => votesCities = json);
+
+        fetch('/data/results/seats/region_seat_flips.json')
+            .then((response) => response.json())
+            .then((json) => seatsRegion = json);
+        
+        fetch('/data/results/seats/csd_seat_flips.json')
+            .then((response) => response.json())
+            .then((json) => seatsCities = json);
     })
 </script>
 
@@ -40,13 +51,15 @@
         </p>
     </div>
     
-    {#if votesRegion}
+    {#if (votesRegion && seatsRegion)}
         <div class="container">
             <SlopeGraph 
                 partyVotes21={votesRegion['Greater Toronto Area']['2021_pct_vote']} 
                 partyVotes25={votesRegion['Greater Toronto Area']['2025_pct_vote']} 
             />
-            <WaffleGraph />
+            <WaffleGraph 
+                partySeats={seatsRegion['Greater Toronto Area']}
+            />
         </div>
     {/if}
 
