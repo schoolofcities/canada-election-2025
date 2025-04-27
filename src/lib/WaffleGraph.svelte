@@ -10,41 +10,75 @@
         {prevParty: 'ndp', curParty: 'ndp', isFlipped: false},
     ];
 
-    // Constants for the visualization
+    // Constants for the visualization -- squares
     const SQUARE_SIZE = 20;
     const SQUARE_PADDING = 2;
     const SQUARES_PER_ROW = 5;
+
+    // Constants for the visualization -- diagonal lines and lighter square
+    const INNER_SQUARE_RATIO = 0.85;
     const LINE_WIDTH = 2;
     const LINE_SPACING = 8;
-    const INNER_SQUARE_RATIO = 0.85;
     const DIAGONAL_OFFSET = 0.5;
+    const INNER_SIZE = SQUARE_SIZE * INNER_SQUARE_RATIO
+    const INNER_OFFSET = (SQUARE_SIZE - INNER_SIZE) / 2
 
-    // Prepare data in correct party order (lib -> con -> ndp)
-    $: seatsByParty = (() => {
-        const grouped = {};
-        PARTY_TAGS.reverse().forEach(tag => {
-            grouped[tag] = partySeats.filter(seat => seat.curParty === tag);
-        });
-        return grouped;
-    })();
+    const LINES = getDiagonalLines(SQUARE_SIZE)
 
-    $: seatsData = PARTY_TAGS
-        .filter(tag => seatsByParty[tag].length > 0)
-        .map(party => ({
-            party,
-            total: seatsByParty[party].length,
-            seats: seatsByParty[party].map(seat => ({
-                party: seat.curParty,
-                sourceParty: seat.prevParty,
-                isFlipped: seat.isFlipped
-            }))
-        }));
-
-    $: totalSeats = seatsData.reduce((sum, party) => sum + party.total, 0);
+    // Set responsive SVG parameters
+    $: totalSeats = partySeats.length;
     $: rows = Math.ceil(totalSeats / SQUARES_PER_ROW);
     $: svgWidth = SQUARES_PER_ROW * (SQUARE_SIZE + SQUARE_PADDING) + SQUARE_PADDING;
     $: svgHeight = rows * (SQUARE_SIZE + SQUARE_PADDING) + SQUARE_PADDING;
-    $: flatSeats = getFlatSeatsArray(seatsData);
+
+    // Compute seat toals, and net gains/losses
+    $: seatTotals = PARTY_TAGS
+        .map(party => {
+            const gained = partySeats.filter(seat => (seat.curParty === party && seat.isFlipped)).length;
+            const lost = partySeats.filter(seat => (seat.prevParty === party && seat.isFlipped)).length;
+            const net = gained - lost;
+            
+            let sign;
+            if (net > 0) sign = "+";
+            else if (net < 0) sign = "–";
+            else sign = "±"
+
+            return {
+                party,
+                total: partySeats.filter(seat => seat.curParty === party).length,
+                gained: gained,
+                lost: lost,
+                net: net,
+                sign: sign,
+            }
+        });
+    $: seatTotals.sort((a, b) => a.total < b.total); // If we want to rank totals by no. seats
+
+    // Sort seat data to be in the order of: total number of seats
+    $: sortedPartySeats = [...partySeats].sort((a, b) => {
+        // Get totals for each party from seatTotals
+        const aTotal = seatTotals.find(p => p.party === a.curParty)?.total || 0;
+        const bTotal = seatTotals.find(p => p.party === b.curParty)?.total || 0;
+        
+        // First sort by total seats (descending)
+        if (aTotal !== bTotal) return bTotal - aTotal;
+        
+        // Then sort by isFlipped (false first)
+        return (a.isFlipped ? 1 : 0) - (b.isFlipped ? 1 : 0);
+    });
+
+    // Sort seat data to be in the order of: PARTY_SEATS
+    // $: sortedPartySeats = [...partySeats].sort((a, b) => {
+    //     // First sort by PARTY_TAGS order
+    //     const aIndex = PARTY_TAGS.indexOf(a.curParty);
+    //     const bIndex = PARTY_TAGS.indexOf(b.curParty);
+    //     if (aIndex !== bIndex) {
+    //         return aIndex - bIndex;
+    //     }
+        
+    //     // If same party, sort by isFlipped (false first)
+    //     return (a.isFlipped ? 1 : 0) - (b.isFlipped ? 1 : 0);
+    // });
 
     // Create positions with bottom-up filling
     $: seatPositions = Array.from({length: totalSeats}, (_, i) => {
@@ -55,20 +89,10 @@
         return {
             x: col * (SQUARE_SIZE + SQUARE_PADDING) + SQUARE_PADDING,
             y: row * (SQUARE_SIZE + SQUARE_PADDING) + SQUARE_PADDING,
-            seat: flatSeats[i],
+            seat: sortedPartySeats[visualIndex], // Index starts squares from bottom-left, going right, then up
             index: i
         };
     });
-
-    function getFlatSeatsArray(seatsData) {
-        const allSeats = [];
-        seatsData.forEach(partyData => {
-            // Sort flipped seats to appear first within each party group
-            const sortedSeats = [...partyData.seats].sort((a, b) => b.isFlipped - a.isFlipped);
-            allSeats.push(...sortedSeats);
-        });
-        return allSeats;
-    }
 
     function getDiagonalLines(size) {
         const lineCount = Math.ceil(size * 1.5 / LINE_SPACING);
@@ -93,11 +117,8 @@
         <svg width={svgWidth} height={svgHeight} class="waffle-svg">
             {#each seatPositions as pos}
                 {@const seat = pos.seat}
-                {@const color = PARTY_COLOURS[seat.party]}
-                {@const lightColor = PARTY_COLOURS_LIGHT[seat.party]}
-                {@const innerSize = SQUARE_SIZE * INNER_SQUARE_RATIO}
-                {@const innerOffset = (SQUARE_SIZE - innerSize) / 2}
-                {@const lines = getDiagonalLines(SQUARE_SIZE)}
+                {@const colour = PARTY_COLOURS[seat.curParty]}
+                {@const lightColour = PARTY_COLOURS_LIGHT[seat.curParty]}
 
                 <!-- Outer square -->
                 <rect
@@ -105,17 +126,17 @@
                     y={pos.y}
                     width={SQUARE_SIZE}
                     height={SQUARE_SIZE}
-                    fill={color}
+                    fill={colour}
                 />
 
                 {#if seat.isFlipped}
                     <!-- Inner square -->
                     <rect
-                        x={pos.x + innerOffset}
-                        y={pos.y + innerOffset}
-                        width={innerSize}
-                        height={innerSize}
-                        fill={lightColor}
+                        x={pos.x + INNER_OFFSET}
+                        y={pos.y + INNER_OFFSET}
+                        width={INNER_SIZE}
+                        height={INNER_SIZE}
+                        fill={lightColour}
                     />
 
                     <!-- Diagonal lines -->
@@ -126,13 +147,13 @@
                             </clipPath>
                         </defs>
                         <g clip-path={`url(#clip-${pos.index})`}>
-                            {#each lines as line}
+                            {#each LINES as line}
                                 <line
                                     x1={line.x1 - DIAGONAL_OFFSET}
                                     y1={line.y1 - DIAGONAL_OFFSET}
                                     x2={line.x2 - DIAGONAL_OFFSET}
                                     y2={line.y2 - DIAGONAL_OFFSET}
-                                    stroke={color}
+                                    stroke={colour}
                                     stroke-width={LINE_WIDTH}
                                 />
                             {/each}
@@ -144,14 +165,17 @@
     </div>
 
     <div class="party-totals" style="max-width: {svgWidth}px">
-        {#each seatsData.reverse() as partyData}
-            <div class="party-total">
-                <span class="party-color-box">
-                    <span class="party-color" style="background-color: {PARTY_COLOURS[partyData.party]};"></span>
-                </span>
-                <span class="party-number">{partyData.total}</span>
-                <span class="party-name">{PARTY_NAMES_SHORT[partyData.party]}</span>
-            </div>
+        {#each seatTotals as partyData}
+            {#if partyData.total > 0}
+                <div class="party-total">
+                    <span class="party-color-box">
+                        <span class="party-color" style="background-color: {PARTY_COLOURS[partyData.party]};"></span>
+                    </span>
+                    <span class="party-number">{partyData.total}</span>
+                    <span class="party-number-change">({partyData.sign}{Math.abs(partyData.net)})</span>
+                    <span class="party-name">{PARTY_NAMES_SHORT[partyData.party]}</span>
+                </div>
+            {/if}
         {/each}
     </div>
 </div>
@@ -173,48 +197,62 @@
     
     .waffle-svg {
         border-radius: 4px;
-        background-color: #f5f5f5;
+        /* background-color: #f5f5f5; */
     }
     
     .party-totals {
         display: flex;
         flex-direction: column;
-        gap: 4px;
+        /* gap: 4px; */
         width: 100%;
         align-items: flex-start;
+        padding-left: 2px;
     }
     
     .party-total {
         display: flex;
         align-items: center;
-        font-family: sans-serif;
         font-size: 0.9rem;
         width: 100%;
     }
     
     .party-color-box {
         display: inline-block;
-        width: 16px;
-        margin-right: 0px;
+        width: 6px;
+        /* margin-right: 0px; */
     }
     
     .party-color {
         display: inline-block;
-        width: 12px;
-        height: 12px;
-        border-radius: 2px;
+        width: 6px;
+        height: 16px;
+        /* border-radius: 2px; */
         vertical-align: middle;
     }
     
     .party-number {
         display: inline-block;
-        width: 24px;
+        width: 20px;
         text-align: right;
-        margin-right: 8px;
+        margin-right: 2px;
         font-variant-numeric: tabular-nums;
+        font-family: TradeGothicBold;
+        font-size: 14px;
+    }
+
+    .party-number-change {
+        display: inline-block;
+        width: 32px;
+        text-align: left;
+        margin-right: 6px;
+        font-variant-numeric: tabular-nums;
+        font-family: TradeGothicBold;
+        font-size: 14px;
     }
     
     .party-name {
         display: inline-block;
+        font-family: TradeGothicLTLight;
+        font-size: 14px;
     }
 </style>
