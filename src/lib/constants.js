@@ -47,3 +47,13 @@ export const PARTY_NAMES_LONG = {
     'ppc': 'People',
     'oth': 'Other',
 }
+
+export const PARTY_PCT_SWINGS = {
+    'lib': 13.0,
+    'con': 5.0,
+    'ndp': -10.0,
+    'bloc': -2.0,
+    'grn': 0.0,
+    'ppc': -3.0,
+    'oth': 0.0,
+}

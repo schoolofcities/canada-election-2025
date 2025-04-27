@@ -2,7 +2,6 @@
     import { scaleLinear, scalePoint } from 'd3-scale';
     import { PARTY_TAGS, PARTY_COLOURS, PARTY_NAMES_SHORT } from "./constants";
 
-    // Example data - in your real component, you'll use $props()
     let {
         partyVotes21,
         partyVotes25,
@@ -18,9 +17,9 @@
     } = $props();
 
     // Dimensions
-    const width = 400;
-    const height = 300;
-    const margin = { top: 20, right: 100, bottom: 30, left: 40 };
+    const width = 300;
+    const height = 230;
+    const margin = { top: 10, right: 100, bottom: 30, left: 10 };
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
 
@@ -28,7 +27,7 @@
     const xScale = scalePoint()
         .domain(['2021', '2025'])
         .range([0, innerWidth])
-        .padding(0.5);
+        .padding(0);
 
     const yScale = scaleLinear()
         .domain([0, 70])
@@ -115,13 +114,14 @@
 </script>
 
 <div class="slope-graph" style="width: {width}px; height: {height}px;">
-    <svg width={width} height={height}>
-        <g transform="translate({margin.left}, {margin.top})">
+    <svg class='slope-svg' width={width} height={height}>
+        <g transform="translate(0,0)">
+        <!-- <g transform="translate({margin.left}, {margin.top})"> -->
             <!-- X-axis with labels -->
             <line
-                x1={0}
+                x1={xScale('2021')}
                 y1={innerHeight}
-                x2={innerWidth}
+                x2={xScale('2025')}
                 y2={innerHeight}
                 stroke="black"
                 stroke-width="1"
@@ -130,7 +130,8 @@
             <text
                 x={xScale('2021')}
                 y={innerHeight + margin.bottom / 2}
-                text-anchor="middle"
+                class="year-label"
+                text-anchor="start"
                 font-size="12px"
             >
                 2021
@@ -139,7 +140,8 @@
             <text
                 x={xScale('2025')}
                 y={innerHeight + margin.bottom / 2}
-                text-anchor="middle"
+                class="year-label"
+                text-anchor="end"
                 font-size="12px"
             >
                 2025
@@ -181,6 +183,7 @@
                 <text
                     x={xScale('2025') + 10}
                     y={y}
+                    class="party-label"
                     font-size="12px"
                     font-weight="bold"
                     fill={PARTY_COLOURS[party]}
@@ -195,6 +198,21 @@
 
 <style>
     .slope-graph {
-        font-family: sans-serif;
+        /* margin: 0 auto; */
+        /* width: auto; */
+        /* flex: 1; */
+    }
+
+    .slope-svg {
+        overflow: visible;
+        display: block;
+    }
+
+    .year-label {
+        font-family: TradeGothicBold;
+    }
+
+    .party-label {
+        font-family: TradeGothicBold;
     }
 </style>
