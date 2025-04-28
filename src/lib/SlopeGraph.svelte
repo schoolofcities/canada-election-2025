@@ -17,8 +17,8 @@
     } = $props();
 
     // Dimensions
-    const width = 225; // Now fluid via CSS
-    const height = 175; // Matches waffle height
+    const width = 175; 
+    const height = 175; 
     const margin = { top: 10, right: 100, bottom: 30, left: 10 };
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
@@ -198,14 +198,14 @@
 
 <style>
     .slope-graph {
-        width: 100%;
-        flex: 1;
-        min-width: 200px;
+        flex: 1; /* Pushes other contents of row to end */
+        width: 175px;
     }
 
     .slope-svg {
         overflow: visible;
-        display: block;
+        width: 100%;
+        height: 100%;
     }
 
     .year-label {

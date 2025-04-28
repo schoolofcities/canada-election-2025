@@ -75,8 +75,6 @@
             {/if}
         </div>
     </div>
-
-    <p>This is where a component will go if we wanted to span the full page.</p>
 </main>
 
 <style>

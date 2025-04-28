@@ -54,14 +54,10 @@
     .graphs-container {
         display: flex;
         gap: 12px;
+        align-items: flex-start;
     }
 
-    /* Responsive adjustments */
-    @media (max-width: 768px) {
-        .results-panel {
-            width: 100% !important;
-        }
-        
+    @media (max-width: 350px) {
         .graphs-container {
             flex-direction: column;
         }

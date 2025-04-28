@@ -181,18 +181,15 @@
 </div>
 
 <style>
-    .waffle-container {
-        display: inline-flex;
-        flex-direction: column;
-        align-items: flex-start;
-        max-width: 100%;
+    .waffle-container {    
+        flex-grow: 0;      /* Don't expand beyond width */
+        flex-shrink: 0;    /* Don't compress below width */
+        flex-basis: 137px; /* Must be adjusted if SQUARE_SIZE/PADDING/PER_ROW are adjusted */
     }
     
     .waffle-graph {
-        /* display: flex; */
         justify-content: center;
-        width: fit-content;
-        /* margin: 0 auto 8px; */
+        margin-bottom: 2px; /* Add this line */
     }
     
     .waffle-svg {
