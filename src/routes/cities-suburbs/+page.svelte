@@ -8,6 +8,24 @@
     import WaffleGraph from '$lib/WaffleGraph.svelte';
     import ResultsPanel from '$lib/ResultsPanel.svelte';
 
+    const cities = {
+        "Vancouver": "Sample description text",
+        "Edmonton": "Sample description text",
+        "Calgary": "Sample description text",
+        "Winnipeg": "Sample description text",
+        "Toronto": "Sample description text",
+        "Ottawa": "Sample description text",
+        "Island of Montreal": "Sample description text",
+        "Québec": "Sample description text",
+        "Halifax": "Sample description text",
+    }
+
+    const regions = {
+        "Greater Toronto Area": "Sample description text",
+        "Montréal": "Sample description text",
+        "Vancouver": "Sample description text",
+    }
+
     let votesRegion = $state(null);
     let votesCities = $state(null);
 
@@ -53,25 +71,35 @@
     </div>
     
     <div class="container">
+        <h2>Cities</h2>
+        <div class="panel-grid">
+            {#if (votesCities && seatsCities)}
+                {#each Object.entries(cities) as [city, text]}
+                    <ResultsPanel 
+                        cityName={city}
+                        text={text}
+                        partyVotes21={votesCities[city]['2021_pct_vote']} 
+                        partyVotes25={votesCities[city]['2025_pct_vote']} 
+                        partySeats={seatsCities[city]}
+                    />
+                {/each}
+            {/if}
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Metros and Suburbs</h2>
         <div class="panel-grid">
             {#if (votesRegion && seatsRegion)}
-                <!-- Example panel - repeat as needed -->
-                <ResultsPanel 
-                    cityName={'Greater Toronto Area'}
-                    text={'Sample description text'}
-                    partyVotes21={votesRegion['Greater Toronto Area']['2021_pct_vote']} 
-                    partyVotes25={votesRegion['Greater Toronto Area']['2025_pct_vote']} 
-                    partySeats={seatsRegion['Greater Toronto Area']}
-                />
-                
-                <!-- Add more panels here -->
-                <ResultsPanel 
-                    cityName={'Vancouver'}
-                    text={'Sample description text'}
-                    partyVotes21={votesRegion['Vancouver']['2021_pct_vote']} 
-                    partyVotes25={votesRegion['Vancouver']['2025_pct_vote']} 
-                    partySeats={seatsRegion['Vancouver']}
-                />
+                {#each Object.entries(regions) as [region, text]}
+                    <ResultsPanel 
+                        cityName={region}
+                        text={text}
+                        partyVotes21={votesRegion[region]['2021_pct_vote']} 
+                        partyVotes25={votesRegion[region]['2025_pct_vote']} 
+                        partySeats={seatsRegion[region]}
+                    />
+                {/each}
             {/if}
         </div>
     </div>
