@@ -1,6 +1,6 @@
 <script>
     import { scaleLinear, scalePoint } from 'd3-scale';
-    import { PARTY_TAGS, PARTY_COLOURS, PARTY_NAMES_SHORT } from "./constants";
+    import { PARTY_TAGS, PARTY_COLOURS, PARTY_NAMES_SHORT, PARTY_PCT_SWINGS } from "./constants";
 
     let {
         partyVotes21,
@@ -158,6 +158,7 @@
                         y2={yScale(partyVotes25[party])}
                         stroke={PARTY_COLOURS[party]}
                         stroke-width="1.5"
+                        stroke-dasharray={PARTY_PCT_SWINGS[party] > (partyVotes25[party] - partyVotes25[party]) ? "6,1" : "none"}
                     />
 
                     <!-- 2021 dot -->
