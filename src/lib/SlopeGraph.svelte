@@ -77,7 +77,7 @@
             if (group.length <= 1) continue;
             
             // Calculate total space needed for this group
-            const totalSpaceNeeded = (labelHeight + minSpacing) * group.length - minSpacing;
+            const totalSpaceNeeded = ((labelHeight + minSpacing) * group.length - minSpacing) / 2;
             const currentSpace = group[group.length - 1].y - group[0].y;
             
             // If we need more space
@@ -98,14 +98,14 @@
                 const actualLastY = Math.max(lastY, boundedLastY);
                 const actualExpansion = (actualLastY - actualFirstY) - currentSpace;
                 
-                // Apply equal spacing -- TODO shrink this?
-                const spacing = (actualExpansion + currentSpace) / (group.length - 1);
+                // Apply equal spacing
+                const spacing = ((actualExpansion + currentSpace) / (group.length - 1));
                 for (let i = 0; i < group.length; i++) {
                     group[i].y = actualFirstY + (i * spacing);
                 }
             }
         }
-        
+
         return parties;
     }
 
@@ -181,17 +181,19 @@
 
             <!-- Draw labels with adjusted positions -->
             {#each adjustedLabels as { party, y, text }}
-                <text
-                    x={xScale('2025') + 10}
-                    y={y}
-                    class="party-label"
-                    font-size="12px"
-                    font-weight="bold"
-                    fill={PARTY_COLOURS[party]}
-                    dominant-baseline="middle"
-                >
-                    {text}
-                </text>
+                <!-- {#if partyDisplay[party]} -->
+                    <text
+                        x={xScale('2025') + 10}
+                        y={y}
+                        class="party-label"
+                        font-size="12px"
+                        font-weight="bold"
+                        fill={PARTY_COLOURS[party]}
+                        dominant-baseline="middle"
+                    >
+                        {text}
+                    </text>
+                <!-- {/if} -->
             {/each}
         </g>
     </svg>
