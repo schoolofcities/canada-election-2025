@@ -56,17 +56,20 @@
 
     // Sort seat data to be in the order of: total number of seats
     $: sortedPartySeats = [...partySeats].sort((a, b) => {
-        // Get totals for each party from seatTotals
+        // Get seat totals for each party
         const aTotal = seatTotals.find(p => p.party === a.curParty)?.total || 0;
         const bTotal = seatTotals.find(p => p.party === b.curParty)?.total || 0;
-        
-        // First sort by total seats (descending)
+
+        // 1. Sort by total seats (descending)
         if (aTotal !== bTotal) return bTotal - aTotal;
-        
-        // Then sort by isFlipped (false first)
+
+        // 2. Sort alphabetically by party (if totals are equal)
+        if (a.curParty !== b.curParty) return a.curParty.localeCompare(b.curParty);
+
+        // 3. Sort by isFlipped (false first)
         return (a.isFlipped ? 1 : 0) - (b.isFlipped ? 1 : 0);
     });
-
+    
     // Sort seat data to be in the order of: PARTY_SEATS
     // $: sortedPartySeats = [...partySeats].sort((a, b) => {
     //     // First sort by PARTY_TAGS order
