@@ -11,12 +11,12 @@
     ];
 
     // Constants for the visualization -- squares
-    const SQUARE_SIZE = 20;
-    const SQUARE_PADDING = 2;
-    const SQUARES_PER_ROW = 5;
+    const SQUARE_SIZE = 16;
+    const SQUARE_PADDING = 1;
+    const SQUARES_PER_ROW = 8;
 
     // Constants for the visualization -- diagonal lines and lighter square
-    const INNER_SQUARE_RATIO = 0.85;
+    const INNER_SQUARE_RATIO = 0.8;
     const LINE_WIDTH = 2;
     const LINE_SPACING = 8;
     const DIAGONAL_OFFSET = 0.5;
@@ -189,10 +189,10 @@
     }
     
     .waffle-graph {
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         width: fit-content;
-        margin: 0 auto 8px;
+        /* margin: 0 auto 8px; */
     }
     
     .waffle-svg {
@@ -246,7 +246,7 @@
         text-align: left;
         margin-right: 6px;
         font-variant-numeric: tabular-nums;
-        font-family: TradeGothicBold;
+        font-family: TradeGothicLTLight;
         font-size: 14px;
     }
     
