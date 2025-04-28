@@ -36,7 +36,7 @@
     <TopSofC/>
 
     <div class="title">
-        <h1>Canada Votes 2025: A Play-by-Play in the Cities</h1>
+        <h1>Canada Votes 2025: Cities and Suburbs</h1>
         <p>
             <a href='https://www.linkedin.com/in/aniket-k-8a8b9921b/' target='_blank'>Aniket Kali</a>,
             <a href='https://jamaps.github.io/' target='_blank'>Jeff Allen</a>
