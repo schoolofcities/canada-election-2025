@@ -84,11 +84,11 @@
         </p>
 
         <p>
-            The Conservatives saw clear gains in the suburbs of the Greater Toronto Area - flipping seats in Brampton and Markham. Home to large numbers of South Asian and East Asian Canadians respectively, this is consistent with work affiliated to the School of Cities arguing <a href='https://schoolofcities.github.io/gta-immigration/political-shifts' target="">immigrants</a> and <a href='https://www.utsc.utoronto.ca/sociology/utsc-sociologist-breaks-down-surge-south-asian-and-chinese-canadian-support-conservatives' target="">minorities</a> are shifting to the right. The Conservatives also saw large gains in Vancouver's suburbs, accompanied by an NDP collapse - but failed to make a breakthrough.
+            The Conservatives saw clear gains in the suburbs of the Greater Toronto Area - flipping seats in Brampton and Markham. Home to large numbers of South Asian and East Asian Canadians respectively, this is consistent with work affiliated to the School of Cities finding <a href='https://schoolofcities.github.io/gta-immigration/political-shifts' target="">immigrants</a> and <a href='https://www.utsc.utoronto.ca/sociology/utsc-sociologist-breaks-down-surge-south-asian-and-chinese-canadian-support-conservatives' target="">minorities</a> are shifting to the right. The Conservatives also saw large gains in Vancouver's suburbs, accompanied by an NDP collapse - but failed to make a breakthrough.
         </p>
 
         <p>
-            Across the board, both major parties saw decisive games at the expense of other smaller parties in many cities - but generally, gained less votes in the cities compared to the rest of the country. In Edmonton and Calgary, historically Conservative-voting cities, the Liberals failed to mount a breakthrough. Notable exceptions however came in Ottawa and Quebec City, where the Conservatives lost votes against large Liberal gains.
+            Across the board, both major parties saw decisive gains at the expense of other smaller parties in many cities - but generally, gained less votes in the cities compared to the rest of the country. In Edmonton and Calgary, historically Conservative-voting cities, the Liberals failed to mount a breakthrough. Notable exceptions however came in Ottawa and Quebec City, where the Conservatives lost votes against large Liberal gains.
         </p>
     </div>
     
