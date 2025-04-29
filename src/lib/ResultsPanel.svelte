@@ -87,7 +87,7 @@
         align-items: flex-start;
     }
 
-    @media (max-width: 370px) {
+    @media (max-width: 350px) {
         .graphs-container {
             flex-direction: column;
         }

@@ -190,11 +190,11 @@
 <style>
     .panel-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
         gap: 24px;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 750px) {
         .panel-grid {
             grid-template-columns: 1fr;
         }
