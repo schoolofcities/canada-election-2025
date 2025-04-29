@@ -68,14 +68,14 @@
         </p>
         
         <p>
-            <span style="background-color: #f58085">The Liberals won 43.7% of the national vote, up 11.1% from the last election</span>. 
+            <span style="background-color: #f58085">The Liberals won 43.7% of the national vote, up 11.1% from the last election, for 169 seats</span>. 
             They were tailed closely by 
-            <span style="background-color: #5d86d2">the Conservatives who won 41.3%, up by 7.6%</span>. 
+            <span style="background-color: #5d86d2">the Conservatives who won 41.3%, up by 7.6%, for 143 seats</span>. 
             Led by Pierre Poilievre, they capitalized on a <a href='https://abacusdata.ca/2025-federal-election-final-poll-of-campaign/' target="">desire for change</a>, especially winning over voters upset about the cost-of-living crisis, with notable inroads into <a href='https://thelocal.to/young-conservative-right-wing-voters-poilievre-carney/' target="">young voters</a> and <a href='https://theconversation.com/why-are-so-many-second-generation-south-asian-and-chinese-canadians-planning-to-vote-conservative-253820' target="">visible minorities</a>.
         </p>
 
         <p>
-            <span style="background-color: #ffbe78">The left-leaning New Democrats netted just 6.3%, down 11.5% from the last election</span>. 
+            <span style="background-color: #ffbe78">The left-leaning New Democrats netted just 6.3%, down 11.5% from the last election, for 7 seats</span>. 
             This was their worst performance in the party's history. Despite winning progress on national dental care and pharmacare programs from the governing Liberals, some voters flocked away from the party to rally around the Liberals in the wake of threats to sovereignty, while the Conservatives made <a href='https://www.cbc.ca/news/politics/cpc-ndp-working-class-votes-canada-1.7166294' target="">deliberate</a> <a href='https://www.ekospolitics.com/index.php/2025/04/ekos-predicts-liberal-majority/' target="">inroads</a> into its historical working-class base.
         </p>
 
