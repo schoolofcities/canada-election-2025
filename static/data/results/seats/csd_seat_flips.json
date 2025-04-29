@@ -6,8 +6,8 @@
             "CSD": "Halifax",
             "region": "Halifax",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 12006,
@@ -15,8 +15,8 @@
             "CSD": "Halifax",
             "region": "Halifax",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 12007,
@@ -24,8 +24,8 @@
             "CSD": "Halifax",
             "region": "Halifax",
             "prevParty": "lib",
-            "curParty": "oth",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 12009,
@@ -33,8 +33,8 @@
             "CSD": "Halifax",
             "region": "Halifax",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ],
     "Island of Montreal": [
@@ -44,8 +44,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24013,
@@ -53,8 +53,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "bloc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24022,
@@ -62,8 +62,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24026,
@@ -71,8 +71,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24027,
@@ -80,8 +80,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "oth",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24031,
@@ -89,8 +89,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "bloc",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "bloc",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24034,
@@ -98,8 +98,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24035,
@@ -107,8 +107,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24037,
@@ -116,8 +116,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24048,
@@ -125,8 +125,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "bloc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24052,
@@ -134,8 +134,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24053,
@@ -143,8 +143,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24054,
@@ -152,8 +152,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24056,
@@ -161,8 +161,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24065,
@@ -170,8 +170,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "ndp",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "ndp",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24068,
@@ -179,8 +179,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "oth",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24069,
@@ -188,8 +188,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24077,
@@ -197,8 +197,8 @@
             "CSD": "Island of Montreal",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ],
     "Laval": [
@@ -208,8 +208,8 @@
             "CSD": "Laval",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24038,
@@ -217,8 +217,8 @@
             "CSD": "Laval",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24045,
@@ -226,8 +226,8 @@
             "CSD": "Laval",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "oth",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24078,
@@ -235,8 +235,8 @@
             "CSD": "Laval",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "oth",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ],
     "Qu\u00e9bec": [
@@ -246,7 +246,7 @@
             "CSD": "Qu\u00e9bec",
             "region": "Qu\u00e9bec",
             "prevParty": "bloc",
-            "curParty": "ndp",
+            "curParty": "lib",
             "isFlipped": true
         },
         {
@@ -255,8 +255,8 @@
             "CSD": "Qu\u00e9bec",
             "region": "Qu\u00e9bec",
             "prevParty": "con",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24043,
@@ -264,8 +264,8 @@
             "CSD": "Qu\u00e9bec",
             "region": "Qu\u00e9bec",
             "prevParty": "lib",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24044,
@@ -273,8 +273,8 @@
             "CSD": "Qu\u00e9bec",
             "region": "Qu\u00e9bec",
             "prevParty": "con",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24059,
@@ -293,8 +293,8 @@
             "CSD": "Brossard",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ],
     "Longueuil": [
@@ -304,8 +304,8 @@
             "CSD": "Longueuil",
             "region": "Montr\u00e9al",
             "prevParty": "lib",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 24042,
@@ -313,8 +313,8 @@
             "CSD": "Longueuil",
             "region": "Montr\u00e9al",
             "prevParty": "bloc",
-            "curParty": "bloc",
-            "isFlipped": false
+            "curParty": "lib",
+            "isFlipped": true
         }
     ],
     "Mirabel": [
@@ -324,8 +324,8 @@
             "CSD": "Mirabel",
             "region": "Montr\u00e9al",
             "prevParty": "bloc",
-            "curParty": "oth",
-            "isFlipped": true
+            "curParty": "bloc",
+            "isFlipped": false
         }
     ],
     "L'Assomption": [
@@ -335,8 +335,8 @@
             "CSD": "L'Assomption",
             "region": "Montr\u00e9al",
             "prevParty": "bloc",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "bloc",
+            "isFlipped": false
         }
     ],
     "Saint-Eustache": [
@@ -346,7 +346,7 @@
             "CSD": "Saint-Eustache",
             "region": "Montr\u00e9al",
             "prevParty": "bloc",
-            "curParty": "ndp",
+            "curParty": "lib",
             "isFlipped": true
         }
     ],
@@ -357,8 +357,8 @@
             "CSD": "Terrebonne",
             "region": "Montr\u00e9al",
             "prevParty": "bloc",
-            "curParty": "lib",
-            "isFlipped": true
+            "curParty": "bloc",
+            "isFlipped": false
         }
     ],
     "Blainville": [
@@ -379,8 +379,8 @@
             "CSD": "Ajax",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ],
     "Richmond Hill": [
@@ -390,7 +390,7 @@
             "CSD": "Richmond Hill",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "oth",
+            "curParty": "con",
             "isFlipped": true
         },
         {
@@ -399,7 +399,7 @@
             "CSD": "Richmond Hill",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "oth",
+            "curParty": "con",
             "isFlipped": true
         }
     ],
@@ -410,8 +410,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35022,
@@ -419,8 +419,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35023,
@@ -428,8 +428,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35024,
@@ -437,8 +437,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35026,
@@ -446,8 +446,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35029,
@@ -455,8 +455,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35030,
@@ -464,8 +464,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "oth",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35031,
@@ -473,8 +473,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35041,
@@ -482,8 +482,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35092,
@@ -491,8 +491,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35093,
@@ -500,8 +500,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35094,
@@ -509,8 +509,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "bloc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35095,
@@ -518,8 +518,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35096,
@@ -527,8 +527,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35097,
@@ -536,8 +536,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35100,
@@ -545,8 +545,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35105,
@@ -554,8 +554,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35109,
@@ -563,8 +563,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "bloc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35110,
@@ -581,8 +581,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35112,
@@ -590,8 +590,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35117,
@@ -599,8 +599,8 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35120,
@@ -608,7 +608,7 @@
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ndp",
+            "curParty": "con",
             "isFlipped": true
         },
         {
@@ -639,8 +639,8 @@
             "CSD": "Brampton",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "bloc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35010,
@@ -666,8 +666,8 @@
             "CSD": "Brampton",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35014,
@@ -675,7 +675,7 @@
             "CSD": "Brampton",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ppc",
+            "curParty": "con",
             "isFlipped": true
         }
     ],
@@ -686,8 +686,8 @@
             "CSD": "Caledon",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "bloc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ],
     "Burlington": [
@@ -697,8 +697,8 @@
             "CSD": "Burlington",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "oth",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ],
     "Milton": [
@@ -719,8 +719,8 @@
             "CSD": "Ottawa",
             "region": "Ottawa - Gatineau (Ontario part / partie de l'Ontario)",
             "prevParty": "con",
-            "curParty": "con",
-            "isFlipped": false
+            "curParty": "lib",
+            "isFlipped": true
         },
         {
             "FED_NUM": 35043,
@@ -728,8 +728,8 @@
             "CSD": "Ottawa",
             "region": "Ottawa - Gatineau (Ontario part / partie de l'Ontario)",
             "prevParty": "lib",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35067,
@@ -737,8 +737,8 @@
             "CSD": "Ottawa",
             "region": "Ottawa - Gatineau (Ontario part / partie de l'Ontario)",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35077,
@@ -755,8 +755,8 @@
             "CSD": "Ottawa",
             "region": "Ottawa - Gatineau (Ontario part / partie de l'Ontario)",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35080,
@@ -773,8 +773,8 @@
             "CSD": "Ottawa",
             "region": "Ottawa - Gatineau (Ontario part / partie de l'Ontario)",
             "prevParty": "lib",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35082,
@@ -782,8 +782,8 @@
             "CSD": "Ottawa",
             "region": "Ottawa - Gatineau (Ontario part / partie de l'Ontario)",
             "prevParty": "lib",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ],
     "King": [
@@ -793,8 +793,8 @@
             "CSD": "King",
             "region": "Greater Toronto Area",
             "prevParty": "con",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         }
     ],
     "Markham": [
@@ -804,8 +804,8 @@
             "CSD": "Markham",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35057,
@@ -813,8 +813,8 @@
             "CSD": "Markham",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "bloc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35058,
@@ -822,7 +822,7 @@
             "CSD": "Markham",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ndp",
+            "curParty": "con",
             "isFlipped": true
         }
     ],
@@ -833,7 +833,7 @@
             "CSD": "Halton Hills",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "bloc",
+            "curParty": "con",
             "isFlipped": true
         }
     ],
@@ -844,8 +844,8 @@
             "CSD": "Mississauga",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35062,
@@ -853,8 +853,8 @@
             "CSD": "Mississauga",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35063,
@@ -862,8 +862,8 @@
             "CSD": "Mississauga",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35064,
@@ -871,8 +871,8 @@
             "CSD": "Mississauga",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35065,
@@ -880,8 +880,8 @@
             "CSD": "Mississauga",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35066,
@@ -889,8 +889,8 @@
             "CSD": "Mississauga",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "oth",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ],
     "Newmarket": [
@@ -900,7 +900,7 @@
             "CSD": "Newmarket",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "oth",
+            "curParty": "con",
             "isFlipped": true
         }
     ],
@@ -911,8 +911,8 @@
             "CSD": "Oakville",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35076,
@@ -920,8 +920,8 @@
             "CSD": "Oakville",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ],
     "Oshawa": [
@@ -931,8 +931,8 @@
             "CSD": "Oshawa",
             "region": "Greater Toronto Area",
             "prevParty": "con",
-            "curParty": "oth",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         }
     ],
     "Pickering": [
@@ -942,8 +942,8 @@
             "CSD": "Pickering",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "bloc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ],
     "Vaughan": [
@@ -953,8 +953,8 @@
             "CSD": "Vaughan",
             "region": "Greater Toronto Area",
             "prevParty": "con",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 35113,
@@ -973,8 +973,8 @@
             "CSD": "Whitby",
             "region": "Greater Toronto Area",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ],
     "Springfield": [
@@ -984,8 +984,8 @@
             "CSD": "Springfield",
             "region": "Winnipeg",
             "prevParty": "ndp",
-            "curParty": "ndp",
-            "isFlipped": false
+            "curParty": "con",
+            "isFlipped": true
         }
     ],
     "Winnipeg": [
@@ -995,8 +995,8 @@
             "CSD": "Winnipeg",
             "region": "Winnipeg",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 46010,
@@ -1004,8 +1004,8 @@
             "CSD": "Winnipeg",
             "region": "Winnipeg",
             "prevParty": "ndp",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "ndp",
+            "isFlipped": false
         },
         {
             "FED_NUM": 46011,
@@ -1013,8 +1013,8 @@
             "CSD": "Winnipeg",
             "region": "Winnipeg",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 46012,
@@ -1022,8 +1022,8 @@
             "CSD": "Winnipeg",
             "region": "Winnipeg",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 46013,
@@ -1031,8 +1031,8 @@
             "CSD": "Winnipeg",
             "region": "Winnipeg",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ],
     "Rosser": [
@@ -1042,8 +1042,8 @@
             "CSD": "Rosser",
             "region": "Winnipeg",
             "prevParty": "con",
-            "curParty": "con",
-            "isFlipped": false
+            "curParty": "lib",
+            "isFlipped": true
         }
     ],
     "Rocky View County": [
@@ -1053,8 +1053,8 @@
             "CSD": "Rocky View County",
             "region": "Calgary",
             "prevParty": "con",
-            "curParty": "bloc",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         }
     ],
     "Calgary": [
@@ -1064,8 +1064,8 @@
             "CSD": "Calgary",
             "region": "Calgary",
             "prevParty": "con",
-            "curParty": "bloc",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 48005,
@@ -1073,7 +1073,7 @@
             "CSD": "Calgary",
             "region": "Calgary",
             "prevParty": "con",
-            "curParty": "oth",
+            "curParty": "lib",
             "isFlipped": true
         },
         {
@@ -1082,8 +1082,8 @@
             "CSD": "Calgary",
             "region": "Calgary",
             "prevParty": "con",
-            "curParty": "lib",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 48007,
@@ -1091,8 +1091,8 @@
             "CSD": "Calgary",
             "region": "Calgary",
             "prevParty": "con",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 48008,
@@ -1100,8 +1100,8 @@
             "CSD": "Calgary",
             "region": "Calgary",
             "prevParty": "con",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 48009,
@@ -1118,8 +1118,8 @@
             "CSD": "Calgary",
             "region": "Calgary",
             "prevParty": "con",
-            "curParty": "oth",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 48011,
@@ -1127,8 +1127,8 @@
             "CSD": "Calgary",
             "region": "Calgary",
             "prevParty": "con",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 48012,
@@ -1136,8 +1136,8 @@
             "CSD": "Calgary",
             "region": "Calgary",
             "prevParty": "con",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 48013,
@@ -1145,8 +1145,8 @@
             "CSD": "Calgary",
             "region": "Calgary",
             "prevParty": "con",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 48014,
@@ -1154,8 +1154,8 @@
             "CSD": "Calgary",
             "region": "Calgary",
             "prevParty": "con",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         }
     ],
     "Edmonton": [
@@ -1174,8 +1174,8 @@
             "CSD": "Edmonton",
             "region": "Edmonton",
             "prevParty": "con",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 48017,
@@ -1192,8 +1192,8 @@
             "CSD": "Edmonton",
             "region": "Edmonton",
             "prevParty": "con",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 48019,
@@ -1201,8 +1201,8 @@
             "CSD": "Edmonton",
             "region": "Edmonton",
             "prevParty": "con",
-            "curParty": "oth",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 48020,
@@ -1210,8 +1210,8 @@
             "CSD": "Edmonton",
             "region": "Edmonton",
             "prevParty": "con",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 48021,
@@ -1219,8 +1219,8 @@
             "CSD": "Edmonton",
             "region": "Edmonton",
             "prevParty": "con",
-            "curParty": "oth",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 48022,
@@ -1228,8 +1228,8 @@
             "CSD": "Edmonton",
             "region": "Edmonton",
             "prevParty": "ndp",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "ndp",
+            "isFlipped": false
         },
         {
             "FED_NUM": 48023,
@@ -1237,8 +1237,8 @@
             "CSD": "Edmonton",
             "region": "Edmonton",
             "prevParty": "con",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         }
     ],
     "Strathcona County": [
@@ -1248,8 +1248,8 @@
             "CSD": "Strathcona County",
             "region": "Edmonton",
             "prevParty": "con",
-            "curParty": "lib",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         }
     ],
     "Langley": [
@@ -1259,8 +1259,8 @@
             "CSD": "Langley",
             "region": "Vancouver",
             "prevParty": "con",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         },
         {
             "FED_NUM": 59017,
@@ -1268,8 +1268,8 @@
             "CSD": "Langley",
             "region": "Vancouver",
             "prevParty": "con",
-            "curParty": "bloc",
-            "isFlipped": true
+            "curParty": "con",
+            "isFlipped": false
         }
     ],
     "Burnaby": [
@@ -1279,7 +1279,7 @@
             "CSD": "Burnaby",
             "region": "Vancouver",
             "prevParty": "ndp",
-            "curParty": "ppc",
+            "curParty": "lib",
             "isFlipped": true
         },
         {
@@ -1299,8 +1299,8 @@
             "CSD": "North Vancouver",
             "region": "Vancouver",
             "prevParty": "lib",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ],
     "Surrey": [
@@ -1310,7 +1310,7 @@
             "CSD": "Surrey",
             "region": "Vancouver",
             "prevParty": "lib",
-            "curParty": "ndp",
+            "curParty": "con",
             "isFlipped": true
         },
         {
@@ -1319,8 +1319,8 @@
             "CSD": "Surrey",
             "region": "Vancouver",
             "prevParty": "lib",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 59032,
@@ -1328,7 +1328,7 @@
             "CSD": "Surrey",
             "region": "Vancouver",
             "prevParty": "con",
-            "curParty": "grn",
+            "curParty": "lib",
             "isFlipped": true
         },
         {
@@ -1337,8 +1337,8 @@
             "CSD": "Surrey",
             "region": "Vancouver",
             "prevParty": "lib",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 59034,
@@ -1346,8 +1346,8 @@
             "CSD": "Surrey",
             "region": "Vancouver",
             "prevParty": "lib",
-            "curParty": "ppc",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ],
     "Metro Vancouver A": [
@@ -1357,8 +1357,8 @@
             "CSD": "Metro Vancouver A",
             "region": "Vancouver",
             "prevParty": "lib",
-            "curParty": "oth",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 59022,
@@ -1366,8 +1366,8 @@
             "CSD": "Metro Vancouver A",
             "region": "Vancouver",
             "prevParty": "lib",
-            "curParty": "con",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ],
     "Delta": [
@@ -1399,8 +1399,8 @@
             "CSD": "Richmond",
             "region": "Vancouver",
             "prevParty": "lib",
-            "curParty": "lib",
-            "isFlipped": false
+            "curParty": "con",
+            "isFlipped": true
         },
         {
             "FED_NUM": 59028,
@@ -1419,8 +1419,8 @@
             "CSD": "Vancouver",
             "region": "Vancouver",
             "prevParty": "lib",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 59036,
@@ -1428,8 +1428,8 @@
             "CSD": "Vancouver",
             "region": "Vancouver",
             "prevParty": "ndp",
-            "curParty": "oth",
-            "isFlipped": true
+            "curParty": "ndp",
+            "isFlipped": false
         },
         {
             "FED_NUM": 59038,
@@ -1437,8 +1437,8 @@
             "CSD": "Vancouver",
             "region": "Vancouver",
             "prevParty": "lib",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         },
         {
             "FED_NUM": 59039,
@@ -1446,8 +1446,8 @@
             "CSD": "Vancouver",
             "region": "Vancouver",
             "prevParty": "ndp",
-            "curParty": "grn",
-            "isFlipped": true
+            "curParty": "ndp",
+            "isFlipped": false
         },
         {
             "FED_NUM": 59040,
@@ -1455,8 +1455,8 @@
             "CSD": "Vancouver",
             "region": "Vancouver",
             "prevParty": "lib",
-            "curParty": "ndp",
-            "isFlipped": true
+            "curParty": "lib",
+            "isFlipped": false
         }
     ]
 }

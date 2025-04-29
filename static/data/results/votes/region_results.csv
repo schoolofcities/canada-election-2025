@@ -1,22 +1,22 @@
 region,party_name,2021_pct_vote,2025_pct_vote,pct_vote_change
-Greater Toronto Area,Bloc Québécois,0.0,14.4678,14.4678
-Greater Toronto Area,Conservative Party of Canada,31.3214,14.8167,-16.5047
-Greater Toronto Area,Green Party of Canada,1.6264,15.0368,13.4104
-Greater Toronto Area,Liberal Party of Canada,48.649,13.9831,-34.6659
-Greater Toronto Area,New Democratic Party,14.5644,16.0465,1.4821
-Greater Toronto Area,Other,0.3099,11.2177,10.9078
-Greater Toronto Area,People's Party of Canada,3.5289,14.4314,10.9025
-Montréal,Bloc Québécois,27.5801,16.2797,-11.3004
-Montréal,Conservative Party of Canada,11.1383,13.0963,1.958
-Montréal,Green Party of Canada,1.7049,14.5695,12.8646
-Montréal,Liberal Party of Canada,43.059,15.9887,-27.0703
-Montréal,New Democratic Party,12.6497,13.727,1.0773
-Montréal,Other,1.2392,12.4649,11.2256
-Montréal,People's Party of Canada,2.6288,13.874,11.2451
-Vancouver,Bloc Québécois,0.0,17.2609,17.2609
-Vancouver,Conservative Party of Canada,28.6565,13.2782,-15.3782
-Vancouver,Green Party of Canada,2.5987,14.8017,12.203
-Vancouver,Liberal Party of Canada,37.0619,13.5338,-23.5281
-Vancouver,New Democratic Party,28.0144,14.5586,-13.4558
-Vancouver,Other,0.3622,13.6972,13.3351
-Vancouver,People's Party of Canada,3.3064,12.8695,9.5632
+Greater Toronto Area,Bloc Québécois,0.0,0.0,0.0
+Greater Toronto Area,Conservative Party of Canada,31.3214,42.1809,10.8595
+Greater Toronto Area,Green Party of Canada,1.6264,0.7251,-0.9013
+Greater Toronto Area,Liberal Party of Canada,48.649,52.1411,3.4921
+Greater Toronto Area,New Democratic Party,14.5644,3.9428,-10.6216
+Greater Toronto Area,Other,0.3099,0.3913,0.0814
+Greater Toronto Area,People's Party of Canada,3.5289,0.6189,-2.91
+Montréal,Bloc Québécois,27.5801,23.0705,-4.5096
+Montréal,Conservative Party of Canada,11.1383,18.9239,7.7856
+Montréal,Green Party of Canada,1.7049,1.1102,-0.5947
+Montréal,Liberal Party of Canada,43.059,49.983,6.924
+Montréal,New Democratic Party,12.6497,6.1321,-6.5176
+Montréal,Other,1.2392,0.309,-0.9303
+Montréal,People's Party of Canada,2.6288,0.4714,-2.1574
+Vancouver,Bloc Québécois,0.0,0.0,0.0
+Vancouver,Conservative Party of Canada,28.6565,38.5518,9.8953
+Vancouver,Green Party of Canada,2.5987,0.9845,-1.6142
+Vancouver,Liberal Party of Canada,37.0619,47.9216,10.8596
+Vancouver,New Democratic Party,28.0144,11.0606,-16.9538
+Vancouver,Other,0.3622,1.0291,0.6669
+Vancouver,People's Party of Canada,3.3064,0.4524,-2.8539
