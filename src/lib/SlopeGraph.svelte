@@ -147,6 +147,17 @@
                 2025
             </text>
 
+            {#each [10, 20, 30, 40, 50, 60] as num}
+                <line
+                    x1={xScale('2021')}
+                    y1={yScale(num)}
+                    x2={xScale('2025')}
+                    y2={yScale(num)}
+                    stroke="#ececec"
+                    stroke-width="1"
+                />
+            {/each}
+
             <!-- For each party, draw line and dots if displayed -->
             {#each PARTY_TAGS as party}
                 {#if partyDisplay[party]}
@@ -158,7 +169,6 @@
                         y2={yScale(partyVotes25[party])}
                         stroke={PARTY_COLOURS[party]}
                         stroke-width="1.5"
-                        stroke-dasharray={PARTY_PCT_SWINGS[party] > (partyVotes25[party] - partyVotes25[party]) ? "6,1" : "none"}
                     />
 
                     <!-- 2021 dot -->

@@ -121,7 +121,7 @@
             {#each seatPositions as pos}
                 {@const seat = pos.seat}
                 {@const colour = PARTY_COLOURS[seat.curParty]}
-                {@const lightColour = PARTY_COLOURS_LIGHT[seat.curParty]}
+                {@const lightColour = PARTY_COLOURS[seat.prevParty]}
 
                 <!-- Outer square -->
                 <rect
@@ -169,7 +169,7 @@
 
     <div class="party-totals" style="max-width: {svgWidth}px">
         {#each seatTotals as partyData}
-            {#if partyData.total > 0}
+            {#if partyData.total > 0 || partyData.net !== 0}
                 <div class="party-total">
                     <span class="party-color-box">
                         <span class="party-color" style="background-color: {PARTY_COLOURS[partyData.party]};"></span>
