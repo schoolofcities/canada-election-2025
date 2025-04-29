@@ -5,6 +5,35 @@
     export let cityName;
     export let text;
     export let partyVotes21, partyVotes25, partySeats;
+
+    const quebecRegions = [
+        'Greater Montreal',
+        'Greater Montreal (suburbs only)',
+        'Island of Montreal',
+        'Quebec City',
+    ]
+
+    let partyDisplay = {
+        'lib': true,
+        'con': true,
+        'ndp': true,
+        'bloc': false,
+        'grn': false,
+        'ppc': false,
+        'oth': false,
+    }
+
+    if (quebecRegions.includes(cityName)) {
+        partyDisplay = {
+            'lib': true,
+            'con': true,
+            'ndp': true,
+            'bloc': true,
+            'grn': false,
+            'ppc': false,
+            'oth': false,
+        }
+    }
 </script>
 
 <div class="results-panel">
@@ -19,6 +48,7 @@
         <SlopeGraph 
             partyVotes21={partyVotes21} 
             partyVotes25={partyVotes25} 
+            partyDisplay={partyDisplay}
         />
         <WaffleGraph 
             partySeats={partySeats}

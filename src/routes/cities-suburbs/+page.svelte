@@ -8,6 +8,7 @@
     import WaffleGraph from '$lib/WaffleGraph.svelte';
     import ResultsPanel from '$lib/ResultsPanel.svelte';
 
+    // NOTE: Region/city name are also keys to the data! If you want to set the name differently, then add another element in the array.
     const metros = [
         ['Greater Toronto Area (suburbs only)', 'Toronto', 'Sample description text', 'Sample description text'],
         ['Greater Montreal (suburbs only)', 'Island of Montreal', 'Sample description text', 'Sample description text'],
@@ -74,7 +75,6 @@
                 {#each metros as [metroName, cityName, metroText, cityText]}
                     <ResultsPanel 
                         cityName={metroName}
-                        text={metroText}
                         partyVotes21={votesRegion[metroName]['2021_pct_vote']} 
                         partyVotes25={votesRegion[metroName]['2025_pct_vote']} 
                         partySeats={seatsRegion[metroName]}
@@ -82,7 +82,6 @@
 
                     <ResultsPanel 
                         cityName={cityName}
-                        text={cityText}
                         partyVotes21={votesCities[cityName]['2021_pct_vote']} 
                         partyVotes25={votesCities[cityName]['2025_pct_vote']} 
                         partySeats={seatsCities[cityName]}
@@ -99,7 +98,6 @@
                 {#each cities as [city, text]}
                     <ResultsPanel 
                         cityName={city}
-                        text={text}
                         partyVotes21={votesCities[city]['2021_pct_vote']} 
                         partyVotes25={votesCities[city]['2025_pct_vote']} 
                         partySeats={seatsCities[city]}
