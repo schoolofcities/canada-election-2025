@@ -82,7 +82,7 @@ main {
 
 .title {
 	background-color: none;
-	max-width: 900px;
+	max-width: 650px;
 	margin: 0 auto;
 	margin-top: 125px;
 	padding-left: 15px;
@@ -102,7 +102,7 @@ main {
 
 .text {
 	background-color: none;
-	max-width: 900px;
+	max-width: 650px;
 	margin: 0 auto;
 	position: relative;
 	padding-left: 15px;
@@ -124,7 +124,6 @@ main {
 
 .container {
 	background-color: none;
-	max-width: 900px;
 	margin: 0 auto;
 	position: relative;
 	padding-left: 15px;

@@ -13,12 +13,12 @@
     // Constants for the visualization -- squares
     const SQUARE_SIZE = 16;
     const SQUARE_PADDING = 1;
-    const SQUARES_PER_ROW = 8;
+    const SQUARES_PER_ROW = 6;
 
     // Constants for the visualization -- diagonal lines and lighter square
     const INNER_SQUARE_RATIO = 0.8;
     const LINE_WIDTH = 2;
-    const LINE_SPACING = 8;
+    const LINE_SPACING = 6;
     const DIAGONAL_OFFSET = 0.5;
     const INNER_SIZE = SQUARE_SIZE * INNER_SQUARE_RATIO
     const INNER_OFFSET = (SQUARE_SIZE - INNER_SIZE) / 2
@@ -41,7 +41,7 @@
             let sign;
             if (net > 0) sign = "+";
             else if (net < 0) sign = "–";
-            else sign = "±"
+            else sign = ""
 
             return {
                 party,
@@ -185,6 +185,7 @@
 
 <style>
     .waffle-container {    
+        margin-top: 20px;
         flex-grow: 0;      /* Don't expand beyond width */
         flex-shrink: 0;    /* Don't compress below width */
         flex-basis: 137px; /* Must be adjusted if SQUARE_SIZE/PADDING/PER_ROW are adjusted */
@@ -234,7 +235,7 @@
         display: inline-block;
         width: 20px;
         text-align: right;
-        margin-right: 2px;
+        margin-right: 3px;
         font-variant-numeric: tabular-nums;
         font-family: TradeGothicBold;
         font-size: 14px;
@@ -242,7 +243,7 @@
 
     .party-number-change {
         display: inline-block;
-        width: 32px;
+        width: 28px;
         text-align: left;
         margin-right: 6px;
         font-variant-numeric: tabular-nums;

@@ -31,29 +31,58 @@
     let seatsCities = $state(null);
 
     onMount(() => {
-        fetch('/data/results/votes/region_results.json')
+        fetch('./data/results/votes/region_results.json')
             .then((response) => response.json())
             .then((json) => votesRegion = json);
         
-        fetch('/data/results/votes/csd_results.json')
+        fetch('./data/results/votes/csd_results.json')
             .then((response) => response.json())
             .then((json) => votesCities = json);
 
-        fetch('/data/results/seats/region_seat_flips.json')
+        fetch('./data/results/seats/region_seat_flips.json')
             .then((response) => response.json())
             .then((json) => seatsRegion = json);
         
-        fetch('/data/results/seats/csd_seat_flips.json')
+        fetch('./data/results/seats/csd_seat_flips.json')
             .then((response) => response.json())
             .then((json) => seatsCities = json);
     })
 </script>
 
+
+<svelte:head>
+	<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1, minimum-scale=1"
+	/>
+
+	<title>Canada Votes 2025: Cities & Suburbs | School of Cities</title>
+
+	<meta name="description" content="">
+	<meta name="author" content="Aniket Kali, Jeff Allen">
+    
+	<meta property="og:title" content="Canada Votes 2025: Cities & Suburbs" />
+	<meta property="og:description" content="Charting changes in vote share and seats in major Canadian cities and suburbs" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://schoolofcities.github.io/canada-election-2025" />
+	<meta property="og:image" content="https://schoolofcities.github.io/canada-election-2025/web-card-cities-suburbs.png" />
+	<meta property="og:locale" content="en_CA">
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="https://schoolofcities.github.io/canada-election-2025" />
+	<meta name="twitter:creator" content="@UofTCities" />
+	<meta name="twitter:title" content="Canada Votes 2025: Cities & Suburbs" />
+	<meta name="twitter:description" content="Charting changes in vote share and seats in major Canadian cities and suburbs" />
+	<meta name="twitter:image" content="https://schoolofcities.github.io/canada-election-2025/web-card-cities-suburbs.png" /> 
+    
+</svelte:head>
+
+
 <main>
     <TopSofC/>
 
     <div class="title">
-        <h1>Canada Votes 2025: Cities and Suburbs</h1>
+        <h1>Canada Votes 2025: Cities & Suburbs</h1>
         <p>
             <a href='https://www.linkedin.com/in/aniket-k-8a8b9921b/' target='_blank'>Aniket Kali</a>,
             <a href='https://jamaps.github.io/' target='_blank'>Jeff Allen</a>
@@ -80,43 +109,47 @@
         </p>
 
         <p>
-            How did all of this play out in Canada cities and suburbs? We've visualized the changes in votes and seats across Canada's major cities and metropolitan regions below.
+            How did all of this play out in Canada cities and suburbs? We first visualize how changes in votes and seats in Canada's three largest metros (Vancouver, Toronto, Montreal) compare between the central cities and the suburbs for each of these regions.
         </p>
 
         <p>
-            The Conservatives saw clear gains in the suburbs of the Greater Toronto Area - flipping seats in Brampton and Markham. Home to large numbers of South Asian and East Asian Canadians respectively, this is consistent with work affiliated to the School of Cities arguing <a href='https://schoolofcities.github.io/gta-immigration/political-shifts' target="">immigrants</a> and <a href='https://www.utsc.utoronto.ca/sociology/utsc-sociologist-breaks-down-surge-south-asian-and-chinese-canadian-support-conservatives' target="">minorities</a> are shifting to the right. The Conservatives also saw large gains in Vancouver's suburbs, accompanied by an NDP collapse - but failed to make a breakthrough.
+            The Conservatives saw clear gains in the suburbs of the Greater Toronto Area - flipping seats in Brampton and Markham. Home to large numbers of South Asian and East Asian Canadians respectively, this is consistent with work affiliated to the School of Cities showing <a href='https://schoolofcities.github.io/gta-immigration/political-shifts' target="">immigrants</a> and <a href='https://www.utsc.utoronto.ca/sociology/utsc-sociologist-breaks-down-surge-south-asian-and-chinese-canadian-support-conservatives' target="">minorities</a> are shifting to the right. The Conservatives also saw large gains in Vancouver's suburbs, accompanied by an NDP collapse - but failed to make a breakthrough.
         </p>
 
-        <p>
-            Across the board, both major parties saw decisive games at the expense of other smaller parties in many cities - but generally, gained less votes in the cities compared to the rest of the country. In Edmonton and Calgary, historically Conservative-voting cities, the Liberals failed to mount a breakthrough. Notable exceptions however came in Ottawa and Quebec City, where the Conservatives lost votes against large Liberal gains.
-        </p>
+        
     </div>
     
-    <div class="container">
-        <h2>Metro regions: Suburbs vs. cities</h2>
+    <div class="container" style="max-width: 850px;">
         <div class="panel-grid">
             {#if (votesCities && seatsCities && votesRegion && seatsRegion)}
                 {#each metros as [metroName, cityName, metroText, cityText]}
-                    <ResultsPanel 
-                        cityName={metroName}
-                        partyVotes21={votesRegion[metroName]['2021_pct_vote']} 
-                        partyVotes25={votesRegion[metroName]['2025_pct_vote']} 
-                        partySeats={seatsRegion[metroName]}
-                    />
-
                     <ResultsPanel 
                         cityName={cityName}
                         partyVotes21={votesCities[cityName]['2021_pct_vote']} 
                         partyVotes25={votesCities[cityName]['2025_pct_vote']} 
                         partySeats={seatsCities[cityName]}
                     />
+                    <ResultsPanel 
+                        cityName={metroName}
+                        partyVotes21={votesRegion[metroName]['2021_pct_vote']} 
+                        partyVotes25={votesRegion[metroName]['2025_pct_vote']} 
+                        partySeats={seatsRegion[metroName]}
+                    />
                 {/each}
             {/if}
         </div>
     </div>
 
-    <div class="container">
-        <h2>Cities</h2>
+    <div class="text">
+        <p>
+            We now turn our attention to other major cities in Canada.
+        </p>
+        <p>
+            Across the board, both major parties saw decisive games at the expense of other smaller parties in many cities - but generally, gained less votes in the cities compared to the rest of the country. In Edmonton and Calgary, historically Conservative-voting cities, the Liberals failed to mount a breakthrough. Notable exceptions however came in Ottawa and Quebec City, where the Conservatives lost votes against large Liberal gains.
+        </p>
+    </div>
+
+    <div class="container" style="max-width: {850/2 + 850}px;">
         <div class="panel-grid">
             {#if (votesCities && seatsCities)}
                 {#each cities as [city, text]}
@@ -131,6 +164,8 @@
         </div>
     </div>
 
+    <br>
+    <br>
     <div class="footnotes">
         <h3>Data & Methods</h3>
 
@@ -155,7 +190,7 @@
 <style>
     .panel-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
         gap: 24px;
     }
 

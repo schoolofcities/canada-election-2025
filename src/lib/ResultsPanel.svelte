@@ -43,7 +43,6 @@
             <p>{text}</p>
         {/if}
     </div>
-    
     <div class="graphs-container">
         <SlopeGraph 
             partyVotes21={partyVotes21} 
@@ -59,8 +58,9 @@
 <style>
     .results-panel {
         background: white;
-        border-radius: 4px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        border: solid 1px rgba(0,0,0,0.1);
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         padding: 16px;
         margin-bottom: 24px;
         break-inside: avoid;
@@ -72,7 +72,7 @@
 
     .panel-header h4 {
         margin: 0 0 4px 0;
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .panel-header p {
@@ -83,11 +83,11 @@
 
     .graphs-container {
         display: flex;
-        gap: 12px;
+        gap: 2px;
         align-items: flex-start;
     }
 
-    @media (max-width: 350px) {
+    @media (max-width: 370px) {
         .graphs-container {
             flex-direction: column;
         }
