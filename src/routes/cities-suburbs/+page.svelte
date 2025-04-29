@@ -8,23 +8,20 @@
     import WaffleGraph from '$lib/WaffleGraph.svelte';
     import ResultsPanel from '$lib/ResultsPanel.svelte';
 
-    const cities = {
-        "Vancouver": "Sample description text",
-        "Edmonton": "Sample description text",
-        "Calgary": "Sample description text",
-        "Winnipeg": "Sample description text",
-        "Toronto": "Sample description text",
-        "Ottawa": "Sample description text",
-        "Island of Montreal": "Sample description text",
-        "Québec": "Sample description text",
-        "Halifax": "Sample description text",
-    }
+    const metros = [
+        ['Greater Toronto Area (suburbs only)', 'Toronto', 'Sample description text', 'Sample description text'],
+        ['Greater Montreal (suburbs only)', 'Island of Montreal', 'Sample description text', 'Sample description text'],
+        ['Metro Vancouver (suburbs only)', 'Vancouver', 'Sample description text', 'Sample description text'],
+    ]
 
-    const regions = {
-        "Greater Toronto Area": "Sample description text",
-        "Montréal": "Sample description text",
-        "Vancouver": "Sample description text",
-    }
+    const cities = [
+        ['Edmonton', 'Sample description text'],
+        ['Calgary', 'Sample description text'],
+        ['Winnipeg', 'Sample description text'],
+        ['Ottawa', 'Sample description text'],
+        ['Quebec City', 'Sample description text'],
+        ['Halifax', 'Sample description text'],
+    ]
 
     let votesRegion = $state(null);
     let votesCities = $state(null);
@@ -71,16 +68,24 @@
     </div>
     
     <div class="container">
-        <h2>Cities</h2>
+        <h2>Metro regions: Suburbs vs. cities</h2>
         <div class="panel-grid">
-            {#if (votesCities && seatsCities)}
-                {#each Object.entries(cities) as [city, text]}
+            {#if (votesCities && seatsCities && votesRegion && seatsRegion)}
+                {#each metros as [metroName, cityName, metroText, cityText]}
                     <ResultsPanel 
-                        cityName={city}
-                        text={text}
-                        partyVotes21={votesCities[city]['2021_pct_vote']} 
-                        partyVotes25={votesCities[city]['2025_pct_vote']} 
-                        partySeats={seatsCities[city]}
+                        cityName={metroName}
+                        text={metroText}
+                        partyVotes21={votesRegion[metroName]['2021_pct_vote']} 
+                        partyVotes25={votesRegion[metroName]['2025_pct_vote']} 
+                        partySeats={seatsRegion[metroName]}
+                    />
+
+                    <ResultsPanel 
+                        cityName={cityName}
+                        text={cityText}
+                        partyVotes21={votesCities[cityName]['2021_pct_vote']} 
+                        partyVotes25={votesCities[cityName]['2025_pct_vote']} 
+                        partySeats={seatsCities[cityName]}
                     />
                 {/each}
             {/if}
@@ -88,16 +93,16 @@
     </div>
 
     <div class="container">
-        <h2>Metros and Suburbs</h2>
+        <h2>Cities</h2>
         <div class="panel-grid">
-            {#if (votesRegion && seatsRegion)}
-                {#each Object.entries(regions) as [region, text]}
+            {#if (votesCities && seatsCities)}
+                {#each cities as [city, text]}
                     <ResultsPanel 
-                        cityName={region}
+                        cityName={city}
                         text={text}
-                        partyVotes21={votesRegion[region]['2021_pct_vote']} 
-                        partyVotes25={votesRegion[region]['2025_pct_vote']} 
-                        partySeats={seatsRegion[region]}
+                        partyVotes21={votesCities[city]['2021_pct_vote']} 
+                        partyVotes25={votesCities[city]['2025_pct_vote']} 
+                        partySeats={seatsCities[city]}
                     />
                 {/each}
             {/if}
