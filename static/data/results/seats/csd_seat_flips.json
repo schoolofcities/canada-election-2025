@@ -1610,5 +1610,671 @@
             "curParty": "lib",
             "isFlipped": false
         }
+    ],
+    "Greater Montreal (suburbs only)": [
+        {
+            "FED_NUM": 24004,
+            "FED_name": "Alfred-Pellan",
+            "CSD": "Laval",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 24011,
+            "FED_name": "Beloeil\u2014Chambly",
+            "CSD": "nan",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "bloc",
+            "curParty": "bloc",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 24015,
+            "FED_name": "Brossard\u2014Saint-Lambert",
+            "CSD": "Brossard",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 24032,
+            "FED_name": "La Prairie\u2014Atateken",
+            "CSD": "nan",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "bloc",
+            "curParty": "lib",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 24038,
+            "FED_name": "Laval\u2014Les \u00celes",
+            "CSD": "Laval",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 24041,
+            "FED_name": "Longueuil\u2014Charles-LeMoyne",
+            "CSD": "Longueuil",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 24042,
+            "FED_name": "Longueuil\u2014Saint-Hubert",
+            "CSD": "Longueuil",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "bloc",
+            "curParty": "lib",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 24045,
+            "FED_name": "Marc-Aur\u00e8le-Fortin",
+            "CSD": "Laval",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 24047,
+            "FED_name": "Mirabel",
+            "CSD": "Mirabel",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "bloc",
+            "curParty": "bloc",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 24049,
+            "FED_name": "Mont-Saint-Bruno\u2014L'Acadie",
+            "CSD": "nan",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "bloc",
+            "curParty": "lib",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 24060,
+            "FED_name": "Repentigny",
+            "CSD": "L'Assomption",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "bloc",
+            "curParty": "bloc",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 24063,
+            "FED_name": "Rivi\u00e8re-des-Mille-\u00celes",
+            "CSD": "Saint-Eustache",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "bloc",
+            "curParty": "lib",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 24064,
+            "FED_name": "Rivi\u00e8re-du-Nord",
+            "CSD": "nan",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "bloc",
+            "curParty": "bloc",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 24073,
+            "FED_name": "Terrebonne",
+            "CSD": "Terrebonne",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "bloc",
+            "curParty": "bloc",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 24074,
+            "FED_name": "Th\u00e9r\u00e8se-De Blainville",
+            "CSD": "Blainville",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "bloc",
+            "curParty": "lib",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 24076,
+            "FED_name": "Vaudreuil",
+            "CSD": "nan",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 24078,
+            "FED_name": "Vimy",
+            "CSD": "Laval",
+            "region": "Greater Montreal",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        }
+    ],
+    "Greater Toronto Area (suburbs only)": [
+        {
+            "FED_NUM": 35001,
+            "FED_name": "Ajax",
+            "CSD": "Ajax",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35003,
+            "FED_name": "Aurora\u2014Oak Ridges\u2014Richmond Hill",
+            "CSD": "Richmond Hill",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "con",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 35008,
+            "FED_name": "Bowmanville\u2014Oshawa North",
+            "CSD": "Clarington",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "con",
+            "curParty": "con",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35009,
+            "FED_name": "Brampton Centre",
+            "CSD": "Brampton",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35010,
+            "FED_name": "Brampton\u2014Chinguacousy Park",
+            "CSD": "Brampton",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35011,
+            "FED_name": "Brampton East",
+            "CSD": "Brampton",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35012,
+            "FED_name": "Brampton North\u2014Caledon",
+            "CSD": "Caledon",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35013,
+            "FED_name": "Brampton South",
+            "CSD": "Brampton",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35014,
+            "FED_name": "Brampton West",
+            "CSD": "Brampton",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "con",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 35017,
+            "FED_name": "Burlington",
+            "CSD": "Burlington",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35018,
+            "FED_name": "Burlington North\u2014Milton West",
+            "CSD": "Milton",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35047,
+            "FED_name": "King\u2014Vaughan",
+            "CSD": "King",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "con",
+            "curParty": "con",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35056,
+            "FED_name": "Markham\u2014Stouffville",
+            "CSD": "Markham",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35057,
+            "FED_name": "Markham\u2014Thornhill",
+            "CSD": "Markham",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35058,
+            "FED_name": "Markham\u2014Unionville",
+            "CSD": "Markham",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "con",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 35060,
+            "FED_name": "Milton East\u2014Halton Hills South",
+            "CSD": "Halton Hills",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "con",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 35061,
+            "FED_name": "Mississauga Centre",
+            "CSD": "Mississauga",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35062,
+            "FED_name": "Mississauga East\u2014Cooksville",
+            "CSD": "Mississauga",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35063,
+            "FED_name": "Mississauga\u2014Erin Mills",
+            "CSD": "Mississauga",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35064,
+            "FED_name": "Mississauga\u2014Lakeshore",
+            "CSD": "Mississauga",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35065,
+            "FED_name": "Mississauga\u2014Malton",
+            "CSD": "Mississauga",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35066,
+            "FED_name": "Mississauga\u2014Streetsville",
+            "CSD": "Mississauga",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35068,
+            "FED_name": "Newmarket\u2014Aurora",
+            "CSD": "Newmarket",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "con",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 35075,
+            "FED_name": "Oakville East",
+            "CSD": "Oakville",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35076,
+            "FED_name": "Oakville West",
+            "CSD": "Oakville",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35078,
+            "FED_name": "Oshawa",
+            "CSD": "Oshawa",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "con",
+            "curParty": "con",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35087,
+            "FED_name": "Pickering\u2014Brooklin",
+            "CSD": "Pickering",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35089,
+            "FED_name": "Richmond Hill South",
+            "CSD": "Richmond Hill",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "con",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 35106,
+            "FED_name": "Thornhill",
+            "CSD": "Vaughan",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "con",
+            "curParty": "con",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35113,
+            "FED_name": "Vaughan\u2014Woodbridge",
+            "CSD": "Vaughan",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "con",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 35116,
+            "FED_name": "Whitby",
+            "CSD": "Whitby",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 35121,
+            "FED_name": "York\u2014Durham",
+            "CSD": "nan",
+            "region": "Greater Toronto Area",
+            "isSuburb": true,
+            "prevParty": "con",
+            "curParty": "con",
+            "isFlipped": false
+        }
+    ],
+    "Metro Vancouver (suburbs only)": [
+        {
+            "FED_NUM": 59001,
+            "FED_name": "Abbotsford\u2014South Langley",
+            "CSD": "Langley",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "con",
+            "curParty": "con",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 59002,
+            "FED_name": "Burnaby Central",
+            "CSD": "Burnaby",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "ndp",
+            "curParty": "lib",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 59003,
+            "FED_name": "Burnaby North\u2014Seymour",
+            "CSD": "North Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 59006,
+            "FED_name": "Cloverdale\u2014Langley City",
+            "CSD": "Surrey",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "con",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 59008,
+            "FED_name": "Coquitlam\u2014Port Coquitlam",
+            "CSD": "Metro Vancouver A",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 59011,
+            "FED_name": "Delta",
+            "CSD": "Delta",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 59013,
+            "FED_name": "Fleetwood\u2014Port Kells",
+            "CSD": "Surrey",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 59017,
+            "FED_name": "Langley Township\u2014Fraser Heights",
+            "CSD": "Langley",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "con",
+            "curParty": "con",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 59020,
+            "FED_name": "New Westminster\u2014Burnaby\u2014Maillardville",
+            "CSD": "New Westminster",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "ndp",
+            "curParty": "lib",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 59022,
+            "FED_name": "North Vancouver\u2014Capilano",
+            "CSD": "Metro Vancouver A",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 59025,
+            "FED_name": "Port Moody\u2014Coquitlam",
+            "CSD": "nan",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "ndp",
+            "curParty": "lib",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 59027,
+            "FED_name": "Richmond Centre\u2014Marpole",
+            "CSD": "Richmond",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "con",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 59028,
+            "FED_name": "Richmond East\u2014Steveston",
+            "CSD": "Richmond",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 59032,
+            "FED_name": "South Surrey\u2014White Rock",
+            "CSD": "Surrey",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "con",
+            "curParty": "lib",
+            "isFlipped": true
+        },
+        {
+            "FED_NUM": 59033,
+            "FED_name": "Surrey Centre",
+            "CSD": "Surrey",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 59034,
+            "FED_name": "Surrey Newton",
+            "CSD": "Surrey",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        },
+        {
+            "FED_NUM": 59037,
+            "FED_name": "Vancouver Fraserview\u2014South Burnaby",
+            "CSD": "Burnaby",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
+            "prevParty": "lib",
+            "curParty": "lib",
+            "isFlipped": false
+        }
     ]
 }
