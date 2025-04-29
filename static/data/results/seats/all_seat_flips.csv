@@ -1,344 +1,344 @@
-FED_NUM,FED_name,CSD,region,prevParty,curParty,isFlipped
-10001.0,Avalon,,,lib,lib,False
-10002.0,Cape Spear,,,lib,lib,False
-10003.0,Central Newfoundland,,,con,con,False
-10004.0,Labrador,,,lib,lib,False
-10005.0,Long Range Mountains,,,lib,con,True
-10006.0,St. John's East,,,lib,lib,False
-10007.0,Terra Nova—The Peninsulas,,,lib,lib,False
-11001.0,Cardigan,,,lib,lib,False
-11002.0,Charlottetown,,,lib,lib,False
-11003.0,Egmont,,,lib,lib,False
-11004.0,Malpeque,,,lib,lib,False
-12001.0,Acadie—Annapolis,,,con,con,False
-12002.0,Cape Breton—Canso—Antigonish,,,lib,lib,False
-12003.0,Central Nova,,,lib,lib,False
-12004.0,Cumberland—Colchester,,,con,lib,True
-12005.0,Dartmouth—Cole Harbour,Halifax,Halifax,lib,lib,False
-12006.0,Halifax,Halifax,Halifax,lib,lib,False
-12007.0,Halifax West,Halifax,Halifax,lib,lib,False
-12008.0,Kings—Hants,,,lib,lib,False
-12009.0,Sackville—Bedford—Preston,Halifax,Halifax,lib,lib,False
-12010.0,South Shore—St. Margarets,,,con,lib,True
-12011.0,Sydney—Glace Bay,,,lib,lib,False
-13001.0,Acadie—Bathurst,,,lib,lib,False
-13002.0,Beauséjour,,,lib,lib,False
-13003.0,Fredericton—Oromocto,,,lib,lib,False
-13004.0,Fundy Royal,,,con,con,False
-13005.0,Madawaska—Restigouche,,,lib,lib,False
-13006.0,Miramichi—Grand Lake,,,con,con,False
-13007.0,Moncton—Dieppe,,,lib,lib,False
-13008.0,Saint John—Kennebecasis,,,lib,lib,False
-13009.0,Saint John—St. Croix,,,con,con,False
-13010.0,Tobique—Mactaquac,,,con,con,False
-24001.0,Abitibi—Baie-James—Nunavik—Eeyou,,,bloc,lib,True
-24002.0,Abitibi—Témiscamingue,,,bloc,bloc,False
-24003.0,Ahuntsic-Cartierville,Island of Montreal,Montréal,lib,lib,False
-24004.0,Alfred-Pellan,Laval,Montréal,lib,lib,False
-24005.0,Argenteuil—La Petite-Nation,,,lib,lib,False
-24006.0,Beauce,,,con,con,False
-24007.0,Beauharnois—Salaberry—Soulanges—Huntingdon,,,bloc,bloc,False
-24008.0,Beauport—Limoilou,Québec,Québec,bloc,lib,True
-24009.0,Bécancour—Nicolet—Saurel—Alnôbak,,,bloc,bloc,False
-24010.0,Bellechasse—Les Etchemins—Lévis,,,con,con,False
-24011.0,Beloeil—Chambly,,Montréal,bloc,bloc,False
-24012.0,Berthier—Maskinongé,,,bloc,bloc,False
-24013.0,Bourassa,Island of Montreal,Montréal,lib,lib,False
-24014.0,Brome—Missisquoi,,,lib,lib,False
-24015.0,Brossard—Saint-Lambert,Brossard,Montréal,lib,lib,False
-24016.0,Charlesbourg—Haute-Saint-Charles,Québec,Québec,con,con,False
-24017.0,Châteauguay—Les Jardins-de-Napierville,,,bloc,lib,True
-24018.0,Chicoutimi—Le Fjord,,,con,con,False
-24019.0,Compton—Stanstead,,,lib,lib,False
-24020.0,Côte-du-Sud—Rivière-du-Loup—Kataskomiq—Témiscouata,,,con,con,False
-24021.0,Côte-Nord—Kawawachikamach—Nitassinan,,,bloc,bloc,False
-24022.0,Dorval—Lachine—LaSalle,Island of Montreal,Montréal,lib,lib,False
-24023.0,Drummond,,,bloc,bloc,False
-24024.0,Gaspésie—Les Îles-de-la-Madeleine—Listuguj,,,bloc,bloc,False
-24025.0,Gatineau,,,lib,lib,False
-24026.0,Hochelaga—Rosemont-Est,Island of Montreal,Montréal,lib,lib,False
-24027.0,Honoré-Mercier,Island of Montreal,Montréal,lib,lib,False
-24028.0,Hull—Aylmer,,,lib,lib,False
-24029.0,Joliette—Manawan,,,bloc,bloc,False
-24030.0,Jonquière,,,bloc,bloc,False
-24031.0,La Pointe-de-l'Île,Island of Montreal,Montréal,bloc,bloc,False
-24032.0,La Prairie—Atateken,,Montréal,bloc,lib,True
-24033.0,Lac-Saint-Jean,,,bloc,bloc,False
-24034.0,Lac-Saint-Louis,Island of Montreal,Montréal,lib,lib,False
-24035.0,LaSalle—Émard—Verdun,Island of Montreal,Montréal,lib,lib,False
-24036.0,Laurentides—Labelle,,,bloc,bloc,False
-24037.0,Laurier—Sainte-Marie,Island of Montreal,Montréal,lib,lib,False
-24038.0,Laval—Les Îles,Laval,Montréal,lib,lib,False
-24039.0,Les Pays-d'en-Haut,,,bloc,lib,True
-24040.0,Lévis—Lotbinière,,Québec,con,con,False
-24041.0,Longueuil—Charles-LeMoyne,Longueuil,Montréal,lib,lib,False
-24042.0,Longueuil—Saint-Hubert,Longueuil,Montréal,bloc,lib,True
-24043.0,Louis-Hébert,Québec,Québec,lib,lib,False
-24044.0,Louis-Saint-Laurent—Akiawenhrahk,Québec,Québec,con,con,False
-24045.0,Marc-Aurèle-Fortin,Laval,Montréal,lib,lib,False
-24046.0,Mégantic—L'Érable—Lotbinière,,,con,con,False
-24047.0,Mirabel,Mirabel,Montréal,bloc,bloc,False
-24048.0,Mount Royal,Island of Montreal,Montréal,lib,lib,False
-24049.0,Mont-Saint-Bruno—L'Acadie,,Montréal,bloc,lib,True
-24050.0,Montcalm,,,bloc,bloc,False
-24051.0,Montmorency—Charlevoix,,,bloc,con,True
-24052.0,Notre-Dame-de-Grâce—Westmount,Island of Montreal,Montréal,lib,lib,False
-24053.0,Outremont,Island of Montreal,Montréal,lib,lib,False
-24054.0,Papineau,Island of Montreal,Montréal,lib,lib,False
-24055.0,Pierre-Boucher—Les Patriotes—Verchères,,,bloc,bloc,False
-24056.0,Pierrefonds—Dollard,Island of Montreal,Montréal,lib,lib,False
-24057.0,Pontiac—Kitigan Zibi,,,lib,lib,False
-24058.0,Portneuf—Jacques-Cartier,,,con,con,False
-24059.0,Québec Centre,Québec,Québec,lib,lib,False
-24060.0,Repentigny,L'Assomption,Montréal,bloc,bloc,False
-24061.0,Richmond—Arthabaska,,,con,con,False
-24062.0,Rimouski—La Matapédia,,,bloc,bloc,False
-24063.0,Rivière-des-Mille-Îles,Saint-Eustache,Montréal,bloc,lib,True
-24064.0,Rivière-du-Nord,,Montréal,bloc,bloc,False
-24065.0,Rosemont—La Petite-Patrie,Island of Montreal,Montréal,ndp,ndp,False
-24066.0,Saint-Hyacinthe—Bagot—Acton,,,bloc,bloc,False
-24067.0,Saint-Jean,,,bloc,bloc,False
-24068.0,Saint-Laurent,Island of Montreal,Montréal,lib,lib,False
-24069.0,Saint-Léonard—Saint-Michel,Island of Montreal,Montréal,lib,lib,False
-24070.0,Saint-Maurice—Champlain,,,lib,lib,False
-24071.0,Shefford,,,bloc,bloc,False
-24072.0,Sherbrooke,,,lib,lib,False
-24073.0,Terrebonne,Terrebonne,Montréal,bloc,bloc,False
-24074.0,Thérèse-De Blainville,Blainville,Montréal,bloc,lib,True
-24075.0,Trois-Rivières,,,bloc,lib,True
-24076.0,Vaudreuil,,Montréal,lib,lib,False
-24077.0,Ville-Marie—Le Sud-Ouest—Île-des-Sœurs,Island of Montreal,Montréal,lib,lib,False
-24078.0,Vimy,Laval,Montréal,lib,lib,False
-35001.0,Ajax,Ajax,Greater Toronto Area,lib,lib,False
-35002.0,Algonquin—Renfrew—Pembroke,,,con,con,False
-35003.0,Aurora—Oak Ridges—Richmond Hill,Richmond Hill,Greater Toronto Area,lib,con,True
-35004.0,Barrie South—Innisfil,,,con,con,False
-35005.0,Barrie—Springwater—Oro-Medonte,,,con,con,False
-35006.0,Bay of Quinte,,,con,lib,True
-35007.0,Beaches—East York,Toronto,Greater Toronto Area,lib,lib,False
-35008.0,Bowmanville—Oshawa North,Clarington,Greater Toronto Area,con,con,False
-35009.0,Brampton Centre,Brampton,Greater Toronto Area,lib,lib,False
-35010.0,Brampton—Chinguacousy Park,Brampton,Greater Toronto Area,lib,lib,False
-35011.0,Brampton East,Brampton,Greater Toronto Area,lib,lib,False
-35012.0,Brampton North—Caledon,Caledon,Greater Toronto Area,lib,lib,False
-35013.0,Brampton South,Brampton,Greater Toronto Area,lib,lib,False
-35014.0,Brampton West,Brampton,Greater Toronto Area,lib,con,True
-35015.0,Brantford—Brant South—Six Nations,,,con,con,False
-35016.0,Bruce—Grey—Owen Sound,,,con,con,False
-35017.0,Burlington,Burlington,Greater Toronto Area,lib,lib,False
-35018.0,Burlington North—Milton West,Milton,Greater Toronto Area,lib,lib,False
-35019.0,Cambridge,,,lib,con,True
-35020.0,Carleton,Ottawa,Ottawa - Gatineau (Ontario part / partie de l'Ontario),con,lib,True
-35021.0,Chatham-Kent—Leamington,,,con,con,False
-35022.0,Davenport,Toronto,Greater Toronto Area,lib,lib,False
-35023.0,Don Valley North,Toronto,Greater Toronto Area,lib,lib,False
-35024.0,Don Valley West,Toronto,Greater Toronto Area,lib,lib,False
-35025.0,Dufferin—Caledon,,,con,con,False
-35026.0,Eglinton—Lawrence,Toronto,Greater Toronto Area,lib,lib,False
-35027.0,Elgin—St. Thomas—London South,,,con,con,False
-35028.0,Essex,,,con,con,False
-35029.0,Etobicoke Centre,Toronto,Greater Toronto Area,lib,lib,False
-35030.0,Etobicoke—Lakeshore,Toronto,Greater Toronto Area,lib,lib,False
-35031.0,Etobicoke North,Toronto,Greater Toronto Area,lib,lib,False
-35032.0,Flamborough—Glanbrook—Brant North,,,con,con,False
-35033.0,Guelph,,,lib,lib,False
-35034.0,Haldimand—Norfolk,,,con,con,False
-35035.0,Haliburton—Kawartha Lakes,,,con,con,False
-35036.0,Hamilton Centre,,,ndp,lib,True
-35037.0,Hamilton East—Stoney Creek,,,lib,con,True
-35038.0,Hamilton Mountain,,,lib,lib,False
-35039.0,Hamilton West—Ancaster—Dundas,,,lib,lib,False
-35040.0,Hastings—Lennox and Addington—Tyendinaga,,,con,con,False
-35041.0,Humber River—Black Creek,Toronto,Greater Toronto Area,lib,lib,False
-35042.0,Huron—Bruce,,,con,con,False
-35043.0,Kanata,Ottawa,Ottawa - Gatineau (Ontario part / partie de l'Ontario),lib,lib,False
-35044.0,Kapuskasing—Timmins—Mushkegowuk,,,ndp,con,True
-35045.0,Kenora—Kiiwetinoong,,,con,con,False
-35046.0,Kingston and the Islands,,,lib,lib,False
-35047.0,King—Vaughan,King,Greater Toronto Area,con,con,False
-35048.0,Kitchener Centre,,,grn,con,True
-35049.0,Kitchener—Conestoga,,,lib,lib,False
-35050.0,Kitchener South—Hespeler,,,lib,con,True
-35051.0,Lanark—Frontenac,,,con,con,False
-35052.0,Leeds—Grenville—Thousand Islands—Rideau Lakes,,,con,con,False
-35053.0,London Centre,,,lib,lib,False
-35054.0,London—Fanshawe,,,ndp,con,True
-35055.0,London West,,,lib,lib,False
-35056.0,Markham—Stouffville,Markham,Greater Toronto Area,lib,lib,False
-35057.0,Markham—Thornhill,Markham,Greater Toronto Area,lib,lib,False
-35058.0,Markham—Unionville,Markham,Greater Toronto Area,lib,con,True
-35059.0,Middlesex—London,,,con,con,False
-35060.0,Milton East—Halton Hills South,Halton Hills,Greater Toronto Area,lib,con,True
-35061.0,Mississauga Centre,Mississauga,Greater Toronto Area,lib,lib,False
-35062.0,Mississauga East—Cooksville,Mississauga,Greater Toronto Area,lib,lib,False
-35063.0,Mississauga—Erin Mills,Mississauga,Greater Toronto Area,lib,lib,False
-35064.0,Mississauga—Lakeshore,Mississauga,Greater Toronto Area,lib,lib,False
-35065.0,Mississauga—Malton,Mississauga,Greater Toronto Area,lib,lib,False
-35066.0,Mississauga—Streetsville,Mississauga,Greater Toronto Area,lib,lib,False
-35067.0,Nepean,Ottawa,Ottawa - Gatineau (Ontario part / partie de l'Ontario),lib,lib,False
-35068.0,Newmarket—Aurora,Newmarket,Greater Toronto Area,lib,con,True
-35069.0,New Tecumseth—Gwillimbury,,,con,con,False
-35070.0,Niagara Falls—Niagara-on-the-Lake,,,con,con,False
-35071.0,Niagara South,,,con,con,False
-35072.0,Niagara West,,,con,con,False
-35073.0,Nipissing—Timiskaming,,,lib,lib,False
-35074.0,Northumberland—Clarke,,,con,con,False
-35075.0,Oakville East,Oakville,Greater Toronto Area,lib,lib,False
-35076.0,Oakville West,Oakville,Greater Toronto Area,lib,lib,False
-35077.0,Orléans,Ottawa,Ottawa - Gatineau (Ontario part / partie de l'Ontario),lib,lib,False
-35078.0,Oshawa,Oshawa,Greater Toronto Area,con,con,False
-35079.0,Ottawa Centre,Ottawa,Ottawa - Gatineau (Ontario part / partie de l'Ontario),lib,lib,False
-35080.0,Ottawa South,Ottawa,Ottawa - Gatineau (Ontario part / partie de l'Ontario),lib,lib,False
-35081.0,Ottawa—Vanier—Gloucester,Ottawa,Ottawa - Gatineau (Ontario part / partie de l'Ontario),lib,lib,False
-35082.0,Ottawa West—Nepean,Ottawa,Ottawa - Gatineau (Ontario part / partie de l'Ontario),lib,lib,False
-35083.0,Oxford,,,con,con,False
-35084.0,Parry Sound—Muskoka,,,con,con,False
-35085.0,Perth—Wellington,,,con,con,False
-35086.0,Peterborough,,,con,lib,True
-35087.0,Pickering—Brooklin,Pickering,Greater Toronto Area,lib,lib,False
-35088.0,Prescott—Russell—Cumberland,,,lib,lib,False
-35089.0,Richmond Hill South,Richmond Hill,Greater Toronto Area,lib,con,True
-35090.0,Sarnia—Lambton—Bkejwanong,,,con,con,False
-35091.0,Sault Ste. Marie—Algoma,,,con,lib,True
-35092.0,Scarborough—Agincourt,Toronto,Greater Toronto Area,lib,lib,False
-35093.0,Scarborough Centre—Don Valley East,Toronto,Greater Toronto Area,lib,lib,False
-35094.0,Scarborough—Guildwood—Rouge Park,Toronto,Greater Toronto Area,lib,lib,False
-35095.0,Scarborough North,Toronto,Greater Toronto Area,lib,lib,False
-35096.0,Scarborough Southwest,Toronto,Greater Toronto Area,lib,lib,False
-35097.0,Scarborough—Woburn,Toronto,Greater Toronto Area,lib,lib,False
-35098.0,Simcoe—Grey,,,con,con,False
-35099.0,Simcoe North,,,con,con,False
-35100.0,Spadina—Harbourfront,Toronto,Greater Toronto Area,lib,lib,False
-35101.0,St. Catharines,,,lib,lib,False
-35102.0,Stormont—Dundas—Glengarry,,,con,con,False
-35103.0,Sudbury,,,lib,lib,False
-35104.0,Sudbury East—Manitoulin—Nickel Belt,,,lib,con,True
-35105.0,Taiaiako’n—Parkdale—High Park,Toronto,Greater Toronto Area,lib,lib,False
-35106.0,Thornhill,Vaughan,Greater Toronto Area,con,con,False
-35107.0,Thunder Bay—Rainy River,,,lib,lib,False
-35108.0,Thunder Bay—Superior North,,,lib,lib,False
-35109.0,Toronto Centre,Toronto,Greater Toronto Area,lib,lib,False
-35110.0,Toronto—Danforth,Toronto,Greater Toronto Area,lib,lib,False
-35111.0,Toronto—St. Paul's,Toronto,Greater Toronto Area,lib,lib,False
-35112.0,University—Rosedale,Toronto,Greater Toronto Area,lib,lib,False
-35113.0,Vaughan—Woodbridge,Vaughan,Greater Toronto Area,lib,con,True
-35114.0,Waterloo,,,lib,lib,False
-35115.0,Wellington—Halton Hills North,,,con,con,False
-35116.0,Whitby,Whitby,Greater Toronto Area,lib,lib,False
-35117.0,Willowdale,Toronto,Greater Toronto Area,lib,lib,False
-35118.0,Windsor—Tecumseh—Lakeshore,,,lib,con,True
-35119.0,Windsor West,,,ndp,con,True
-35120.0,York Centre,Toronto,Greater Toronto Area,lib,con,True
-35121.0,York—Durham,,Greater Toronto Area,con,con,False
-35122.0,York South—Weston—Etobicoke,Toronto,Greater Toronto Area,lib,lib,False
-46001.0,Brandon—Souris,,,con,con,False
-46002.0,Churchill—Keewatinook Aski,,,ndp,lib,True
-46003.0,Elmwood—Transcona,Springfield,Winnipeg,ndp,con,True
-46004.0,Kildonan—St. Paul,,Winnipeg,con,con,False
-46005.0,Portage—Lisgar,,,con,con,False
-46006.0,Provencher,,,con,con,False
-46007.0,Riding Mountain,,,con,con,False
-46008.0,St. Boniface—St. Vital,Winnipeg,Winnipeg,lib,lib,False
-46009.0,Selkirk—Interlake—Eastman,,,con,con,False
-46010.0,Winnipeg Centre,Winnipeg,Winnipeg,ndp,ndp,False
-46011.0,Winnipeg North,Winnipeg,Winnipeg,lib,lib,False
-46012.0,Winnipeg South,Winnipeg,Winnipeg,lib,lib,False
-46013.0,Winnipeg South Centre,Winnipeg,Winnipeg,lib,lib,False
-46014.0,Winnipeg West,Rosser,Winnipeg,con,lib,True
-47001.0,Battlefords—Lloydminster—Meadow Lake,,,con,con,False
-47002.0,Carlton Trail—Eagle Creek,,,con,con,False
-47003.0,Desnethé—Missinippi—Churchill River,,,lib,lib,False
-47004.0,Moose Jaw—Lake Centre—Lanigan,,,con,con,False
-47005.0,Prince Albert,,,con,con,False
-47006.0,Regina—Lewvan,,,con,con,False
-47007.0,Regina—Qu'Appelle,,,con,con,False
-47008.0,Regina—Wascana,,,con,con,False
-47009.0,Saskatoon South,,,con,con,False
-47010.0,Saskatoon—University,,,con,con,False
-47011.0,Saskatoon West,,,con,con,False
-47012.0,Souris—Moose Mountain,,,con,con,False
-47013.0,Swift Current—Grasslands—Kindersley,,,con,con,False
-47014.0,Yorkton—Melville,,,con,con,False
-48001.0,Airdrie—Cochrane,Rocky View County,Calgary,con,con,False
-48002.0,Battle River—Crowfoot,,,con,con,False
-48003.0,Bow River,,,con,con,False
-48004.0,Calgary Centre,Calgary,Calgary,con,con,False
-48005.0,Calgary Confederation,Calgary,Calgary,con,lib,True
-48006.0,Calgary Crowfoot,Calgary,Calgary,con,con,False
-48007.0,Calgary East,Calgary,Calgary,con,con,False
-48008.0,Calgary Heritage,Calgary,Calgary,con,con,False
-48009.0,Calgary McKnight,Calgary,Calgary,lib,con,True
-48010.0,Calgary Midnapore,Calgary,Calgary,con,con,False
-48011.0,Calgary Nose Hill,Calgary,Calgary,con,con,False
-48012.0,Calgary Shepard,Calgary,Calgary,con,con,False
-48013.0,Calgary Signal Hill,Calgary,Calgary,con,con,False
-48014.0,Calgary Skyview,Calgary,Calgary,con,con,False
-48015.0,Edmonton Centre,Edmonton,Edmonton,con,lib,True
-48016.0,Edmonton Gateway,Edmonton,Edmonton,con,con,False
-48017.0,Edmonton Griesbach,Edmonton,Edmonton,ndp,con,True
-48018.0,Edmonton Manning,Edmonton,Edmonton,con,con,False
-48019.0,Edmonton Northwest,Edmonton,Edmonton,con,con,False
-48020.0,Edmonton Riverbend,Edmonton,Edmonton,con,con,False
-48021.0,Edmonton Southeast,Edmonton,Edmonton,con,con,False
-48022.0,Edmonton Strathcona,Edmonton,Edmonton,ndp,ndp,False
-48023.0,Edmonton West,Edmonton,Edmonton,con,con,False
-48024.0,Foothills,,,con,con,False
-48025.0,Fort McMurray—Cold Lake,,,con,con,False
-48026.0,Grande Prairie,,,con,con,False
-48027.0,Lakeland,,,con,con,False
-48028.0,Leduc—Wetaskiwin,,,con,con,False
-48029.0,Lethbridge,,,con,con,False
-48030.0,Medicine Hat—Cardston—Warner,,,con,con,False
-48031.0,Parkland,,,con,con,False
-48032.0,Peace River—Westlock,,,con,con,False
-48033.0,Ponoka—Didsbury,,,con,con,False
-48034.0,Red Deer,,,con,con,False
-48035.0,Sherwood Park—Fort Saskatchewan,Strathcona County,Edmonton,con,con,False
-48036.0,St. Albert—Sturgeon River,,Edmonton,con,con,False
-48037.0,Yellowhead,,,con,con,False
-59001.0,Abbotsford—South Langley,Langley,Vancouver,con,con,False
-59002.0,Burnaby Central,Burnaby,Vancouver,ndp,lib,True
-59003.0,Burnaby North—Seymour,North Vancouver,Vancouver,lib,lib,False
-59004.0,Cariboo—Prince George,,,con,con,False
-59005.0,Chilliwack—Hope,,,con,con,False
-59006.0,Cloverdale—Langley City,Surrey,Vancouver,lib,con,True
-59007.0,Columbia—Kootenay—Southern Rockies,,,con,con,False
-59008.0,Coquitlam—Port Coquitlam,Metro Vancouver A,Vancouver,lib,lib,False
-59009.0,Courtenay—Alberni,,,ndp,ndp,False
-59010.0,Cowichan—Malahat—Langford,,,ndp,con,True
-59011.0,Delta,Delta,Vancouver,lib,lib,False
-59012.0,Esquimalt—Saanich—Sooke,,,ndp,lib,True
-59013.0,Fleetwood—Port Kells,Surrey,Vancouver,lib,lib,False
-59014.0,Kamloops—Shuswap—Central Rockies,,,con,con,False
-59015.0,Kamloops—Thompson—Nicola,,,con,con,False
-59016.0,Kelowna,,,con,lib,True
-59017.0,Langley Township—Fraser Heights,Langley,Vancouver,con,con,False
-59018.0,Mission—Matsqui—Abbotsford,,,con,con,False
-59019.0,Nanaimo—Ladysmith,,,ndp,con,True
-59020.0,New Westminster—Burnaby—Maillardville,New Westminster,Vancouver,ndp,lib,True
-59021.0,North Island—Powell River,,,ndp,con,True
-59022.0,North Vancouver—Capilano,Metro Vancouver A,Vancouver,lib,lib,False
-59023.0,Okanagan Lake West—South Kelowna,,,con,con,False
-59024.0,Pitt Meadows—Maple Ridge,,,con,con,False
-59025.0,Port Moody—Coquitlam,,Vancouver,ndp,lib,True
-59026.0,Prince George—Peace River—Northern Rockies,,,con,con,False
-59027.0,Richmond Centre—Marpole,Richmond,Vancouver,lib,con,True
-59028.0,Richmond East—Steveston,Richmond,Vancouver,lib,lib,False
-59029.0,Saanich—Gulf Islands,,,grn,grn,False
-59030.0,Similkameen—South Okanagan—West Kootenay,,,ndp,con,True
-59031.0,Skeena—Bulkley Valley,,,ndp,con,True
-59032.0,South Surrey—White Rock,Surrey,Vancouver,con,lib,True
-59033.0,Surrey Centre,Surrey,Vancouver,lib,lib,False
-59034.0,Surrey Newton,Surrey,Vancouver,lib,lib,False
-59035.0,Vancouver Centre,Vancouver,Vancouver,lib,lib,False
-59036.0,Vancouver East,Vancouver,Vancouver,ndp,ndp,False
-59037.0,Vancouver Fraserview—South Burnaby,Burnaby,Vancouver,lib,lib,False
-59038.0,Vancouver Granville,Vancouver,Vancouver,lib,lib,False
-59039.0,Vancouver Kingsway,Vancouver,Vancouver,ndp,ndp,False
-59040.0,Vancouver Quadra,Vancouver,Vancouver,lib,lib,False
-59041.0,Vernon—Lake Country—Monashee,,,con,con,False
-59042.0,Victoria,,,ndp,lib,True
-59043.0,West Vancouver—Sunshine Coast—Sea to Sky Country,,,lib,lib,False
-60001.0,Yukon,,,lib,lib,False
-61001.0,Northwest Territories,,,lib,lib,False
-62001.0,Nunavut,,,ndp,ndp,False
+FED_NUM,FED_name,CSD,region,isSuburb,prevParty,curParty,isFlipped
+10001.0,Avalon,,,False,lib,lib,False
+10002.0,Cape Spear,,,False,lib,lib,False
+10003.0,Central Newfoundland,,,False,con,con,False
+10004.0,Labrador,,,False,lib,lib,False
+10005.0,Long Range Mountains,,,False,lib,con,True
+10006.0,St. John's East,,,False,lib,lib,False
+10007.0,Terra Nova—The Peninsulas,,,False,lib,lib,False
+11001.0,Cardigan,,,False,lib,lib,False
+11002.0,Charlottetown,,,False,lib,lib,False
+11003.0,Egmont,,,False,lib,lib,False
+11004.0,Malpeque,,,False,lib,lib,False
+12001.0,Acadie—Annapolis,,,False,con,con,False
+12002.0,Cape Breton—Canso—Antigonish,,,False,lib,lib,False
+12003.0,Central Nova,,,False,lib,lib,False
+12004.0,Cumberland—Colchester,,,False,con,lib,True
+12005.0,Dartmouth—Cole Harbour,Halifax,Halifax,False,lib,lib,False
+12006.0,Halifax,Halifax,Halifax,False,lib,lib,False
+12007.0,Halifax West,Halifax,Halifax,False,lib,lib,False
+12008.0,Kings—Hants,,,False,lib,lib,False
+12009.0,Sackville—Bedford—Preston,Halifax,Halifax,False,lib,lib,False
+12010.0,South Shore—St. Margarets,,,False,con,lib,True
+12011.0,Sydney—Glace Bay,,,False,lib,lib,False
+13001.0,Acadie—Bathurst,,,False,lib,lib,False
+13002.0,Beauséjour,,,False,lib,lib,False
+13003.0,Fredericton—Oromocto,,,False,lib,lib,False
+13004.0,Fundy Royal,,,False,con,con,False
+13005.0,Madawaska—Restigouche,,,False,lib,lib,False
+13006.0,Miramichi—Grand Lake,,,False,con,con,False
+13007.0,Moncton—Dieppe,,,False,lib,lib,False
+13008.0,Saint John—Kennebecasis,,,False,lib,lib,False
+13009.0,Saint John—St. Croix,,,False,con,con,False
+13010.0,Tobique—Mactaquac,,,False,con,con,False
+24001.0,Abitibi—Baie-James—Nunavik—Eeyou,,,False,bloc,lib,True
+24002.0,Abitibi—Témiscamingue,,,False,bloc,bloc,False
+24003.0,Ahuntsic-Cartierville,Island of Montreal,Greater Montreal,False,lib,lib,False
+24004.0,Alfred-Pellan,Laval,Greater Montreal,True,lib,lib,False
+24005.0,Argenteuil—La Petite-Nation,,,False,lib,lib,False
+24006.0,Beauce,,,False,con,con,False
+24007.0,Beauharnois—Salaberry—Soulanges—Huntingdon,,,False,bloc,bloc,False
+24008.0,Beauport—Limoilou,Quebec City,Quebec City,False,bloc,lib,True
+24009.0,Bécancour—Nicolet—Saurel—Alnôbak,,,False,bloc,bloc,False
+24010.0,Bellechasse—Les Etchemins—Lévis,,,False,con,con,False
+24011.0,Beloeil—Chambly,,Greater Montreal,True,bloc,bloc,False
+24012.0,Berthier—Maskinongé,,,False,bloc,bloc,False
+24013.0,Bourassa,Island of Montreal,Greater Montreal,False,lib,lib,False
+24014.0,Brome—Missisquoi,,,False,lib,lib,False
+24015.0,Brossard—Saint-Lambert,Brossard,Greater Montreal,True,lib,lib,False
+24016.0,Charlesbourg—Haute-Saint-Charles,Quebec City,Quebec City,False,con,con,False
+24017.0,Châteauguay—Les Jardins-de-Napierville,,,False,bloc,lib,True
+24018.0,Chicoutimi—Le Fjord,,,False,con,con,False
+24019.0,Compton—Stanstead,,,False,lib,lib,False
+24020.0,Côte-du-Sud—Rivière-du-Loup—Kataskomiq—Témiscouata,,,False,con,con,False
+24021.0,Côte-Nord—Kawawachikamach—Nitassinan,,,False,bloc,bloc,False
+24022.0,Dorval—Lachine—LaSalle,Island of Montreal,Greater Montreal,False,lib,lib,False
+24023.0,Drummond,,,False,bloc,bloc,False
+24024.0,Gaspésie—Les Îles-de-la-Madeleine—Listuguj,,,False,bloc,bloc,False
+24025.0,Gatineau,,,False,lib,lib,False
+24026.0,Hochelaga—Rosemont-Est,Island of Montreal,Greater Montreal,False,lib,lib,False
+24027.0,Honoré-Mercier,Island of Montreal,Greater Montreal,False,lib,lib,False
+24028.0,Hull—Aylmer,,,False,lib,lib,False
+24029.0,Joliette—Manawan,,,False,bloc,bloc,False
+24030.0,Jonquière,,,False,bloc,bloc,False
+24031.0,La Pointe-de-l'Île,Island of Montreal,Greater Montreal,False,bloc,bloc,False
+24032.0,La Prairie—Atateken,,Greater Montreal,True,bloc,lib,True
+24033.0,Lac-Saint-Jean,,,False,bloc,bloc,False
+24034.0,Lac-Saint-Louis,Island of Montreal,Greater Montreal,False,lib,lib,False
+24035.0,LaSalle—Émard—Verdun,Island of Montreal,Greater Montreal,False,lib,lib,False
+24036.0,Laurentides—Labelle,,,False,bloc,bloc,False
+24037.0,Laurier—Sainte-Marie,Island of Montreal,Greater Montreal,False,lib,lib,False
+24038.0,Laval—Les Îles,Laval,Greater Montreal,True,lib,lib,False
+24039.0,Les Pays-d'en-Haut,,,False,bloc,lib,True
+24040.0,Lévis—Lotbinière,,Quebec City,False,con,con,False
+24041.0,Longueuil—Charles-LeMoyne,Longueuil,Greater Montreal,True,lib,lib,False
+24042.0,Longueuil—Saint-Hubert,Longueuil,Greater Montreal,True,bloc,lib,True
+24043.0,Louis-Hébert,Quebec City,Quebec City,False,lib,lib,False
+24044.0,Louis-Saint-Laurent—Akiawenhrahk,Quebec City,Quebec City,False,con,con,False
+24045.0,Marc-Aurèle-Fortin,Laval,Greater Montreal,True,lib,lib,False
+24046.0,Mégantic—L'Érable—Lotbinière,,,False,con,con,False
+24047.0,Mirabel,Mirabel,Greater Montreal,True,bloc,bloc,False
+24048.0,Mount Royal,Island of Montreal,Greater Montreal,False,lib,lib,False
+24049.0,Mont-Saint-Bruno—L'Acadie,,Greater Montreal,True,bloc,lib,True
+24050.0,Montcalm,,,False,bloc,bloc,False
+24051.0,Montmorency—Charlevoix,,,False,bloc,con,True
+24052.0,Notre-Dame-de-Grâce—Westmount,Island of Montreal,Greater Montreal,False,lib,lib,False
+24053.0,Outremont,Island of Montreal,Greater Montreal,False,lib,lib,False
+24054.0,Papineau,Island of Montreal,Greater Montreal,False,lib,lib,False
+24055.0,Pierre-Boucher—Les Patriotes—Verchères,,,False,bloc,bloc,False
+24056.0,Pierrefonds—Dollard,Island of Montreal,Greater Montreal,False,lib,lib,False
+24057.0,Pontiac—Kitigan Zibi,,,False,lib,lib,False
+24058.0,Portneuf—Jacques-Cartier,,,False,con,con,False
+24059.0,Québec Centre,Quebec City,Quebec City,False,lib,lib,False
+24060.0,Repentigny,L'Assomption,Greater Montreal,True,bloc,bloc,False
+24061.0,Richmond—Arthabaska,,,False,con,con,False
+24062.0,Rimouski—La Matapédia,,,False,bloc,bloc,False
+24063.0,Rivière-des-Mille-Îles,Saint-Eustache,Greater Montreal,True,bloc,lib,True
+24064.0,Rivière-du-Nord,,Greater Montreal,True,bloc,bloc,False
+24065.0,Rosemont—La Petite-Patrie,Island of Montreal,Greater Montreal,False,ndp,ndp,False
+24066.0,Saint-Hyacinthe—Bagot—Acton,,,False,bloc,bloc,False
+24067.0,Saint-Jean,,,False,bloc,bloc,False
+24068.0,Saint-Laurent,Island of Montreal,Greater Montreal,False,lib,lib,False
+24069.0,Saint-Léonard—Saint-Michel,Island of Montreal,Greater Montreal,False,lib,lib,False
+24070.0,Saint-Maurice—Champlain,,,False,lib,lib,False
+24071.0,Shefford,,,False,bloc,bloc,False
+24072.0,Sherbrooke,,,False,lib,lib,False
+24073.0,Terrebonne,Terrebonne,Greater Montreal,True,bloc,bloc,False
+24074.0,Thérèse-De Blainville,Blainville,Greater Montreal,True,bloc,lib,True
+24075.0,Trois-Rivières,,,False,bloc,lib,True
+24076.0,Vaudreuil,,Greater Montreal,True,lib,lib,False
+24077.0,Ville-Marie—Le Sud-Ouest—Île-des-Sœurs,Island of Montreal,Greater Montreal,False,lib,lib,False
+24078.0,Vimy,Laval,Greater Montreal,True,lib,lib,False
+35001.0,Ajax,Ajax,Greater Toronto Area,True,lib,lib,False
+35002.0,Algonquin—Renfrew—Pembroke,,,False,con,con,False
+35003.0,Aurora—Oak Ridges—Richmond Hill,Richmond Hill,Greater Toronto Area,True,lib,con,True
+35004.0,Barrie South—Innisfil,,,False,con,con,False
+35005.0,Barrie—Springwater—Oro-Medonte,,,False,con,con,False
+35006.0,Bay of Quinte,,,False,con,lib,True
+35007.0,Beaches—East York,Toronto,Greater Toronto Area,False,lib,lib,False
+35008.0,Bowmanville—Oshawa North,Clarington,Greater Toronto Area,True,con,con,False
+35009.0,Brampton Centre,Brampton,Greater Toronto Area,True,lib,lib,False
+35010.0,Brampton—Chinguacousy Park,Brampton,Greater Toronto Area,True,lib,lib,False
+35011.0,Brampton East,Brampton,Greater Toronto Area,True,lib,lib,False
+35012.0,Brampton North—Caledon,Caledon,Greater Toronto Area,True,lib,lib,False
+35013.0,Brampton South,Brampton,Greater Toronto Area,True,lib,lib,False
+35014.0,Brampton West,Brampton,Greater Toronto Area,True,lib,con,True
+35015.0,Brantford—Brant South—Six Nations,,,False,con,con,False
+35016.0,Bruce—Grey—Owen Sound,,,False,con,con,False
+35017.0,Burlington,Burlington,Greater Toronto Area,True,lib,lib,False
+35018.0,Burlington North—Milton West,Milton,Greater Toronto Area,True,lib,lib,False
+35019.0,Cambridge,,,False,lib,con,True
+35020.0,Carleton,Ottawa,Greater Ottawa,False,con,lib,True
+35021.0,Chatham-Kent—Leamington,,,False,con,con,False
+35022.0,Davenport,Toronto,Greater Toronto Area,False,lib,lib,False
+35023.0,Don Valley North,Toronto,Greater Toronto Area,False,lib,lib,False
+35024.0,Don Valley West,Toronto,Greater Toronto Area,False,lib,lib,False
+35025.0,Dufferin—Caledon,,,False,con,con,False
+35026.0,Eglinton—Lawrence,Toronto,Greater Toronto Area,False,lib,lib,False
+35027.0,Elgin—St. Thomas—London South,,,False,con,con,False
+35028.0,Essex,,,False,con,con,False
+35029.0,Etobicoke Centre,Toronto,Greater Toronto Area,False,lib,lib,False
+35030.0,Etobicoke—Lakeshore,Toronto,Greater Toronto Area,False,lib,lib,False
+35031.0,Etobicoke North,Toronto,Greater Toronto Area,False,lib,lib,False
+35032.0,Flamborough—Glanbrook—Brant North,,,False,con,con,False
+35033.0,Guelph,,,False,lib,lib,False
+35034.0,Haldimand—Norfolk,,,False,con,con,False
+35035.0,Haliburton—Kawartha Lakes,,,False,con,con,False
+35036.0,Hamilton Centre,,,False,ndp,lib,True
+35037.0,Hamilton East—Stoney Creek,,,False,lib,con,True
+35038.0,Hamilton Mountain,,,False,lib,lib,False
+35039.0,Hamilton West—Ancaster—Dundas,,,False,lib,lib,False
+35040.0,Hastings—Lennox and Addington—Tyendinaga,,,False,con,con,False
+35041.0,Humber River—Black Creek,Toronto,Greater Toronto Area,False,lib,lib,False
+35042.0,Huron—Bruce,,,False,con,con,False
+35043.0,Kanata,Ottawa,Greater Ottawa,False,lib,lib,False
+35044.0,Kapuskasing—Timmins—Mushkegowuk,,,False,ndp,con,True
+35045.0,Kenora—Kiiwetinoong,,,False,con,con,False
+35046.0,Kingston and the Islands,,,False,lib,lib,False
+35047.0,King—Vaughan,King,Greater Toronto Area,True,con,con,False
+35048.0,Kitchener Centre,,,False,grn,con,True
+35049.0,Kitchener—Conestoga,,,False,lib,lib,False
+35050.0,Kitchener South—Hespeler,,,False,lib,con,True
+35051.0,Lanark—Frontenac,,,False,con,con,False
+35052.0,Leeds—Grenville—Thousand Islands—Rideau Lakes,,,False,con,con,False
+35053.0,London Centre,,,False,lib,lib,False
+35054.0,London—Fanshawe,,,False,ndp,con,True
+35055.0,London West,,,False,lib,lib,False
+35056.0,Markham—Stouffville,Markham,Greater Toronto Area,True,lib,lib,False
+35057.0,Markham—Thornhill,Markham,Greater Toronto Area,True,lib,lib,False
+35058.0,Markham—Unionville,Markham,Greater Toronto Area,True,lib,con,True
+35059.0,Middlesex—London,,,False,con,con,False
+35060.0,Milton East—Halton Hills South,Halton Hills,Greater Toronto Area,True,lib,con,True
+35061.0,Mississauga Centre,Mississauga,Greater Toronto Area,True,lib,lib,False
+35062.0,Mississauga East—Cooksville,Mississauga,Greater Toronto Area,True,lib,lib,False
+35063.0,Mississauga—Erin Mills,Mississauga,Greater Toronto Area,True,lib,lib,False
+35064.0,Mississauga—Lakeshore,Mississauga,Greater Toronto Area,True,lib,lib,False
+35065.0,Mississauga—Malton,Mississauga,Greater Toronto Area,True,lib,lib,False
+35066.0,Mississauga—Streetsville,Mississauga,Greater Toronto Area,True,lib,lib,False
+35067.0,Nepean,Ottawa,Greater Ottawa,False,lib,lib,False
+35068.0,Newmarket—Aurora,Newmarket,Greater Toronto Area,True,lib,con,True
+35069.0,New Tecumseth—Gwillimbury,,,False,con,con,False
+35070.0,Niagara Falls—Niagara-on-the-Lake,,,False,con,con,False
+35071.0,Niagara South,,,False,con,con,False
+35072.0,Niagara West,,,False,con,con,False
+35073.0,Nipissing—Timiskaming,,,False,lib,lib,False
+35074.0,Northumberland—Clarke,,,False,con,con,False
+35075.0,Oakville East,Oakville,Greater Toronto Area,True,lib,lib,False
+35076.0,Oakville West,Oakville,Greater Toronto Area,True,lib,lib,False
+35077.0,Orléans,Ottawa,Greater Ottawa,False,lib,lib,False
+35078.0,Oshawa,Oshawa,Greater Toronto Area,True,con,con,False
+35079.0,Ottawa Centre,Ottawa,Greater Ottawa,False,lib,lib,False
+35080.0,Ottawa South,Ottawa,Greater Ottawa,False,lib,lib,False
+35081.0,Ottawa—Vanier—Gloucester,Ottawa,Greater Ottawa,False,lib,lib,False
+35082.0,Ottawa West—Nepean,Ottawa,Greater Ottawa,False,lib,lib,False
+35083.0,Oxford,,,False,con,con,False
+35084.0,Parry Sound—Muskoka,,,False,con,con,False
+35085.0,Perth—Wellington,,,False,con,con,False
+35086.0,Peterborough,,,False,con,lib,True
+35087.0,Pickering—Brooklin,Pickering,Greater Toronto Area,True,lib,lib,False
+35088.0,Prescott—Russell—Cumberland,,,False,lib,lib,False
+35089.0,Richmond Hill South,Richmond Hill,Greater Toronto Area,True,lib,con,True
+35090.0,Sarnia—Lambton—Bkejwanong,,,False,con,con,False
+35091.0,Sault Ste. Marie—Algoma,,,False,con,lib,True
+35092.0,Scarborough—Agincourt,Toronto,Greater Toronto Area,False,lib,lib,False
+35093.0,Scarborough Centre—Don Valley East,Toronto,Greater Toronto Area,False,lib,lib,False
+35094.0,Scarborough—Guildwood—Rouge Park,Toronto,Greater Toronto Area,False,lib,lib,False
+35095.0,Scarborough North,Toronto,Greater Toronto Area,False,lib,lib,False
+35096.0,Scarborough Southwest,Toronto,Greater Toronto Area,False,lib,lib,False
+35097.0,Scarborough—Woburn,Toronto,Greater Toronto Area,False,lib,lib,False
+35098.0,Simcoe—Grey,,,False,con,con,False
+35099.0,Simcoe North,,,False,con,con,False
+35100.0,Spadina—Harbourfront,Toronto,Greater Toronto Area,False,lib,lib,False
+35101.0,St. Catharines,,,False,lib,lib,False
+35102.0,Stormont—Dundas—Glengarry,,,False,con,con,False
+35103.0,Sudbury,,,False,lib,lib,False
+35104.0,Sudbury East—Manitoulin—Nickel Belt,,,False,lib,con,True
+35105.0,Taiaiako’n—Parkdale—High Park,Toronto,Greater Toronto Area,False,lib,lib,False
+35106.0,Thornhill,Vaughan,Greater Toronto Area,True,con,con,False
+35107.0,Thunder Bay—Rainy River,,,False,lib,lib,False
+35108.0,Thunder Bay—Superior North,,,False,lib,lib,False
+35109.0,Toronto Centre,Toronto,Greater Toronto Area,False,lib,lib,False
+35110.0,Toronto—Danforth,Toronto,Greater Toronto Area,False,lib,lib,False
+35111.0,Toronto—St. Paul's,Toronto,Greater Toronto Area,False,lib,lib,False
+35112.0,University—Rosedale,Toronto,Greater Toronto Area,False,lib,lib,False
+35113.0,Vaughan—Woodbridge,Vaughan,Greater Toronto Area,True,lib,con,True
+35114.0,Waterloo,,,False,lib,lib,False
+35115.0,Wellington—Halton Hills North,,,False,con,con,False
+35116.0,Whitby,Whitby,Greater Toronto Area,True,lib,lib,False
+35117.0,Willowdale,Toronto,Greater Toronto Area,False,lib,lib,False
+35118.0,Windsor—Tecumseh—Lakeshore,,,False,lib,con,True
+35119.0,Windsor West,,,False,ndp,con,True
+35120.0,York Centre,Toronto,Greater Toronto Area,False,lib,con,True
+35121.0,York—Durham,,Greater Toronto Area,True,con,con,False
+35122.0,York South—Weston—Etobicoke,Toronto,Greater Toronto Area,False,lib,lib,False
+46001.0,Brandon—Souris,,,False,con,con,False
+46002.0,Churchill—Keewatinook Aski,,,False,ndp,lib,True
+46003.0,Elmwood—Transcona,Springfield,Winnipeg,False,ndp,con,True
+46004.0,Kildonan—St. Paul,,Winnipeg,False,con,con,False
+46005.0,Portage—Lisgar,,,False,con,con,False
+46006.0,Provencher,,,False,con,con,False
+46007.0,Riding Mountain,,,False,con,con,False
+46008.0,St. Boniface—St. Vital,Winnipeg,Winnipeg,False,lib,lib,False
+46009.0,Selkirk—Interlake—Eastman,,,False,con,con,False
+46010.0,Winnipeg Centre,Winnipeg,Winnipeg,False,ndp,ndp,False
+46011.0,Winnipeg North,Winnipeg,Winnipeg,False,lib,lib,False
+46012.0,Winnipeg South,Winnipeg,Winnipeg,False,lib,lib,False
+46013.0,Winnipeg South Centre,Winnipeg,Winnipeg,False,lib,lib,False
+46014.0,Winnipeg West,Rosser,Winnipeg,False,con,lib,True
+47001.0,Battlefords—Lloydminster—Meadow Lake,,,False,con,con,False
+47002.0,Carlton Trail—Eagle Creek,,,False,con,con,False
+47003.0,Desnethé—Missinippi—Churchill River,,,False,lib,lib,False
+47004.0,Moose Jaw—Lake Centre—Lanigan,,,False,con,con,False
+47005.0,Prince Albert,,,False,con,con,False
+47006.0,Regina—Lewvan,,,False,con,con,False
+47007.0,Regina—Qu'Appelle,,,False,con,con,False
+47008.0,Regina—Wascana,,,False,con,con,False
+47009.0,Saskatoon South,,,False,con,con,False
+47010.0,Saskatoon—University,,,False,con,con,False
+47011.0,Saskatoon West,,,False,con,con,False
+47012.0,Souris—Moose Mountain,,,False,con,con,False
+47013.0,Swift Current—Grasslands—Kindersley,,,False,con,con,False
+47014.0,Yorkton—Melville,,,False,con,con,False
+48001.0,Airdrie—Cochrane,Rocky View County,Calgary,False,con,con,False
+48002.0,Battle River—Crowfoot,,,False,con,con,False
+48003.0,Bow River,,,False,con,con,False
+48004.0,Calgary Centre,Calgary,Calgary,False,con,con,False
+48005.0,Calgary Confederation,Calgary,Calgary,False,con,lib,True
+48006.0,Calgary Crowfoot,Calgary,Calgary,False,con,con,False
+48007.0,Calgary East,Calgary,Calgary,False,con,con,False
+48008.0,Calgary Heritage,Calgary,Calgary,False,con,con,False
+48009.0,Calgary McKnight,Calgary,Calgary,False,lib,con,True
+48010.0,Calgary Midnapore,Calgary,Calgary,False,con,con,False
+48011.0,Calgary Nose Hill,Calgary,Calgary,False,con,con,False
+48012.0,Calgary Shepard,Calgary,Calgary,False,con,con,False
+48013.0,Calgary Signal Hill,Calgary,Calgary,False,con,con,False
+48014.0,Calgary Skyview,Calgary,Calgary,False,con,con,False
+48015.0,Edmonton Centre,Edmonton,Edmonton,False,con,lib,True
+48016.0,Edmonton Gateway,Edmonton,Edmonton,False,con,con,False
+48017.0,Edmonton Griesbach,Edmonton,Edmonton,False,ndp,con,True
+48018.0,Edmonton Manning,Edmonton,Edmonton,False,con,con,False
+48019.0,Edmonton Northwest,Edmonton,Edmonton,False,con,con,False
+48020.0,Edmonton Riverbend,Edmonton,Edmonton,False,con,con,False
+48021.0,Edmonton Southeast,Edmonton,Edmonton,False,con,con,False
+48022.0,Edmonton Strathcona,Edmonton,Edmonton,False,ndp,ndp,False
+48023.0,Edmonton West,Edmonton,Edmonton,False,con,con,False
+48024.0,Foothills,,,False,con,con,False
+48025.0,Fort McMurray—Cold Lake,,,False,con,con,False
+48026.0,Grande Prairie,,,False,con,con,False
+48027.0,Lakeland,,,False,con,con,False
+48028.0,Leduc—Wetaskiwin,,,False,con,con,False
+48029.0,Lethbridge,,,False,con,con,False
+48030.0,Medicine Hat—Cardston—Warner,,,False,con,con,False
+48031.0,Parkland,,,False,con,con,False
+48032.0,Peace River—Westlock,,,False,con,con,False
+48033.0,Ponoka—Didsbury,,,False,con,con,False
+48034.0,Red Deer,,,False,con,con,False
+48035.0,Sherwood Park—Fort Saskatchewan,Strathcona County,Edmonton,False,con,con,False
+48036.0,St. Albert—Sturgeon River,,Edmonton,False,con,con,False
+48037.0,Yellowhead,,,False,con,con,False
+59001.0,Abbotsford—South Langley,Langley,Metro Vancouver,True,con,con,False
+59002.0,Burnaby Central,Burnaby,Metro Vancouver,True,ndp,lib,True
+59003.0,Burnaby North—Seymour,North Vancouver,Metro Vancouver,True,lib,lib,False
+59004.0,Cariboo—Prince George,,,False,con,con,False
+59005.0,Chilliwack—Hope,,,False,con,con,False
+59006.0,Cloverdale—Langley City,Surrey,Metro Vancouver,True,lib,con,True
+59007.0,Columbia—Kootenay—Southern Rockies,,,False,con,con,False
+59008.0,Coquitlam—Port Coquitlam,Metro Vancouver A,Metro Vancouver,True,lib,lib,False
+59009.0,Courtenay—Alberni,,,False,ndp,ndp,False
+59010.0,Cowichan—Malahat—Langford,,,False,ndp,con,True
+59011.0,Delta,Delta,Metro Vancouver,True,lib,lib,False
+59012.0,Esquimalt—Saanich—Sooke,,,False,ndp,lib,True
+59013.0,Fleetwood—Port Kells,Surrey,Metro Vancouver,True,lib,lib,False
+59014.0,Kamloops—Shuswap—Central Rockies,,,False,con,con,False
+59015.0,Kamloops—Thompson—Nicola,,,False,con,con,False
+59016.0,Kelowna,,,False,con,lib,True
+59017.0,Langley Township—Fraser Heights,Langley,Metro Vancouver,True,con,con,False
+59018.0,Mission—Matsqui—Abbotsford,,,False,con,con,False
+59019.0,Nanaimo—Ladysmith,,,False,ndp,con,True
+59020.0,New Westminster—Burnaby—Maillardville,New Westminster,Metro Vancouver,True,ndp,lib,True
+59021.0,North Island—Powell River,,,False,ndp,con,True
+59022.0,North Vancouver—Capilano,Metro Vancouver A,Metro Vancouver,True,lib,lib,False
+59023.0,Okanagan Lake West—South Kelowna,,,False,con,con,False
+59024.0,Pitt Meadows—Maple Ridge,,,False,con,con,False
+59025.0,Port Moody—Coquitlam,,Metro Vancouver,True,ndp,lib,True
+59026.0,Prince George—Peace River—Northern Rockies,,,False,con,con,False
+59027.0,Richmond Centre—Marpole,Richmond,Metro Vancouver,True,lib,con,True
+59028.0,Richmond East—Steveston,Richmond,Metro Vancouver,True,lib,lib,False
+59029.0,Saanich—Gulf Islands,,,False,grn,grn,False
+59030.0,Similkameen—South Okanagan—West Kootenay,,,False,ndp,con,True
+59031.0,Skeena—Bulkley Valley,,,False,ndp,con,True
+59032.0,South Surrey—White Rock,Surrey,Metro Vancouver,True,con,lib,True
+59033.0,Surrey Centre,Surrey,Metro Vancouver,True,lib,lib,False
+59034.0,Surrey Newton,Surrey,Metro Vancouver,True,lib,lib,False
+59035.0,Vancouver Centre,Vancouver,Metro Vancouver,False,lib,lib,False
+59036.0,Vancouver East,Vancouver,Metro Vancouver,False,ndp,ndp,False
+59037.0,Vancouver Fraserview—South Burnaby,Burnaby,Metro Vancouver,True,lib,lib,False
+59038.0,Vancouver Granville,Vancouver,Metro Vancouver,False,lib,lib,False
+59039.0,Vancouver Kingsway,Vancouver,Metro Vancouver,False,ndp,ndp,False
+59040.0,Vancouver Quadra,Vancouver,Metro Vancouver,False,lib,lib,False
+59041.0,Vernon—Lake Country—Monashee,,,False,con,con,False
+59042.0,Victoria,,,False,ndp,lib,True
+59043.0,West Vancouver—Sunshine Coast—Sea to Sky Country,,,False,lib,lib,False
+60001.0,Yukon,,,False,lib,lib,False
+61001.0,Northwest Territories,,,False,lib,lib,False
+62001.0,Nunavut,,,False,ndp,ndp,False

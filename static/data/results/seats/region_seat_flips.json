@@ -5,6 +5,7 @@
             "FED_name": "Dartmouth\u2014Cole Harbour",
             "CSD": "Halifax",
             "region": "Halifax",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -14,6 +15,7 @@
             "FED_name": "Halifax",
             "CSD": "Halifax",
             "region": "Halifax",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -23,6 +25,7 @@
             "FED_name": "Halifax West",
             "CSD": "Halifax",
             "region": "Halifax",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -32,17 +35,19 @@
             "FED_name": "Sackville\u2014Bedford\u2014Preston",
             "CSD": "Halifax",
             "region": "Halifax",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
         }
     ],
-    "Montr\u00e9al": [
+    "Greater Montreal": [
         {
             "FED_NUM": 24003,
             "FED_name": "Ahuntsic-Cartierville",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -51,7 +56,8 @@
             "FED_NUM": 24004,
             "FED_name": "Alfred-Pellan",
             "CSD": "Laval",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -60,7 +66,8 @@
             "FED_NUM": 24011,
             "FED_name": "Beloeil\u2014Chambly",
             "CSD": "nan",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "bloc",
             "curParty": "bloc",
             "isFlipped": false
@@ -69,7 +76,8 @@
             "FED_NUM": 24013,
             "FED_name": "Bourassa",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -78,7 +86,8 @@
             "FED_NUM": 24015,
             "FED_name": "Brossard\u2014Saint-Lambert",
             "CSD": "Brossard",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -87,7 +96,8 @@
             "FED_NUM": 24022,
             "FED_name": "Dorval\u2014Lachine\u2014LaSalle",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -96,7 +106,8 @@
             "FED_NUM": 24026,
             "FED_name": "Hochelaga\u2014Rosemont-Est",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -105,7 +116,8 @@
             "FED_NUM": 24027,
             "FED_name": "Honor\u00e9-Mercier",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -114,7 +126,8 @@
             "FED_NUM": 24031,
             "FED_name": "La Pointe-de-l'\u00cele",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "bloc",
             "curParty": "bloc",
             "isFlipped": false
@@ -123,7 +136,8 @@
             "FED_NUM": 24032,
             "FED_name": "La Prairie\u2014Atateken",
             "CSD": "nan",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "bloc",
             "curParty": "lib",
             "isFlipped": true
@@ -132,7 +146,8 @@
             "FED_NUM": 24034,
             "FED_name": "Lac-Saint-Louis",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -141,7 +156,8 @@
             "FED_NUM": 24035,
             "FED_name": "LaSalle\u2014\u00c9mard\u2014Verdun",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -150,7 +166,8 @@
             "FED_NUM": 24037,
             "FED_name": "Laurier\u2014Sainte-Marie",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -159,7 +176,8 @@
             "FED_NUM": 24038,
             "FED_name": "Laval\u2014Les \u00celes",
             "CSD": "Laval",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -168,7 +186,8 @@
             "FED_NUM": 24041,
             "FED_name": "Longueuil\u2014Charles-LeMoyne",
             "CSD": "Longueuil",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -177,7 +196,8 @@
             "FED_NUM": 24042,
             "FED_name": "Longueuil\u2014Saint-Hubert",
             "CSD": "Longueuil",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "bloc",
             "curParty": "lib",
             "isFlipped": true
@@ -186,7 +206,8 @@
             "FED_NUM": 24045,
             "FED_name": "Marc-Aur\u00e8le-Fortin",
             "CSD": "Laval",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -195,7 +216,8 @@
             "FED_NUM": 24047,
             "FED_name": "Mirabel",
             "CSD": "Mirabel",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "bloc",
             "curParty": "bloc",
             "isFlipped": false
@@ -204,7 +226,8 @@
             "FED_NUM": 24048,
             "FED_name": "Mount Royal",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -213,7 +236,8 @@
             "FED_NUM": 24049,
             "FED_name": "Mont-Saint-Bruno\u2014L'Acadie",
             "CSD": "nan",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "bloc",
             "curParty": "lib",
             "isFlipped": true
@@ -222,7 +246,8 @@
             "FED_NUM": 24052,
             "FED_name": "Notre-Dame-de-Gr\u00e2ce\u2014Westmount",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -231,7 +256,8 @@
             "FED_NUM": 24053,
             "FED_name": "Outremont",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -240,7 +266,8 @@
             "FED_NUM": 24054,
             "FED_name": "Papineau",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -249,7 +276,8 @@
             "FED_NUM": 24056,
             "FED_name": "Pierrefonds\u2014Dollard",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -258,7 +286,8 @@
             "FED_NUM": 24060,
             "FED_name": "Repentigny",
             "CSD": "L'Assomption",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "bloc",
             "curParty": "bloc",
             "isFlipped": false
@@ -267,7 +296,8 @@
             "FED_NUM": 24063,
             "FED_name": "Rivi\u00e8re-des-Mille-\u00celes",
             "CSD": "Saint-Eustache",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "bloc",
             "curParty": "lib",
             "isFlipped": true
@@ -276,7 +306,8 @@
             "FED_NUM": 24064,
             "FED_name": "Rivi\u00e8re-du-Nord",
             "CSD": "nan",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "bloc",
             "curParty": "bloc",
             "isFlipped": false
@@ -285,7 +316,8 @@
             "FED_NUM": 24065,
             "FED_name": "Rosemont\u2014La Petite-Patrie",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "ndp",
             "curParty": "ndp",
             "isFlipped": false
@@ -294,7 +326,8 @@
             "FED_NUM": 24068,
             "FED_name": "Saint-Laurent",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -303,7 +336,8 @@
             "FED_NUM": 24069,
             "FED_name": "Saint-L\u00e9onard\u2014Saint-Michel",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -312,7 +346,8 @@
             "FED_NUM": 24073,
             "FED_name": "Terrebonne",
             "CSD": "Terrebonne",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "bloc",
             "curParty": "bloc",
             "isFlipped": false
@@ -321,7 +356,8 @@
             "FED_NUM": 24074,
             "FED_name": "Th\u00e9r\u00e8se-De Blainville",
             "CSD": "Blainville",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "bloc",
             "curParty": "lib",
             "isFlipped": true
@@ -330,7 +366,8 @@
             "FED_NUM": 24076,
             "FED_name": "Vaudreuil",
             "CSD": "nan",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -339,7 +376,8 @@
             "FED_NUM": 24077,
             "FED_name": "Ville-Marie\u2014Le Sud-Ouest\u2014\u00cele-des-S\u0153urs",
             "CSD": "Island of Montreal",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -348,18 +386,20 @@
             "FED_NUM": 24078,
             "FED_name": "Vimy",
             "CSD": "Laval",
-            "region": "Montr\u00e9al",
+            "region": "Greater Montreal",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
         }
     ],
-    "Qu\u00e9bec": [
+    "Quebec City": [
         {
             "FED_NUM": 24008,
             "FED_name": "Beauport\u2014Limoilou",
-            "CSD": "Qu\u00e9bec",
-            "region": "Qu\u00e9bec",
+            "CSD": "Quebec City",
+            "region": "Quebec City",
+            "isSuburb": false,
             "prevParty": "bloc",
             "curParty": "lib",
             "isFlipped": true
@@ -367,8 +407,9 @@
         {
             "FED_NUM": 24016,
             "FED_name": "Charlesbourg\u2014Haute-Saint-Charles",
-            "CSD": "Qu\u00e9bec",
-            "region": "Qu\u00e9bec",
+            "CSD": "Quebec City",
+            "region": "Quebec City",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -377,7 +418,8 @@
             "FED_NUM": 24040,
             "FED_name": "L\u00e9vis\u2014Lotbini\u00e8re",
             "CSD": "nan",
-            "region": "Qu\u00e9bec",
+            "region": "Quebec City",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -385,8 +427,9 @@
         {
             "FED_NUM": 24043,
             "FED_name": "Louis-H\u00e9bert",
-            "CSD": "Qu\u00e9bec",
-            "region": "Qu\u00e9bec",
+            "CSD": "Quebec City",
+            "region": "Quebec City",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -394,8 +437,9 @@
         {
             "FED_NUM": 24044,
             "FED_name": "Louis-Saint-Laurent\u2014Akiawenhrahk",
-            "CSD": "Qu\u00e9bec",
-            "region": "Qu\u00e9bec",
+            "CSD": "Quebec City",
+            "region": "Quebec City",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -403,8 +447,9 @@
         {
             "FED_NUM": 24059,
             "FED_name": "Qu\u00e9bec Centre",
-            "CSD": "Qu\u00e9bec",
-            "region": "Qu\u00e9bec",
+            "CSD": "Quebec City",
+            "region": "Quebec City",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -416,6 +461,7 @@
             "FED_name": "Ajax",
             "CSD": "Ajax",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -425,6 +471,7 @@
             "FED_name": "Aurora\u2014Oak Ridges\u2014Richmond Hill",
             "CSD": "Richmond Hill",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "con",
             "isFlipped": true
@@ -434,6 +481,7 @@
             "FED_name": "Beaches\u2014East York",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -443,6 +491,7 @@
             "FED_name": "Bowmanville\u2014Oshawa North",
             "CSD": "Clarington",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -452,6 +501,7 @@
             "FED_name": "Brampton Centre",
             "CSD": "Brampton",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -461,6 +511,7 @@
             "FED_name": "Brampton\u2014Chinguacousy Park",
             "CSD": "Brampton",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -470,6 +521,7 @@
             "FED_name": "Brampton East",
             "CSD": "Brampton",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -479,6 +531,7 @@
             "FED_name": "Brampton North\u2014Caledon",
             "CSD": "Caledon",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -488,6 +541,7 @@
             "FED_name": "Brampton South",
             "CSD": "Brampton",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -497,6 +551,7 @@
             "FED_name": "Brampton West",
             "CSD": "Brampton",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "con",
             "isFlipped": true
@@ -506,6 +561,7 @@
             "FED_name": "Burlington",
             "CSD": "Burlington",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -515,6 +571,7 @@
             "FED_name": "Burlington North\u2014Milton West",
             "CSD": "Milton",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -524,6 +581,7 @@
             "FED_name": "Davenport",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -533,6 +591,7 @@
             "FED_name": "Don Valley North",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -542,6 +601,7 @@
             "FED_name": "Don Valley West",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -551,6 +611,7 @@
             "FED_name": "Eglinton\u2014Lawrence",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -560,6 +621,7 @@
             "FED_name": "Etobicoke Centre",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -569,6 +631,7 @@
             "FED_name": "Etobicoke\u2014Lakeshore",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -578,6 +641,7 @@
             "FED_name": "Etobicoke North",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -587,6 +651,7 @@
             "FED_name": "Humber River\u2014Black Creek",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -596,6 +661,7 @@
             "FED_name": "King\u2014Vaughan",
             "CSD": "King",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -605,6 +671,7 @@
             "FED_name": "Markham\u2014Stouffville",
             "CSD": "Markham",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -614,6 +681,7 @@
             "FED_name": "Markham\u2014Thornhill",
             "CSD": "Markham",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -623,6 +691,7 @@
             "FED_name": "Markham\u2014Unionville",
             "CSD": "Markham",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "con",
             "isFlipped": true
@@ -632,6 +701,7 @@
             "FED_name": "Milton East\u2014Halton Hills South",
             "CSD": "Halton Hills",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "con",
             "isFlipped": true
@@ -641,6 +711,7 @@
             "FED_name": "Mississauga Centre",
             "CSD": "Mississauga",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -650,6 +721,7 @@
             "FED_name": "Mississauga East\u2014Cooksville",
             "CSD": "Mississauga",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -659,6 +731,7 @@
             "FED_name": "Mississauga\u2014Erin Mills",
             "CSD": "Mississauga",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -668,6 +741,7 @@
             "FED_name": "Mississauga\u2014Lakeshore",
             "CSD": "Mississauga",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -677,6 +751,7 @@
             "FED_name": "Mississauga\u2014Malton",
             "CSD": "Mississauga",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -686,6 +761,7 @@
             "FED_name": "Mississauga\u2014Streetsville",
             "CSD": "Mississauga",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -695,6 +771,7 @@
             "FED_name": "Newmarket\u2014Aurora",
             "CSD": "Newmarket",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "con",
             "isFlipped": true
@@ -704,6 +781,7 @@
             "FED_name": "Oakville East",
             "CSD": "Oakville",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -713,6 +791,7 @@
             "FED_name": "Oakville West",
             "CSD": "Oakville",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -722,6 +801,7 @@
             "FED_name": "Oshawa",
             "CSD": "Oshawa",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -731,6 +811,7 @@
             "FED_name": "Pickering\u2014Brooklin",
             "CSD": "Pickering",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -740,6 +821,7 @@
             "FED_name": "Richmond Hill South",
             "CSD": "Richmond Hill",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "con",
             "isFlipped": true
@@ -749,6 +831,7 @@
             "FED_name": "Scarborough\u2014Agincourt",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -758,6 +841,7 @@
             "FED_name": "Scarborough Centre\u2014Don Valley East",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -767,6 +851,7 @@
             "FED_name": "Scarborough\u2014Guildwood\u2014Rouge Park",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -776,6 +861,7 @@
             "FED_name": "Scarborough North",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -785,6 +871,7 @@
             "FED_name": "Scarborough Southwest",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -794,6 +881,7 @@
             "FED_name": "Scarborough\u2014Woburn",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -803,6 +891,7 @@
             "FED_name": "Spadina\u2014Harbourfront",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -812,6 +901,7 @@
             "FED_name": "Taiaiako\u2019n\u2014Parkdale\u2014High Park",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -821,6 +911,7 @@
             "FED_name": "Thornhill",
             "CSD": "Vaughan",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -830,6 +921,7 @@
             "FED_name": "Toronto Centre",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -839,6 +931,7 @@
             "FED_name": "Toronto\u2014Danforth",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -848,6 +941,7 @@
             "FED_name": "Toronto\u2014St. Paul's",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -857,6 +951,7 @@
             "FED_name": "University\u2014Rosedale",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -866,6 +961,7 @@
             "FED_name": "Vaughan\u2014Woodbridge",
             "CSD": "Vaughan",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "con",
             "isFlipped": true
@@ -875,6 +971,7 @@
             "FED_name": "Whitby",
             "CSD": "Whitby",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -884,6 +981,7 @@
             "FED_name": "Willowdale",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -893,6 +991,7 @@
             "FED_name": "York Centre",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "con",
             "isFlipped": true
@@ -902,6 +1001,7 @@
             "FED_name": "York\u2014Durham",
             "CSD": "nan",
             "region": "Greater Toronto Area",
+            "isSuburb": true,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -911,17 +1011,19 @@
             "FED_name": "York South\u2014Weston\u2014Etobicoke",
             "CSD": "Toronto",
             "region": "Greater Toronto Area",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
         }
     ],
-    "Ottawa - Gatineau (Ontario part / partie de l'Ontario)": [
+    "Greater Ottawa": [
         {
             "FED_NUM": 35020,
             "FED_name": "Carleton",
             "CSD": "Ottawa",
-            "region": "Ottawa - Gatineau (Ontario part / partie de l'Ontario)",
+            "region": "Greater Ottawa",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "lib",
             "isFlipped": true
@@ -930,7 +1032,8 @@
             "FED_NUM": 35043,
             "FED_name": "Kanata",
             "CSD": "Ottawa",
-            "region": "Ottawa - Gatineau (Ontario part / partie de l'Ontario)",
+            "region": "Greater Ottawa",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -939,7 +1042,8 @@
             "FED_NUM": 35067,
             "FED_name": "Nepean",
             "CSD": "Ottawa",
-            "region": "Ottawa - Gatineau (Ontario part / partie de l'Ontario)",
+            "region": "Greater Ottawa",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -948,7 +1052,8 @@
             "FED_NUM": 35077,
             "FED_name": "Orl\u00e9ans",
             "CSD": "Ottawa",
-            "region": "Ottawa - Gatineau (Ontario part / partie de l'Ontario)",
+            "region": "Greater Ottawa",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -957,7 +1062,8 @@
             "FED_NUM": 35079,
             "FED_name": "Ottawa Centre",
             "CSD": "Ottawa",
-            "region": "Ottawa - Gatineau (Ontario part / partie de l'Ontario)",
+            "region": "Greater Ottawa",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -966,7 +1072,8 @@
             "FED_NUM": 35080,
             "FED_name": "Ottawa South",
             "CSD": "Ottawa",
-            "region": "Ottawa - Gatineau (Ontario part / partie de l'Ontario)",
+            "region": "Greater Ottawa",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -975,7 +1082,8 @@
             "FED_NUM": 35081,
             "FED_name": "Ottawa\u2014Vanier\u2014Gloucester",
             "CSD": "Ottawa",
-            "region": "Ottawa - Gatineau (Ontario part / partie de l'Ontario)",
+            "region": "Greater Ottawa",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -984,7 +1092,8 @@
             "FED_NUM": 35082,
             "FED_name": "Ottawa West\u2014Nepean",
             "CSD": "Ottawa",
-            "region": "Ottawa - Gatineau (Ontario part / partie de l'Ontario)",
+            "region": "Greater Ottawa",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -996,6 +1105,7 @@
             "FED_name": "Elmwood\u2014Transcona",
             "CSD": "Springfield",
             "region": "Winnipeg",
+            "isSuburb": false,
             "prevParty": "ndp",
             "curParty": "con",
             "isFlipped": true
@@ -1005,6 +1115,7 @@
             "FED_name": "Kildonan\u2014St. Paul",
             "CSD": "nan",
             "region": "Winnipeg",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1014,6 +1125,7 @@
             "FED_name": "St. Boniface\u2014St. Vital",
             "CSD": "Winnipeg",
             "region": "Winnipeg",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -1023,6 +1135,7 @@
             "FED_name": "Winnipeg Centre",
             "CSD": "Winnipeg",
             "region": "Winnipeg",
+            "isSuburb": false,
             "prevParty": "ndp",
             "curParty": "ndp",
             "isFlipped": false
@@ -1032,6 +1145,7 @@
             "FED_name": "Winnipeg North",
             "CSD": "Winnipeg",
             "region": "Winnipeg",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -1041,6 +1155,7 @@
             "FED_name": "Winnipeg South",
             "CSD": "Winnipeg",
             "region": "Winnipeg",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -1050,6 +1165,7 @@
             "FED_name": "Winnipeg South Centre",
             "CSD": "Winnipeg",
             "region": "Winnipeg",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -1059,6 +1175,7 @@
             "FED_name": "Winnipeg West",
             "CSD": "Rosser",
             "region": "Winnipeg",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "lib",
             "isFlipped": true
@@ -1070,6 +1187,7 @@
             "FED_name": "Airdrie\u2014Cochrane",
             "CSD": "Rocky View County",
             "region": "Calgary",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1079,6 +1197,7 @@
             "FED_name": "Calgary Centre",
             "CSD": "Calgary",
             "region": "Calgary",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1088,6 +1207,7 @@
             "FED_name": "Calgary Confederation",
             "CSD": "Calgary",
             "region": "Calgary",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "lib",
             "isFlipped": true
@@ -1097,6 +1217,7 @@
             "FED_name": "Calgary Crowfoot",
             "CSD": "Calgary",
             "region": "Calgary",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1106,6 +1227,7 @@
             "FED_name": "Calgary East",
             "CSD": "Calgary",
             "region": "Calgary",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1115,6 +1237,7 @@
             "FED_name": "Calgary Heritage",
             "CSD": "Calgary",
             "region": "Calgary",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1124,6 +1247,7 @@
             "FED_name": "Calgary McKnight",
             "CSD": "Calgary",
             "region": "Calgary",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "con",
             "isFlipped": true
@@ -1133,6 +1257,7 @@
             "FED_name": "Calgary Midnapore",
             "CSD": "Calgary",
             "region": "Calgary",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1142,6 +1267,7 @@
             "FED_name": "Calgary Nose Hill",
             "CSD": "Calgary",
             "region": "Calgary",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1151,6 +1277,7 @@
             "FED_name": "Calgary Shepard",
             "CSD": "Calgary",
             "region": "Calgary",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1160,6 +1287,7 @@
             "FED_name": "Calgary Signal Hill",
             "CSD": "Calgary",
             "region": "Calgary",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1169,6 +1297,7 @@
             "FED_name": "Calgary Skyview",
             "CSD": "Calgary",
             "region": "Calgary",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1180,6 +1309,7 @@
             "FED_name": "Edmonton Centre",
             "CSD": "Edmonton",
             "region": "Edmonton",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "lib",
             "isFlipped": true
@@ -1189,6 +1319,7 @@
             "FED_name": "Edmonton Gateway",
             "CSD": "Edmonton",
             "region": "Edmonton",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1198,6 +1329,7 @@
             "FED_name": "Edmonton Griesbach",
             "CSD": "Edmonton",
             "region": "Edmonton",
+            "isSuburb": false,
             "prevParty": "ndp",
             "curParty": "con",
             "isFlipped": true
@@ -1207,6 +1339,7 @@
             "FED_name": "Edmonton Manning",
             "CSD": "Edmonton",
             "region": "Edmonton",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1216,6 +1349,7 @@
             "FED_name": "Edmonton Northwest",
             "CSD": "Edmonton",
             "region": "Edmonton",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1225,6 +1359,7 @@
             "FED_name": "Edmonton Riverbend",
             "CSD": "Edmonton",
             "region": "Edmonton",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1234,6 +1369,7 @@
             "FED_name": "Edmonton Southeast",
             "CSD": "Edmonton",
             "region": "Edmonton",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1243,6 +1379,7 @@
             "FED_name": "Edmonton Strathcona",
             "CSD": "Edmonton",
             "region": "Edmonton",
+            "isSuburb": false,
             "prevParty": "ndp",
             "curParty": "ndp",
             "isFlipped": false
@@ -1252,6 +1389,7 @@
             "FED_name": "Edmonton West",
             "CSD": "Edmonton",
             "region": "Edmonton",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1261,6 +1399,7 @@
             "FED_name": "Sherwood Park\u2014Fort Saskatchewan",
             "CSD": "Strathcona County",
             "region": "Edmonton",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1270,17 +1409,19 @@
             "FED_name": "St. Albert\u2014Sturgeon River",
             "CSD": "nan",
             "region": "Edmonton",
+            "isSuburb": false,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
         }
     ],
-    "Vancouver": [
+    "Metro Vancouver": [
         {
             "FED_NUM": 59001,
             "FED_name": "Abbotsford\u2014South Langley",
             "CSD": "Langley",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1289,7 +1430,8 @@
             "FED_NUM": 59002,
             "FED_name": "Burnaby Central",
             "CSD": "Burnaby",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "ndp",
             "curParty": "lib",
             "isFlipped": true
@@ -1298,7 +1440,8 @@
             "FED_NUM": 59003,
             "FED_name": "Burnaby North\u2014Seymour",
             "CSD": "North Vancouver",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -1307,7 +1450,8 @@
             "FED_NUM": 59006,
             "FED_name": "Cloverdale\u2014Langley City",
             "CSD": "Surrey",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "con",
             "isFlipped": true
@@ -1316,7 +1460,8 @@
             "FED_NUM": 59008,
             "FED_name": "Coquitlam\u2014Port Coquitlam",
             "CSD": "Metro Vancouver A",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -1325,7 +1470,8 @@
             "FED_NUM": 59011,
             "FED_name": "Delta",
             "CSD": "Delta",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -1334,7 +1480,8 @@
             "FED_NUM": 59013,
             "FED_name": "Fleetwood\u2014Port Kells",
             "CSD": "Surrey",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -1343,7 +1490,8 @@
             "FED_NUM": 59017,
             "FED_name": "Langley Township\u2014Fraser Heights",
             "CSD": "Langley",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "con",
             "curParty": "con",
             "isFlipped": false
@@ -1352,7 +1500,8 @@
             "FED_NUM": 59020,
             "FED_name": "New Westminster\u2014Burnaby\u2014Maillardville",
             "CSD": "New Westminster",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "ndp",
             "curParty": "lib",
             "isFlipped": true
@@ -1361,7 +1510,8 @@
             "FED_NUM": 59022,
             "FED_name": "North Vancouver\u2014Capilano",
             "CSD": "Metro Vancouver A",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -1370,7 +1520,8 @@
             "FED_NUM": 59025,
             "FED_name": "Port Moody\u2014Coquitlam",
             "CSD": "nan",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "ndp",
             "curParty": "lib",
             "isFlipped": true
@@ -1379,7 +1530,8 @@
             "FED_NUM": 59027,
             "FED_name": "Richmond Centre\u2014Marpole",
             "CSD": "Richmond",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "con",
             "isFlipped": true
@@ -1388,7 +1540,8 @@
             "FED_NUM": 59028,
             "FED_name": "Richmond East\u2014Steveston",
             "CSD": "Richmond",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -1397,7 +1550,8 @@
             "FED_NUM": 59032,
             "FED_name": "South Surrey\u2014White Rock",
             "CSD": "Surrey",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "con",
             "curParty": "lib",
             "isFlipped": true
@@ -1406,7 +1560,8 @@
             "FED_NUM": 59033,
             "FED_name": "Surrey Centre",
             "CSD": "Surrey",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -1415,7 +1570,8 @@
             "FED_NUM": 59034,
             "FED_name": "Surrey Newton",
             "CSD": "Surrey",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -1424,7 +1580,8 @@
             "FED_NUM": 59035,
             "FED_name": "Vancouver Centre",
             "CSD": "Vancouver",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -1433,7 +1590,8 @@
             "FED_NUM": 59036,
             "FED_name": "Vancouver East",
             "CSD": "Vancouver",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": false,
             "prevParty": "ndp",
             "curParty": "ndp",
             "isFlipped": false
@@ -1442,7 +1600,8 @@
             "FED_NUM": 59037,
             "FED_name": "Vancouver Fraserview\u2014South Burnaby",
             "CSD": "Burnaby",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": true,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -1451,7 +1610,8 @@
             "FED_NUM": 59038,
             "FED_name": "Vancouver Granville",
             "CSD": "Vancouver",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
@@ -1460,7 +1620,8 @@
             "FED_NUM": 59039,
             "FED_name": "Vancouver Kingsway",
             "CSD": "Vancouver",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": false,
             "prevParty": "ndp",
             "curParty": "ndp",
             "isFlipped": false
@@ -1469,7 +1630,8 @@
             "FED_NUM": 59040,
             "FED_name": "Vancouver Quadra",
             "CSD": "Vancouver",
-            "region": "Vancouver",
+            "region": "Metro Vancouver",
+            "isSuburb": false,
             "prevParty": "lib",
             "curParty": "lib",
             "isFlipped": false
