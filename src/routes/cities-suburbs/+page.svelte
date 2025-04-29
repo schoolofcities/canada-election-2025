@@ -106,6 +106,26 @@
             {/if}
         </div>
     </div>
+
+    <div class="footnotes">
+        <h3>Data & Methods</h3>
+
+        <p>
+            We obtained geographic boundaries for cities and metro regions from the <a href='https://www12.statcan.gc.ca/census-recensement/2021/geo/sip-pis/boundary-limites/index2021-eng.cfm?year=21' target="_blank">2021 Canadian census</a>, using Census Subdivisions (CSDs) for cities and Census Metropolitan Areas (CMAs) for regions. Two exceptions were made: for Toronto, we used the <a href='https://en.wikipedia.org/wiki/List_of_municipalities_in_the_Greater_Toronto_Area' target="_blank">Greater Toronto Area</a> instead of the Toronto CMA because it is more widely recognized, and for Montreal, we used the full island due to its complex municipal borders. We selected 9 cities based on population size and geographic diversity, along with the three most populous metro regions.
+        </p>
+
+        <p>
+            The <a href='https://osdp-psdo.canada.ca/dp/en/search/metadata/NRCAN-FGP-1-2bf02698-f0aa-4758-a538-a01be833d439' target="_blank">riding boundaries</a> for the 2025 election followed the 2022 Canadian federal electoral redistribution. A riding was assigned to a city or metro region if at least 50% of its geographic area fell within that jurisdiction. Ridings within a metro region but outside its core city – such as one in Brampton in the Greater Toronto Area – were classified as suburban.
+        </p>
+
+        <p>
+            Vote data for the 2021 election came from Elections Canada’s <a href='https://www.elections.ca/content.aspx?section=res&dir=rep/tra/2023rep&document=index&lang=e' target="_blank">transposed results</a>, while 2025 results were sourced from <a href='https://newsinteractives.cbc.ca/elections/federal/2025/results/' target="_blank">the CBC</a> (also derived from Elections Canada). As of writing, 99% of all results were reporting. We aggregated votes and seat counts for each region by summing the results of its constituent ridings. Vote shares were displayed only for larger parties (the Green Party and People's Party did not register significant results in any region), and seat counts were shown only if a party won at least one seat in either 2021 or 2025.
+        </p>
+
+        <p>
+            You can find the data <a href='https://github.com/schoolofcities/canada-election-2025/tree/main/static/data/results' target="_blank">here</a>, and all the code in the <a href='https://github.com/schoolofcities/canada-election-2025' target="_blank">GitHub repository</a>.
+        </p>
+    </div>
 </main>
 
 <style>
