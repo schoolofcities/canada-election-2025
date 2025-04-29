@@ -43,8 +43,8 @@ export const PARTY_NAMES_LONG = {
     'con': 'Conservatives',
     'ndp': 'New Democrats',
     'bloc': 'Bloc Quebecois',
-    'grn': 'Green',
-    'ppc': 'People',
+    'grn': 'Greens',
+    'ppc': "People's",
     'oth': 'Other',
 }
 

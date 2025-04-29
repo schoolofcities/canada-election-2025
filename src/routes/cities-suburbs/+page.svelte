@@ -64,7 +64,27 @@
 
     <div class="text">
         <p>
-            hello world
+            Canadians voted, and were left with the greatest consolidation in the two major parties since 1958. In a historic turnaround, the Liberals led by Mark Carney find themselves forming government for the fourth time in a row. As recently as January, they were polling dangerously close to a wipeout - until former Prime Minister Justin Trudeau resigned, and threats to sovereignty by the United States came to dominate the national political conversation.
+        </p>
+        
+        <p>
+            The Liberals won 43.7% of the national vote, up 11.1% from the last election. They were tailed closely by the Conservatives who won 41.3%, up by 7.6%. Led by Pierre Poilievre, they capitalized on a <a href='https://abacusdata.ca/2025-federal-election-final-poll-of-campaign/' target="">desire for change</a>, especially winning over voters upset about the cost-of-living crisis, with notable inroads into <a href='https://thelocal.to/young-conservative-right-wing-voters-poilievre-carney/' target="">young voters</a> and <a href='https://theconversation.com/why-are-so-many-second-generation-south-asian-and-chinese-canadians-planning-to-vote-conservative-253820' target="">visible minorities</a>.
+        </p>
+
+        <p>
+            The left-leaning New Democrats netted just 6.3%, down 11.5% from the last election. This was their worst performance in the party's history. Despite winning progress on national dental care and pharmacare programs from the governing Liberals, some voters flocked away from the party to rally around the Liberals in the wake of threats to sovereignty, while the Conservatives made <a href='https://www.cbc.ca/news/politics/cpc-ndp-working-class-votes-canada-1.7166294' target="">deliberate</a> <a href='https://www.ekospolitics.com/index.php/2025/04/ekos-predicts-liberal-majority/' target="">inroads</a> into its historical working-class base.
+        </p>
+
+        <p>
+            How did all of this play out in Canada cities and suburbs? We've visualized the changes in votes and seats across Canada's major cities and metropolitan regions below.
+        </p>
+
+        <p>
+            The Conservatives saw clear gains in the suburbs of the Greater Toronto Area - flipping seats in Brampton and Markham. Home to large numbers of South Asian and East Asian Canadians respectively, this is consistent with work affiliated to the School of Cities arguing <a href='https://schoolofcities.github.io/gta-immigration/political-shifts' target="">immigrants</a> and <a href='https://www.utsc.utoronto.ca/sociology/utsc-sociologist-breaks-down-surge-south-asian-and-chinese-canadian-support-conservatives' target="">minorities</a> are shifting to the right. The Conservatives also saw large gains in Vancouver's suburbs, accompanied by an NDP collapse - but failed to make a breakthrough.
+        </p>
+
+        <p>
+            Across the board, both major parties saw decisive games at the expense of other smaller parties in many cities - but generally, gained less votes in the cities compared to the rest of the country. In Edmonton and Calgary, historically Conservative-voting cities, the Liberals failed to mount a breakthrough. Notable exceptions however came in Ottawa and Quebec City, where the Conservatives lost votes against large Liberal gains.
         </p>
     </div>
     
