@@ -186,10 +186,10 @@
 <style>
     .waffle-container {    
         margin-top: 20px;
-        margin-right: -25px;
+        margin-right: 10px;
         flex-grow: 0;      /* Don't expand beyond width */
         flex-shrink: 0;    /* Don't compress below width */
-        flex-basis: 137px; /* Must be adjusted if SQUARE_SIZE/PADDING/PER_ROW are adjusted */
+        flex-basis: 110px; /* Must be adjusted if SQUARE_SIZE/PADDING/PER_ROW are adjusted */
     }
     
     .waffle-graph {
