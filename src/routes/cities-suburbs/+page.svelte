@@ -7,6 +7,8 @@
     import SlopeGraph from '$lib/SlopeGraph.svelte';
     import WaffleGraph from '$lib/WaffleGraph.svelte';
     import ResultsPanel from '$lib/ResultsPanel.svelte';
+    import VoteShareBar from '$lib/VoteShareBar.svelte';
+    import VoteShareBarPolygon from "$lib/VoteShareBarPolygon.svelte";
 
     // NOTE: Region/city name are also keys to the data! If you want to set the name differently, then add another element in the array.
     const metros = [
@@ -81,7 +83,12 @@
 <main>
     <TopSofC/>
 
+    
+
     <div class="title">
+
+        <VoteShareBarPolygon/>
+        
         <h1>Canada Votes 2025: Cities & Suburbs</h1>
         <p>
             <a href='https://www.linkedin.com/in/aniket-k-8a8b9921b/' target='_blank'>Aniket Kali</a>,
@@ -91,31 +98,31 @@
         </p>
     </div>
 
+   
     <div class="text">
-        <p>
-            Canadians voted, and were left with the greatest consolidation in the two major parties since 1958. In a historic turnaround, the Liberals led by Mark Carney find themselves forming government for the fourth time in a row. As recently as January, they were polling dangerously close to a wipeout - until former Prime Minister Justin Trudeau resigned, and threats to sovereignty by the United States came to dominate the national political conversation.
-        </p>
+
         
+
+        
+
         <p>
-            <span style="background-color: #f58085">The Liberals won 43.7% of the national vote, up 11.1% from the last election, for 169 seats</span>. 
+            Canadians voted, and were left with the greatest consolidation in the two major parties since 1958. In a historic turnaround, the Liberals led by Mark Carney find themselves forming government for the fourth time in a row. The Liberals won <span style="border-bottom: solid 4px #DC4633;">43.7%</span> of the national vote, <span style="border-bottom: solid 4px #DC4633;">up by 11.1%</span> from the last election, for <span style="border-bottom: solid 4px #DC4633;">169 seats</span>. As recently as January, they were polling dangerously close to a wipeout - until former Prime Minister Justin Trudeau resigned, and threats to sovereignty by the United States came to dominate the national political conversation. 
+        </p>
+
+        <p>
+
             They were tailed closely by 
-            <span style="background-color: #5d86d2">the Conservatives who won 41.3%, up by 7.6%, for 143 seats</span>. 
-            Led by Pierre Poilievre, they capitalized on a <a href='https://abacusdata.ca/2025-federal-election-final-poll-of-campaign/' target="">desire for change</a>, especially winning over voters upset about the cost-of-living crisis, with notable inroads into <a href='https://thelocal.to/young-conservative-right-wing-voters-poilievre-carney/' target="">young voters</a> and <a href='https://theconversation.com/why-are-so-many-second-generation-south-asian-and-chinese-canadians-planning-to-vote-conservative-253820' target="">visible minorities</a>.
+            the Conservatives who won <span style="border-bottom: solid 4px #1E3765">41.3%</span>, <span style="border-bottom: solid 4px #1E3765">up by 7.6%</span>, for <span style="border-bottom: solid 4px #1E3765">143 seats</span>. 
+            Led by Pierre Poilievre, they capitalized on a <a href='https://abacusdata.ca/2025-federal-election-final-poll-of-campaign/' target="">desire for change</a>, especially winning over voters upset about the cost-of-living crisis, with notable inroads into <a href='https://thelocal.to/young-conservative-right-wing-voters-poilievre-carney/' target="">young voters</a> and <a href='https://theconversation.com/why-are-so-many-second-generation-south-asian-and-chinese-canadians-planning-to-vote-conservative-253820' target="">visible minorities</a>. <span style="border-bottom: solid 4px #EBA00F">
+        </p>
+
+        <p>        
+            The left-leaning New Democrats netted just <span style="border-bottom: solid 4px #EBA00F">6.3%</span>, <span style="border-bottom: solid 4px #EBA00F">down by 11.5%</span> from the last election, for <span style="border-bottom: solid 4px #EBA00F">7 seats</span>. This was their worst performance in the party's history. Despite winning progress on national dental care and pharmacare programs from the governing Liberals, some voters flocked away from the party to rally around the Liberals in the wake of threats to sovereignty, while the Conservatives made <a href='https://www.cbc.ca/news/politics/cpc-ndp-working-class-votes-canada-1.7166294' target="">deliberate</a> <a href='https://www.ekospolitics.com/index.php/2025/04/ekos-predicts-liberal-majority/' target="">inroads</a> into its historical working-class base.
         </p>
 
         <p>
-            <span style="background-color: #ffbe78">The left-leaning New Democrats netted just 6.3%, down 11.5% from the last election, for 7 seats</span>. 
-            This was their worst performance in the party's history. Despite winning progress on national dental care and pharmacare programs from the governing Liberals, some voters flocked away from the party to rally around the Liberals in the wake of threats to sovereignty, while the Conservatives made <a href='https://www.cbc.ca/news/politics/cpc-ndp-working-class-votes-canada-1.7166294' target="">deliberate</a> <a href='https://www.ekospolitics.com/index.php/2025/04/ekos-predicts-liberal-majority/' target="">inroads</a> into its historical working-class base.
+            These were the national trends, but how did all of this play out in Canada cities and suburbs? Below we visualize changes in vote share and total seats in Canada's three largest metros (Vancouver, Toronto, Montreal), and compare between the central cities and the suburbs for each of these regions.
         </p>
-
-        <p>
-            How did all of this play out in Canada cities and suburbs? We first visualize how changes in votes and seats in Canada's three largest metros (Vancouver, Toronto, Montreal) compare between the central cities and the suburbs for each of these regions.
-        </p>
-
-        <p>
-            The Conservatives saw clear gains in the suburbs of the Greater Toronto Area - flipping seats in Brampton and Markham. Home to large numbers of South Asian and East Asian Canadians respectively, this is consistent with work affiliated to the School of Cities showing <a href='https://schoolofcities.github.io/gta-immigration/political-shifts' target="">immigrants</a> and <a href='https://www.utsc.utoronto.ca/sociology/utsc-sociologist-breaks-down-surge-south-asian-and-chinese-canadian-support-conservatives' target="">minorities</a> are shifting to the right. The Conservatives also saw large gains in Vancouver's suburbs, accompanied by an NDP collapse - but failed to make a breakthrough.
-        </p>
-
         
     </div>
     
@@ -142,10 +149,19 @@
 
     <div class="text">
         <p>
+            The Conservatives saw clear gains in the suburbs of the Greater Toronto Area - flipping seats in Brampton and Markham. Home to large numbers of South Asian and East Asian Canadians respectively, this is consistent with work affiliated to the School of Cities showing <a href='https://schoolofcities.github.io/gta-immigration/political-shifts' target="">immigrants</a> and <a href='https://www.utsc.utoronto.ca/sociology/utsc-sociologist-breaks-down-surge-south-asian-and-chinese-canadian-support-conservatives' target="">minorities</a> are shifting to the right. The Conservatives also saw large gains in Vancouver's suburbs, accompanied by an NDP collapse - but failed to make a breakthrough.
+        </p>
+        <p>
+            ADD BIT ABOUT CHANGES IN MONTREAL? (only toronto and van noted above)
+        </p>
+        <p>
             We now turn our attention to other major cities in Canada.
         </p>
         <p>
-            Across the board, both major parties saw decisive games at the expense of other smaller parties in many cities - but generally, gained less votes in the cities compared to the rest of the country. In Edmonton and Calgary, historically Conservative-voting cities, the Liberals failed to mount a breakthrough. Notable exceptions however came in Ottawa and Quebec City, where the Conservatives lost votes against large Liberal gains.
+            Both major parties saw decisive games at the expense of other smaller parties in many cities - but generally, gained less votes in the cities compared to the rest of the country. In Edmonton and Calgary, historically Conservative-voting cities, the Liberals failed to mount a breakthrough, even though their vote share increased.
+        </p>
+        <p>    
+            Ottawa and Quebec City were the only two cities where Conservatives lost vote share agains large Liberal gains. MORE ABOUT THIS?
         </p>
     </div>
 
@@ -166,6 +182,9 @@
 
     <br>
     <br>
+    
+    
+    
     <div class="footnotes">
         <h3>Data & Methods</h3>
 
@@ -185,6 +204,15 @@
             You can find the data <a href='https://github.com/schoolofcities/canada-election-2025/tree/main/static/data/results' target="_blank">here</a>, and all the code in the <a href='https://github.com/schoolofcities/canada-election-2025' target="_blank">GitHub repository</a>.
         </p>
     </div>
+
+    <div class="text">
+        <VoteShareBar year={2021}/>
+        <VoteShareBar year={2025}/>
+    </div>
+
+    <br>
+    <br>
+
 </main>
 
 <style>
