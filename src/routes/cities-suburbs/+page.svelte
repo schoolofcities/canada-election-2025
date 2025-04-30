@@ -100,28 +100,20 @@
 
    
     <div class="text">
-
-        
-
-        
-
         <p>
-            Canadians voted, and were left with the greatest consolidation in the two major parties since 1958. In a historic turnaround, the Liberals led by Mark Carney find themselves forming government for the fourth time in a row. The Liberals won <span style="border-bottom: solid 4px #DC4633;">43.7%</span> of the national vote, <span style="border-bottom: solid 4px #DC4633;">up by 11.1%</span> from the last election, for <span style="border-bottom: solid 4px #DC4633;">169 seats</span>. As recently as January, they were polling dangerously close to a wipeout - until former Prime Minister Justin Trudeau resigned, and threats to sovereignty by the United States came to dominate the national political conversation. 
+            Canadians voted, and were left with the greatest consolidation in the two major parties since 1958. In an historic turnaround the Liberals, led by Mark Carney, find themselves forming government for the fourth time in a row. The Liberals won <span style="border-bottom: solid 4px #DC4633;">43.7%</span> of the national vote, <span style="border-bottom: solid 4px #DC4633;">up by 11.1%</span> from the last election, for <span style="border-bottom: solid 4px #DC4633;">169 seats</span>. As recently as January, they were polling dangerously close to a wipeout – until former Prime Minister Justin Trudeau resigned and threats to sovereignty by the United States came to dominate the national political conversation.
         </p>
 
         <p>
-
-            They were tailed closely by 
-            the Conservatives who won <span style="border-bottom: solid 4px #1E3765">41.3%</span>, <span style="border-bottom: solid 4px #1E3765">up by 7.6%</span>, for <span style="border-bottom: solid 4px #1E3765">143 seats</span>. 
-            Led by Pierre Poilievre, they capitalized on a <a href='https://abacusdata.ca/2025-federal-election-final-poll-of-campaign/' target="">desire for change</a>, especially winning over voters upset about the cost-of-living crisis, with notable inroads into <a href='https://thelocal.to/young-conservative-right-wing-voters-poilievre-carney/' target="">young voters</a> and <a href='https://theconversation.com/why-are-so-many-second-generation-south-asian-and-chinese-canadians-planning-to-vote-conservative-253820' target="">visible minorities</a>. <span style="border-bottom: solid 4px #EBA00F">
-        </p>
-
-        <p>        
-            The left-leaning New Democrats netted just <span style="border-bottom: solid 4px #EBA00F">6.3%</span>, <span style="border-bottom: solid 4px #EBA00F">down by 11.5%</span> from the last election, for <span style="border-bottom: solid 4px #EBA00F">7 seats</span>. This was their worst performance in the party's history. Despite winning progress on national dental care and pharmacare programs from the governing Liberals, some voters flocked away from the party to rally around the Liberals in the wake of threats to sovereignty, while the Conservatives made <a href='https://www.cbc.ca/news/politics/cpc-ndp-working-class-votes-canada-1.7166294' target="">deliberate</a> <a href='https://www.ekospolitics.com/index.php/2025/04/ekos-predicts-liberal-majority/' target="">inroads</a> into its historical working-class base.
+            They were tailed closely by the Conservatives who won <span style="border-bottom: solid 4px #1E3765">41.3%</span>, <span style="border-bottom: solid 4px #1E3765">up by 7.6%</span>, for <span style="border-bottom: solid 4px #1E3765">143 seats</span>. Led by Pierre Poilievre, they capitalized on a <a href='https://abacusdata.ca/2025-federal-election-final-poll-of-campaign/' target="_blank">desire for change</a>, especially winning over voters upset about the cost-of-living crisis, with notable inroads into <a href='https://thelocal.to/young-conservative-right-wing-voters-poilievre-carney/' target="_blank">young voters</a> and <a href='https://theconversation.com/why-are-so-many-second-generation-south-asian-and-chinese-canadians-planning-to-vote-conservative-253820' target="_blank">visible minorities</a>. 
         </p>
 
         <p>
-            These were the national trends, but how did all of this play out in Canada cities and suburbs? Below we visualize changes in vote share and total seats in Canada's three largest metros (Vancouver, Toronto, Montreal), and compare between the central cities and the suburbs for each of these regions.
+            The left-leaning New Democrats (NDP) netted just <span style="border-bottom: solid 4px #EBA00F">6.3%</span>, <span style="border-bottom: solid 4px #EBA00F">down by 11.5%</span> from the last election, for <span style="border-bottom: solid 4px #EBA00F">7 seats</span>. This was their worst performance in the party's history. Despite winning a limited anti-scab law and progress on national dental care and pharmacare programs from the governing Liberals, some voters moved away from the party to rally around the Liberals in the wake of threats to sovereignty, while the Conservatives made <a href='https://www.cbc.ca/news/politics/cpc-ndp-working-class-votes-canada-1.7166294' target="_blank">deliberate</a> <a href='https://www.ekospolitics.com/index.php/2025/04/ekos-predicts-liberal-majority/' target="_blank">inroads</a>  into the NDP's historical working-class base – though not without <a href='https://thetyee.ca/News/2025/04/04/Poilievre-Bid-Woo-Union-Vote-Snags/' target="_blank">dissent</a>.
+        </p>
+
+        <p>
+            These were the national trends, but how did all of this play out in Canada's cities and suburbs? Below we visualize changes in vote share and total seats in Canada's three largest metros (Vancouver, Toronto, Montreal), and compare between the central cities and the suburbs for each of these regions.
         </p>
         
     </div>
@@ -149,19 +141,19 @@
 
     <div class="text">
         <p>
-            The Conservatives saw clear gains in the suburbs of the Greater Toronto Area - flipping seats in Brampton and Markham. Home to large numbers of South Asian and East Asian Canadians respectively, this is consistent with work affiliated to the School of Cities showing <a href='https://schoolofcities.github.io/gta-immigration/political-shifts' target="">immigrants</a> and <a href='https://www.utsc.utoronto.ca/sociology/utsc-sociologist-breaks-down-surge-south-asian-and-chinese-canadian-support-conservatives' target="">minorities</a> are shifting to the right. The Conservatives also saw large gains in Vancouver's suburbs, accompanied by an NDP collapse - but failed to make a breakthrough.
+            The Conservatives saw clear gains in the suburbs of the Greater Toronto Area, flipping seats in Brampton and Markham. Home to large numbers of South Asian and East Asian Canadians respectively, this is consistent with recent research, supported by the School of Cities, showing that <a href='https://schoolofcities.github.io/gta-immigration/political-shifts' target="_blank">immigrants</a> and <a href='https://www.utsc.utoronto.ca/sociology/utsc-sociologist-breaks-down-surge-south-asian-and-chinese-canadian-support-conservatives' target="_blank">minorities</a> are being won by the right. The Conservatives also saw large gains in Vancouver's suburbs, also home to many immigrant and minority voters, but failed to make a breakthrough.
         </p>
         <p>
-            ADD BIT ABOUT CHANGES IN MONTREAL? (only toronto and van noted above)
+            In Montreal, the Liberals and Conservatives gained votes at the expense of the NDP and sovereigntist Bloc Quebecois – though only the Liberals were able to turn that into new seats. Since the tariffs and threats to the economy, many Quebecers have rallied around Canada at the cost of the sovereignty movement. A majority <a href="https://www.theguardian.com/world/2025/apr/22/trump-canada-threats-dampened-quebec-separatist-movement" target="_blank">now say</a> they are proud to be Canadian.
         </p>
         <p>
             We now turn our attention to other major cities in Canada.
         </p>
         <p>
-            Both major parties saw decisive games at the expense of other smaller parties in many cities - but generally, gained less votes in the cities compared to the rest of the country. In Edmonton and Calgary, historically Conservative-voting cities, the Liberals failed to mount a breakthrough, even though their vote share increased.
+            Both major parties saw decisive gains at the expense of other smaller parties in many cities, but generally gained fewer votes in the cities compared to the rest of the country. In Edmonton and Calgary, historically Conservative-voting cities, the Liberals failed to mount a breakthrough, even though their vote share increased. Similarly, Winnipeg and Halifax followed national trends, but with no changes in seats.
         </p>
         <p>    
-            Ottawa and Quebec City were the only two cities where Conservatives lost vote share agains large Liberal gains. MORE ABOUT THIS?
+            It was in Ottawa and Quebec City that the Conservatives lost votes amid Liberal gains, perhaps as a more pronounced version of what we've seen across the country. In Ottawa, the Liberals not only defended against a <a href="https://ottawacitizen.com/opinion/harden-ndp-ottawa-centre" target="_blank">progressive challenge</a> from the former provincial NDP legislator Joel Harden, but went on to take the only Conservative seat in the city: that of their leader Pierre Poilievre.
         </p>
     </div>
 
@@ -178,6 +170,12 @@
                 {/each}
             {/if}
         </div>
+    </div>
+
+    <div class="text">
+        <p>
+            All said and done, urban and suburban Canada mostly rallied around the two major parties. But in the months to come, issues like cost-of-living and affordability will <a href='https://abacusdata.ca/2025-federal-election-final-poll-of-campaign/' target="_blank">climb back up</a> the agenda – issues that Poilievre was set to answer decisively <a href='https://breachmedia.ca/even-if-pierre-poilievre-loses-the-election-he-will-have-jolted-canada-rightward/' target="_blank">from the right</a>, until only very recently. It's an open question who will best seize that moment and to what end – across Canada's cities as much as the rest of the country.
+        </p>
     </div>
 
     <br>
@@ -197,7 +195,7 @@
         </p>
 
         <p>
-            Vote data for the 2021 election came from Elections Canada’s <a href='https://www.elections.ca/content.aspx?section=res&dir=rep/tra/2023rep&document=index&lang=e' target="_blank">transposed results</a>, while 2025 results were sourced from <a href='https://newsinteractives.cbc.ca/elections/federal/2025/results/' target="_blank">the CBC</a> (also derived from Elections Canada). As of writing, 99% of all results were reporting. We aggregated votes and seat counts for each region by summing the results of its constituent ridings. Vote shares were displayed only for larger parties (the Green Party and People's Party did not register significant results in any region), and seat counts were shown only if a party won at least one seat in either 2021 or 2025.
+            Vote data for the 2021 election came from Elections Canada’s <a href='https://www.elections.ca/content.aspx?section=res&dir=rep/tra/2023rep&document=index&lang=e' target="_blank">transposed results</a>, while 2025 results were sourced from <a href='https://newsinteractives.cbc.ca/elections/federal/2025/results/' target="_blank">the CBC</a> (also derived from Elections Canada). As of writing, 99% of all results were reported. We aggregated votes and seat counts for each region by summing the results of its constituent ridings. Vote shares were displayed only for larger parties (the Green Party and People's Party did not register significant results in any region), and seat counts were shown only if a party won at least one seat in either 2021 or 2025.
         </p>
 
         <p>
