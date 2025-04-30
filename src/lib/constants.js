@@ -9,12 +9,12 @@ export const PARTY_TAGS = [
 ]
 
 export const PARTY_COLOURS = {
-    'lib': '#da121a',
-    'con': '#15284c',
-    'ndp': '#f07c00',
-    'bloc': '#87cefa',
-    'grn': '#1aa440',
-    'ppc': '#67319a',
+    'lib': '#DC4633',
+    'con': '#1E3765',
+    'ndp': '#EBA00F',
+    'bloc': '#6FC7EA',
+    'grn': '#00A189',
+    'ppc': '#6D247A',
     'oth': '#D3D3D3',
 }
 
@@ -29,12 +29,12 @@ export const PARTY_COLOURS_LIGHT = {
 }
 
 export const PARTY_NAMES_SHORT = {
-    'lib': 'Libs.',
-    'con': 'Cons.',
+    'lib': 'LIB',
+    'con': 'CON',
     'ndp': 'NDP',
-    'bloc': 'Bloc',
-    'grn': 'Green',
-    'ppc': 'People',
+    'bloc': 'BQ',
+    'grn': 'GRN',
+    'ppc': 'PPL',
     'oth': 'Other',
 }
 

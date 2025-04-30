@@ -17,8 +17,8 @@
     } = $props();
 
     // Dimensions
-    const width = 175; 
-    const height = 175; 
+    const width = 220; 
+    const height = 180; 
     const margin = { top: 10, right: 100, bottom: 30, left: 10 };
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
@@ -132,7 +132,7 @@
                 y={innerHeight + margin.bottom / 2}
                 class="year-label"
                 text-anchor="start"
-                font-size="12px"
+                font-size="13px"
             >
                 2021
             </text>
@@ -142,7 +142,7 @@
                 y={innerHeight + margin.bottom / 2}
                 class="year-label"
                 text-anchor="end"
-                font-size="12px"
+                font-size="13px"
             >
                 2025
             </text>
@@ -196,7 +196,7 @@
                         x={xScale('2025') + 10}
                         y={y}
                         class="party-label"
-                        font-size="12px"
+                        font-size="14px"
                         font-weight="bold"
                         fill={PARTY_COLOURS[party]}
                         dominant-baseline="middle"
@@ -212,7 +212,7 @@
 <style>
     .slope-graph {
         flex: 1; /* Pushes other contents of row to end */
-        width: 175px;
+        width: 250px;
     }
 
     .slope-svg {
@@ -222,7 +222,7 @@
     }
 
     .year-label {
-        font-family: TradeGothicBold;
+        font-family: TradeGothicLTLight;
     }
 
     .party-label {
